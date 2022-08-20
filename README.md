@@ -25,10 +25,8 @@ https://github.com/timothyhalley/run.skicyclerun.com
 ## Installation
 
 1. Clone the repo: `git clone https://github.com/timothyhalley/run.skicyclerun.com run`
-2. Install GULP 4.0 for CLI: `npm install --global gulp-cli`
-3. 'cd into project folder: run' 
-4. `npm i` & `npm audit fix`
-5. Verify GULP: 'gulp --version'
+2. 'cd into project folder: run' 
+3. `npm i` & `npm audit fix`
 
 ## Google API for geo processing
 1. Need to register for a developer key to run google API. One should already have a GCP portal / console account available: 'https://console.cloud.google.com'
