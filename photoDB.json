@@ -1,0 +1,127 @@
+{
+  "info": [
+    {
+      "rundate": "Sat Aug 20 2022 14:53:23 GMT-0700 (Pacific Daylight Time)",
+      "author": "SkiCycleRun"
+    }
+  ],
+  "photos": [
+    {
+      "uuid": "16777222-136493750",
+      "nameID": "20170420181616",
+      "file": {
+        "fid": 136493750,
+        "fsz": 1120343,
+        "ftm": "2022-04-21T21:10:55.138Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Faces",
+        "image": "IMG_8443.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Faces/IMG_8443.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Faces/20170420181616.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Faces/20170420181616.jpeg",
+          "FX": null
+        },
+        "name": "20170420181616"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 6 Plus",
+        "ModifyDate": "2017-04-20T18:16:16.000Z",
+        "DateTimeOriginal": "2017-04-20T18:16:16.000Z",
+        "CreateDate": "2017-04-20T18:16:16.000Z",
+        "OffsetTime": "-07:00",
+        "OffsetTimeOriginal": "-07:00",
+        "ExifImageWidth": 1280,
+        "ExifImageHeight": 960,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          50,
+          3,
+          32.7
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          122,
+          57,
+          31.3
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2172,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 150.71440129449837,
+        "GPSHPositioningError": 5,
+        "latitude": 50.059083333333334,
+        "longitude": -122.95869444444445
+      },
+      "locn": {
+        "elevation": 2164.05224609375,
+        "locations": "325R+QJ, Whistler, BC V0N 1B2, Canada",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": -28800,
+          "status": "OK",
+          "timeZoneId": "America/Vancouver",
+          "timeZoneName": "Pacific Daylight Time"
+        }
+      },
+      "size": {
+        "height": 768,
+        "width": 1024
+      }
+    },
+    {
+      "uuid": "16777222-136493740",
+      "nameID": "20211211174943",
+      "file": {
+        "fid": 136493740,
+        "fsz": 5847071,
+        "ftm": "2022-04-21T21:11:20.965Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Faces",
+        "image": "ScaryMAN.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Faces/ScaryMAN.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Faces/20211211174943.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Faces/20211211174943.jpeg",
+          "FX": null
+        },
+        "name": "20211211174943"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2021-12-11T17:49:43.000Z",
+        "DateTimeOriginal": "2021-12-11T17:49:43.000Z",
+        "CreateDate": "2021-12-11T17:49:43.000Z",
+        "OffsetTime": "-08:00",
+        "OffsetTimeOriginal": "-08:00",
+        "ExifImageWidth": 3088,
+        "ExifImageHeight": 2316
+      },
+      "locn": {
+        "elevation": 839.4523315429688,
+        "locations": "26616 SE 104th St, Issaquah, WA 98027, USA",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -28800,
+          "status": "OK",
+          "timeZoneId": "America/Los_Angeles",
+          "timeZoneName": "Pacific Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    }
+  ]
+}
