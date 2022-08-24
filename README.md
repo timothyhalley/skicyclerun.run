@@ -1,13 +1,13 @@
 # SkiCycleRun - RUN
 
-RUN is a supportive repo to take photos from your MAC Photo app and publish them, fully ready/optimized, to the public AWS S3 bucket for use.
+RUN is a supportive repo to take photos from your MAC Photo app and publish them, fully ready & optimized, to a public AWS S3 bucket for use.
 
 ## Active URL
 
 [https://skicyclerun.com](https://skicyclerun.com)
 
 ## AWS DevOps
-Pending. Using NPM GULP 4.0 to automate / deliver artifacts to AWS for this topic.
+This repo ties the necessary artifacts to the front end - not part of a DevOps pipeline but could be coupled at a later time.
 
 ## AWS Location Services
 https://us-west-2.console.aws.amazon.com/location/home?c=lc&p=pm&region=us-west-2&z=1#/

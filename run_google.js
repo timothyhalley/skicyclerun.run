@@ -98,10 +98,3 @@ async function gmapTimeZone(lat, lon, pDate) {
         });
 
 }
-
-/// 
-
-
-
-
-// France: curl 'https://maps.googleapis.com/maps/api/timezone/json?
