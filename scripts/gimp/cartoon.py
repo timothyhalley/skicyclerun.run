@@ -54,7 +54,7 @@ def batch_cartoon(img, layer, inputFolder, outputFolder, maskRadius, blackPct):
             image = None
             if(file.lower().endswith(('.png'))):
                 image = pdb.file_png_load(inputPath, inputPath)
-            if(file.lower().endswith(('.jpeg', '.jpg'))):
+            if(file.lower().endswith(('.jpeg', '.jpg', '.gif'))):
                 image = pdb.file_jpeg_load(inputPath, inputPath)
 
             # Verify if the file is an image.

@@ -232,9 +232,3 @@ convert $tmpA1 \
 FILESIZE=$(stat -f%z "$outfile")
 echo "$FILESIZE"
 exit 0
-
-
-
-
-
-

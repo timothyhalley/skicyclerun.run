@@ -1,111 +1,1818 @@
 {
   "info": [
     {
-      "rundate": "Sat Aug 20 2022 14:53:23 GMT-0700 (Pacific Daylight Time)",
+      "rundate": "Thu Dec 22 2022 15:53:46 GMT-0800 (Pacific Standard Time)",
       "author": "SkiCycleRun"
     }
   ],
   "photos": [
     {
-      "uuid": "16777222-136493750",
-      "nameID": "20170420181616",
+      "uuid": "16777222-161933052",
+      "nameID": "20221210213804",
       "file": {
-        "fid": 136493750,
-        "fsz": 1120343,
-        "ftm": "2022-04-21T21:10:55.138Z",
+        "fid": 161933052,
+        "fsz": 15542014,
+        "ftm": "2022-12-22T23:52:40.805Z",
         "fdv": 16777222
       },
       "info": {
-        "album": "Faces",
-        "image": "IMG_8443.jpeg",
+        "album": "Jamacia",
+        "image": "IMG_0835.jpeg",
         "paths": {
-          "orig": "./PhotoLib/Faces/IMG_8443.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Faces/20170420181616.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Faces/20170420181616.jpeg",
-          "FX": null
+          "orig": "./PhotoLib/Jamacia/IMG_0835.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221210213804.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221210213804.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221210213804_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221210213804_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221210213804_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221210213804_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221210213804_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221210213804_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221210213804_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221210213804_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221210213804_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221210213804_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221210213804_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221210213804_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221210213804_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221210213804_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221210213804_WC.jpeg"
         },
-        "name": "20170420181616"
+        "name": "20221210213804"
       },
       "data": {
         "Make": "Apple",
-        "Model": "iPhone 6 Plus",
-        "ModifyDate": "2017-04-20T18:16:16.000Z",
-        "DateTimeOriginal": "2017-04-20T18:16:16.000Z",
-        "CreateDate": "2017-04-20T18:16:16.000Z",
-        "OffsetTime": "-07:00",
-        "OffsetTimeOriginal": "-07:00",
-        "ExifImageWidth": 1280,
-        "ExifImageHeight": 960,
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-10T21:38:04.000Z",
+        "DateTimeOriginal": "2022-12-10T21:38:04.000Z",
+        "CreateDate": "2022-12-10T21:38:04.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
         "GPSLatitudeRef": "N",
         "GPSLatitude": [
-          50,
-          3,
-          32.7
+          18,
+          6,
+          31.33
         ],
         "GPSLongitudeRef": "W",
         "GPSLongitude": [
-          122,
-          57,
-          31.3
+          77,
+          59,
+          17.4
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 2172,
+        "GPSAltitude": 10.234159845357134,
         "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
+        "GPSSpeed": 0.21045962950017477,
         "GPSImgDirectionRef": "T",
-        "GPSImgDirection": 150.71440129449837,
-        "GPSHPositioningError": 5,
-        "latitude": 50.059083333333334,
-        "longitude": -122.95869444444445
+        "GPSImgDirection": 154.20281995661605,
+        "GPSHPositioningError": 4.758873619425007,
+        "latitude": 18.10870277777778,
+        "longitude": -77.98816666666667
       },
       "locn": {
-        "elevation": 2164.05224609375,
-        "locations": "325R+QJ, Whistler, BC V0N 1B2, Canada",
+        "elevation": 7.419668197631836,
+        "locations": "4256+GP5, Montego Bay, Jamaica",
         "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": -28800,
+          "dstOffset": 0,
+          "rawOffset": -18000,
           "status": "OK",
-          "timeZoneId": "America/Vancouver",
-          "timeZoneName": "Pacific Daylight Time"
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
         }
       },
       "size": {
-        "height": 768,
-        "width": 1024
+        "height": 1920,
+        "width": 2560
       }
     },
     {
-      "uuid": "16777222-136493740",
-      "nameID": "20211211174943",
+      "uuid": "16777222-161933055",
+      "nameID": "20221210225003",
       "file": {
-        "fid": 136493740,
-        "fsz": 5847071,
-        "ftm": "2022-04-21T21:11:20.965Z",
+        "fid": 161933055,
+        "fsz": 33048846,
+        "ftm": "2022-12-22T23:52:42.754Z",
         "fdv": 16777222
       },
       "info": {
-        "album": "Faces",
-        "image": "ScaryMAN.jpeg",
+        "album": "Jamacia",
+        "image": "IMG_0837.jpeg",
         "paths": {
-          "orig": "./PhotoLib/Faces/ScaryMAN.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Faces/20211211174943.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Faces/20211211174943.jpeg",
-          "FX": null
+          "orig": "./PhotoLib/Jamacia/IMG_0837.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221210225003.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221210225003.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221210225003_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221210225003_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221210225003_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221210225003_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221210225003_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221210225003_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221210225003_GS.jpeg",
+          "web_P2F": "./PhotoWeb/Jamacia/20221210225003_P2F.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221210225003_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221210225003_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221210225003_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221210225003_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221210225003_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221210225003_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221210225003_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221210225003_WC.jpeg"
         },
-        "name": "20211211174943"
+        "name": "20221210225003"
       },
       "data": {
         "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2021-12-11T17:49:43.000Z",
-        "DateTimeOriginal": "2021-12-11T17:49:43.000Z",
-        "CreateDate": "2021-12-11T17:49:43.000Z",
-        "OffsetTime": "-08:00",
-        "OffsetTimeOriginal": "-08:00",
-        "ExifImageWidth": 3088,
-        "ExifImageHeight": 2316
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-10T22:50:03.000Z",
+        "DateTimeOriginal": "2022-12-10T22:50:03.000Z",
+        "CreateDate": "2022-12-10T22:50:03.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 13526,
+        "ExifImageHeight": 3754,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          33.86
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          25.15
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 4.360311985576546,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 125.87179949513163,
+        "GPSHPositioningError": 2097.773056057866,
+        "latitude": 18.109405555555558,
+        "longitude": -77.99031944444445
+      },
+      "locn": {
+        "elevation": 7.266611576080322,
+        "locations": "4256+MF, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 711,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933058",
+      "nameID": "20221210234050",
+      "file": {
+        "fid": 161933058,
+        "fsz": 13028348,
+        "ftm": "2022-12-22T23:52:45.447Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0841.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0841.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221210234050.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221210234050.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221210234050_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221210234050_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221210234050_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221210234050_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221210234050_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221210234050_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221210234050_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221210234050_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221210234050_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221210234050_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221210234050_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221210234050_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221210234050_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221210234050_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221210234050_WC.jpeg"
+        },
+        "name": "20221210234050"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-10T23:40:50.000Z",
+        "DateTimeOriginal": "2022-12-10T23:40:50.000Z",
+        "CreateDate": "2022-12-10T23:40:50.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          29.01
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.46
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 0.18462022021628735,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.5247198072692992,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 251.72552491778396,
+        "GPSHPositioningError": 4.7589055134248825,
+        "latitude": 18.108058333333336,
+        "longitude": -77.99151666666667
+      },
+      "locn": {
+        "elevation": 4.51555871963501,
+        "locations": "4255+69 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933061",
+      "nameID": "20221210235937",
+      "file": {
+        "fid": 161933061,
+        "fsz": 12622944,
+        "ftm": "2022-12-22T23:52:46.452Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0845.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0845.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221210235937.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221210235937.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221210235937_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221210235937_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221210235937_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221210235937_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221210235937_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221210235937_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221210235937_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221210235937_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221210235937_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221210235937_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221210235937_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221210235937_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221210235937_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221210235937_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221210235937_WC.jpeg"
+        },
+        "name": "20221210235937"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-10T23:59:37.000Z",
+        "DateTimeOriginal": "2022-12-10T23:59:37.000Z",
+        "CreateDate": "2022-12-10T23:59:37.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          27.49
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          22.29
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.5303257910055394,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.05142130762585109,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 31.79815673828125,
+        "GPSHPositioningError": 4.754194260485651,
+        "latitude": 18.107636111111113,
+        "longitude": -77.989525
+      },
+      "locn": {
+        "elevation": 2.864487886428833,
+        "locations": "4255+5J, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933063",
+      "nameID": "20221211000130",
+      "file": {
+        "fid": 161933063,
+        "fsz": 9839185,
+        "ftm": "2022-12-22T23:52:47.281Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0846.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0846.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221211000130.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221211000130.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221211000130_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221211000130_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221211000130_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221211000130_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221211000130_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221211000130_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221211000130_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221211000130_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221211000130_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221211000130_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221211000130_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221211000130_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221211000130_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221211000130_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221211000130_WC.jpeg"
+        },
+        "name": "20221211000130"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-11T00:01:30.000Z",
+        "DateTimeOriginal": "2022-12-11T00:01:30.000Z",
+        "CreateDate": "2022-12-11T00:01:30.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          27.54
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          22.32
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 3.6763601244768753,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.017995867869990037,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 174.33814247069432,
+        "GPSHPositioningError": 4.579344409519533,
+        "latitude": 18.107650000000003,
+        "longitude": -77.98953333333334
+      },
+      "locn": {
+        "elevation": 3.02759838104248,
+        "locations": "4255+5J, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933067",
+      "nameID": "20221212013257",
+      "file": {
+        "fid": 161933067,
+        "fsz": 9010305,
+        "ftm": "2022-12-22T23:52:48.450Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0856.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0856.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221212013257.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221212013257.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221212013257_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221212013257_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221212013257_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221212013257_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221212013257_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221212013257_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221212013257_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221212013257_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221212013257_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221212013257_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221212013257_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221212013257_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221212013257_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221212013257_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221212013257_WC.jpeg"
+        },
+        "name": "20221212013257"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-12T01:32:57.000Z",
+        "DateTimeOriginal": "2022-12-12T01:32:57.000Z",
+        "CreateDate": "2022-12-12T01:32:57.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          31.04
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.76
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 5.3563917984389535,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 244.41868613138686,
+        "GPSHPositioningError": 26.985065710872163,
+        "latitude": 18.108622222222223,
+        "longitude": -77.9916
+      },
+      "locn": {
+        "elevation": 6.185303688049316,
+        "locations": "4255+C9 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933068",
+      "nameID": "20221212013431",
+      "file": {
+        "fid": 161933068,
+        "fsz": 9543793,
+        "ftm": "2022-12-22T23:52:49.405Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0857.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0857.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221212013431.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221212013431.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221212013431_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221212013431_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221212013431_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221212013431_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221212013431_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221212013431_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221212013431_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221212013431_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221212013431_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221212013431_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221212013431_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221212013431_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221212013431_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221212013431_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221212013431_WC.jpeg"
+        },
+        "name": "20221212013431"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-12T01:34:31.000Z",
+        "DateTimeOriginal": "2022-12-12T01:34:31.000Z",
+        "CreateDate": "2022-12-12T01:34:31.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          29.88
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          30.23
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.1983226348769678,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 252.1604154645124,
+        "GPSHPositioningError": 4.7375332961655205,
+        "latitude": 18.1083,
+        "longitude": -77.99173055555556
+      },
+      "locn": {
+        "elevation": 4.533162117004395,
+        "locations": "4255+88 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933069",
+      "nameID": "20221212013442",
+      "file": {
+        "fid": 161933069,
+        "fsz": 9656176,
+        "ftm": "2022-12-22T23:52:50.356Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0859.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0859.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221212013442.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221212013442.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221212013442_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221212013442_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221212013442_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221212013442_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221212013442_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221212013442_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221212013442_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221212013442_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221212013442_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221212013442_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221212013442_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221212013442_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221212013442_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221212013442_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221212013442_WC.jpeg"
+        },
+        "name": "20221212013442"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-12T01:34:42.000Z",
+        "DateTimeOriginal": "2022-12-12T01:34:42.000Z",
+        "CreateDate": "2022-12-12T01:34:42.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          29.84
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          30.28
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 0.36389756926238964,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 231.63621533442088,
+        "GPSHPositioningError": 4.738319890427636,
+        "latitude": 18.10828888888889,
+        "longitude": -77.99174444444445
+      },
+      "locn": {
+        "elevation": 4.41807222366333,
+        "locations": "4255+88 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933070",
+      "nameID": "20221212013522",
+      "file": {
+        "fid": 161933070,
+        "fsz": 11550668,
+        "ftm": "2022-12-22T23:52:51.265Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0861.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0861.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221212013522.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221212013522.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221212013522_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221212013522_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221212013522_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221212013522_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221212013522_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221212013522_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221212013522_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221212013522_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221212013522_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221212013522_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221212013522_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221212013522_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221212013522_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221212013522_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221212013522_WC.jpeg"
+        },
+        "name": "20221212013522"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-12T01:35:22.000Z",
+        "DateTimeOriginal": "2022-12-12T01:35:22.000Z",
+        "CreateDate": "2022-12-12T01:35:22.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          29.85
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.92
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 0.9458595561444186,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 259.3545531197302,
+        "GPSHPositioningError": 4.740150195907706,
+        "latitude": 18.10829166666667,
+        "longitude": -77.99164444444445
+      },
+      "locn": {
+        "elevation": 4.978025913238525,
+        "locations": "4255+88 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933072",
+      "nameID": "20221212052805",
+      "file": {
+        "fid": 161933072,
+        "fsz": 8444892,
+        "ftm": "2022-12-22T23:52:52.281Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0862.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0862.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221212052805.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221212052805.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221212052805_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221212052805_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221212052805_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221212052805_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221212052805_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221212052805_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221212052805_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221212052805_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221212052805_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221212052805_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221212052805_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221212052805_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221212052805_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221212052805_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221212052805_WC.jpeg"
+        },
+        "name": "20221212052805"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-12T05:28:05.000Z",
+        "DateTimeOriginal": "2022-12-12T05:28:05.000Z",
+        "CreateDate": "2022-12-12T05:28:05.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.79
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          30.34
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 6.906919945725916,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 356.1515499425947,
+        "GPSHPositioningError": 76.46287279367012,
+        "latitude": 18.108552777777778,
+        "longitude": -77.99176111111112
+      },
+      "locn": {
+        "elevation": 5.275121212005615,
+        "locations": "4255+C7 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933075",
+      "nameID": "20221213225635",
+      "file": {
+        "fid": 161933075,
+        "fsz": 11415152,
+        "ftm": "2022-12-22T23:52:53.612Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0870.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0870.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221213225635.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221213225635.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221213225635_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221213225635_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221213225635_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221213225635_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221213225635_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221213225635_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221213225635_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221213225635_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221213225635_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221213225635_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221213225635_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221213225635_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221213225635_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221213225635_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221213225635_WC.jpeg"
+        },
+        "name": "20221213225635"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-13T22:56:35.000Z",
+        "DateTimeOriginal": "2022-12-13T22:56:35.000Z",
+        "CreateDate": "2022-12-13T22:56:35.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          32.63
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          21.66
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.5093277581215827,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.032094780353065226,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 61.687896695119285,
+        "GPSHPositioningError": 4.52971831915034,
+        "latitude": 18.10906388888889,
+        "longitude": -77.98935
+      },
+      "locn": {
+        "elevation": 7.947381973266602,
+        "locations": "4256+J9P, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933076",
+      "nameID": "20221214011521",
+      "file": {
+        "fid": 161933076,
+        "fsz": 12201938,
+        "ftm": "2022-12-22T23:52:54.640Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0873.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0873.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221214011521.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221214011521.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221214011521_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221214011521_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221214011521_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221214011521_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221214011521_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221214011521_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221214011521_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221214011521_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221214011521_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221214011521_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221214011521_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221214011521_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221214011521_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221214011521_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221214011521_WC.jpeg"
+        },
+        "name": "20221214011521"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-14T01:15:21.000Z",
+        "DateTimeOriginal": "2022-12-14T01:15:21.000Z",
+        "CreateDate": "2022-12-14T01:15:21.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          32.64
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          21.71
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.102842810569095,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 84.62178038861275,
+        "GPSHPositioningError": 4.542389326864766,
+        "latitude": 18.109066666666667,
+        "longitude": -77.98936388888889
+      },
+      "locn": {
+        "elevation": 7.941627979278564,
+        "locations": "4256+J9P, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933078",
+      "nameID": "20221214012600",
+      "file": {
+        "fid": 161933078,
+        "fsz": 9346366,
+        "ftm": "2022-12-22T23:52:55.720Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0879.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0879.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221214012600.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221214012600.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221214012600_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221214012600_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221214012600_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221214012600_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221214012600_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221214012600_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221214012600_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221214012600_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221214012600_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221214012600_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221214012600_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221214012600_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221214012600_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221214012600_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221214012600_WC.jpeg"
+        },
+        "name": "20221214012600"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-14T01:26:00.000Z",
+        "DateTimeOriginal": "2022-12-14T01:26:00.000Z",
+        "CreateDate": "2022-12-14T01:26:00.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.54
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          21.99
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.1259152128717345,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.39057683945504035,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 33.70028687905783,
+        "GPSHPositioningError": 4.596307085939508,
+        "latitude": 18.108483333333336,
+        "longitude": -77.98944166666666
+      },
+      "locn": {
+        "elevation": 8,
+        "locations": "4256+963, White House, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933079",
+      "nameID": "20221214222336",
+      "file": {
+        "fid": 161933079,
+        "fsz": 10262406,
+        "ftm": "2022-12-22T23:52:56.689Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0883.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0883.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221214222336.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221214222336.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221214222336_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221214222336_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221214222336_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221214222336_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221214222336_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221214222336_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221214222336_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221214222336_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221214222336_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221214222336_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221214222336_WC.jpeg"
+        },
+        "name": "20221214222336"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-14T22:23:36.000Z",
+        "DateTimeOriginal": "2022-12-14T22:23:36.000Z",
+        "CreateDate": "2022-12-14T22:23:36.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          26.57
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          26.46
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.678201599161096,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 204.01560975609755,
+        "GPSHPositioningError": 4.620087480946385,
+        "latitude": 18.107380555555558,
+        "longitude": -77.99068333333334
+      },
+      "locn": {
+        "elevation": 3.058483600616455,
+        "locations": "4255+5J, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933085",
+      "nameID": "20221215155815",
+      "file": {
+        "fid": 161933085,
+        "fsz": 9134228,
+        "ftm": "2022-12-22T23:52:57.518Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0884.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0884.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221215155815.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221215155815.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221215155815_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221215155815_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221215155815_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221215155815_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221215155815_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221215155815_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221215155815_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221215155815_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221215155815_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221215155815_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221215155815_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221215155815_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221215155815_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221215155815_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221215155815_WC.jpeg"
+        },
+        "name": "20221215155815"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-15T15:58:15.000Z",
+        "DateTimeOriginal": "2022-12-15T15:58:15.000Z",
+        "CreateDate": "2022-12-15T15:58:15.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          36.46
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          34.35
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 4.082750292999965,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.07912036028183336,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 269.5462645647704,
+        "GPSHPositioningError": 4.5825080890283365,
+        "latitude": 18.11012777777778,
+        "longitude": -77.992875
+      },
+      "locn": {
+        "elevation": 4.786401748657227,
+        "locations": "4264+3X7, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933087",
+      "nameID": "20221217010354",
+      "file": {
+        "fid": 161933087,
+        "fsz": 9162170,
+        "ftm": "2022-12-22T23:52:58.485Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0903.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0903.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221217010354.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221217010354.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221217010354_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221217010354_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221217010354_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221217010354_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221217010354_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221217010354_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221217010354_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221217010354_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221217010354_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221217010354_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221217010354_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221217010354_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221217010354_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221217010354_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221217010354_WC.jpeg"
+        },
+        "name": "20221217010354"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T01:03:54.000Z",
+        "DateTimeOriginal": "2022-12-17T01:03:54.000Z",
+        "CreateDate": "2022-12-17T01:03:54.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.52
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          30.2
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.800815530538073,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.047440099045954406,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 230.78363047001622,
+        "GPSHPositioningError": 4.754239624982766,
+        "latitude": 18.10847777777778,
+        "longitude": -77.99172222222222
+      },
+      "locn": {
+        "elevation": 5.188672542572021,
+        "locations": "4255+98 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933091",
+      "nameID": "20221217012811",
+      "file": {
+        "fid": 161933091,
+        "fsz": 10657496,
+        "ftm": "2022-12-22T23:52:59.503Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0904.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0904.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221217012811.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221217012811.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221217012811_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221217012811_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221217012811_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221217012811_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221217012811_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221217012811_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221217012811_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221217012811_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221217012811_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221217012811_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221217012811_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221217012811_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221217012811_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221217012811_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221217012811_WC.jpeg"
+        },
+        "name": "20221217012811"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T01:28:11.000Z",
+        "DateTimeOriginal": "2022-12-17T01:28:11.000Z",
+        "CreateDate": "2022-12-17T01:28:11.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.55
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.32
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.357223211774632,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.18250924341923735,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 226.97784431137725,
+        "GPSHPositioningError": 5.836567575006882,
+        "latitude": 18.108486111111112,
+        "longitude": -77.99147777777777
+      },
+      "locn": {
+        "elevation": 6.360480308532715,
+        "locations": "4255+9C New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933100",
+      "nameID": "20221217013106",
+      "file": {
+        "fid": 161933100,
+        "fsz": 11514570,
+        "ftm": "2022-12-22T23:53:00.707Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0923.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0923.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221217013106.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221217013106.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221217013106_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221217013106_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221217013106_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221217013106_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221217013106_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221217013106_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221217013106_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221217013106_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221217013106_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221217013106_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221217013106_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221217013106_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221217013106_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221217013106_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221217013106_WC.jpeg"
+        },
+        "name": "20221217013106"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T01:31:06.000Z",
+        "DateTimeOriginal": "2022-12-17T01:31:06.000Z",
+        "CreateDate": "2022-12-17T01:31:06.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.74
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.38
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 0.45222538242755017,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 205.190185546875,
+        "GPSHPositioningError": 4.778661390358053,
+        "latitude": 18.10853888888889,
+        "longitude": -77.99149444444444
+      },
+      "locn": {
+        "elevation": 6.412620544433594,
+        "locations": "4255+CC New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933101",
+      "nameID": "20221217013227",
+      "file": {
+        "fid": 161933101,
+        "fsz": 10744901,
+        "ftm": "2022-12-22T23:53:01.702Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0933.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0933.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221217013227.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221217013227.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221217013227_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221217013227_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221217013227_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221217013227_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221217013227_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221217013227_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221217013227_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221217013227_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221217013227_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221217013227_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221217013227_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221217013227_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221217013227_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221217013227_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221217013227_WC.jpeg"
+        },
+        "name": "20221217013227"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T01:32:27.000Z",
+        "DateTimeOriginal": "2022-12-17T01:32:27.000Z",
+        "CreateDate": "2022-12-17T01:32:27.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.69
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.29
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 0.17171048274948678,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 222.8959349593496,
+        "GPSHPositioningError": 4.804468325791855,
+        "latitude": 18.108525,
+        "longitude": -77.99146944444445
+      },
+      "locn": {
+        "elevation": 6.491182804107666,
+        "locations": "4255+CC New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933112",
+      "nameID": "20221217043734",
+      "file": {
+        "fid": 161933112,
+        "fsz": 12641607,
+        "ftm": "2022-12-22T23:53:02.747Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0942.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0942.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221217043734.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221217043734.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221217043734_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221217043734_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221217043734_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221217043734_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221217043734_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221217043734_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221217043734_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221217043734_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221217043734_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221217043734_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221217043734_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221217043734_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221217043734_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221217043734_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221217043734_WC.jpeg"
+        },
+        "name": "20221217043734"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T04:37:34.000Z",
+        "DateTimeOriginal": "2022-12-17T04:37:34.000Z",
+        "CreateDate": "2022-12-17T04:37:34.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          33.55
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          22.87
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.586031798884542,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.5065437554178912,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 37.45631026719341,
+        "GPSHPositioningError": 10.856554266507644,
+        "latitude": 18.109319444444445,
+        "longitude": -77.98968611111111
+      },
+      "locn": {
+        "elevation": 7.566726684570312,
+        "locations": "4256+MF, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933117",
+      "nameID": "20221217043741",
+      "file": {
+        "fid": 161933117,
+        "fsz": 12379634,
+        "ftm": "2022-12-22T23:53:03.719Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0943.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0943.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221217043741.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221217043741.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221217043741_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221217043741_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221217043741_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221217043741_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221217043741_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221217043741_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221217043741_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221217043741_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221217043741_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221217043741_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221217043741_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221217043741_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221217043741_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221217043741_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221217043741_WC.jpeg"
+        },
+        "name": "20221217043741"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T04:37:41.000Z",
+        "DateTimeOriginal": "2022-12-17T04:37:41.000Z",
+        "CreateDate": "2022-12-17T04:37:41.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          33.61
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          23.11
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.572909830686442,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.1584413047724462,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 37.621608757734414,
+        "GPSHPositioningError": 12.819288104654701,
+        "latitude": 18.109336111111112,
+        "longitude": -77.98975277777778
+      },
+      "locn": {
+        "elevation": 7.488043308258057,
+        "locations": "4256+MF, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777222-161933065",
+      "nameID": "20221212012313",
+      "file": {
+        "fid": 161933065,
+        "fsz": 1759380,
+        "ftm": "2022-12-22T23:52:47.994Z",
+        "fdv": 16777222
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_7295.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_7295.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221212012313.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221212012313.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221212012313_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221212012313_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221212012313_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221212012313_PC.jpeg",
+          "web_CC": "./PhotoWeb/Jamacia/20221212012313_CC.jpeg",
+          "web_FC": "./PhotoWeb/Jamacia/20221212012313_FC.jpeg",
+          "web_GS": "./PhotoWeb/Jamacia/20221212012313_GS.jpeg",
+          "web_PC": "./PhotoWeb/Jamacia/20221212012313_PC.jpeg",
+          "web_PO": "./PhotoWeb/Jamacia/20221212012313_PO.jpeg",
+          "web_SE": "./PhotoWeb/Jamacia/20221212012313_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Jamacia/20221212012313_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Jamacia/20221212012313_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Jamacia/20221212012313_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Jamacia/20221212012313_SP.jpeg",
+          "web_WC": "./PhotoWeb/Jamacia/20221212012313_WC.jpeg"
+        },
+        "name": "20221212012313"
+      },
+      "data": {
+        "ModifyDate": "2022-12-12T01:23:13.000Z",
+        "DateTimeOriginal": "2022-12-12T01:23:13.000Z",
+        "CreateDate": "2022-12-12T01:23:13.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 1600,
+        "ExifImageHeight": 1200
       },
       "locn": {
         "elevation": 839.4523315429688,
@@ -119,8 +1826,8 @@
         }
       },
       "size": {
-        "height": 1920,
-        "width": 2560
+        "height": 768,
+        "width": 1024
       }
     }
   ]

@@ -55,7 +55,7 @@ async function upLoadAlbums(S3BUCKET, PHOTOWEB) {
     try {
         let totalBytes = 0
         // get file list array
-        let webPhotos = await _xo.getDirFiles(PHOTOWEB, 'JPEG', 'JPG')
+        let webPhotos = await _xo.getDirFiles(PHOTOWEB, 'JPEG', 'JPG', 'GIF')
 
         // send file to AWS 
         logit(SLL, 'start', `Sending to AWS: ${S3BUCKET} - Start`)

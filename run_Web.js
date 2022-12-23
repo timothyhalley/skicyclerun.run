@@ -3,51 +3,78 @@
 // https://medium.com/geekculture/upload-compress-and-delete-images-in-a-aws-s3-bucket-with-node-js-express-ba29d288b129
 
 // import * as _utl from './run_photolib.js';
-import * as _xo from './run_utilites.js';
-import * as _utl from './run_photolib.js';
-import { logit } from './run_logutil.js';
+import * as _xo from "./run_utilites.js";
+import * as _utl from "./run_photolib.js";
+import * as _db from "./run_lowdb.js";
+import { logit } from "./run_logutil.js";
 
-const ERR = 'err';
-const BOX = 'box';
-const LOG = 'log';
-const FIG = 'fig';
-const BUG = 'debug';
-const SLL = 'sllog';
+// Node modules
+import path from "node:path";
 
-export { runWeb }
+const ERR = "err";
+const BOX = "box";
+const LOG = "log";
+const FIG = "fig";
+const BUG = "debug";
+const SLL = "sllog";
+
+export { runWeb };
 
 // Master queue to process images
 async function runWeb(dirIn, fxDir, dirOut) {
+  const REDUX = 95; // % value
+  const photoDir = dirIn + fxDir;
+  let numPhotos = 0;
+  let mbSaved = 0;
+  let photos = await _xo.getDirFiles(photoDir, "JPEG", "JPG", "GIF");
+  logit(SLL, "start", "Photo Compress - Start");
 
-    const REDUX = 95; // % value
-    const photoDir = dirIn + fxDir;
-    let numPhotos = 0;
-    let mbSaved = 0;
-    let photos = await _xo.getDirFiles(photoDir, 'JPEG', 'JPG')
-    logit(SLL, 'start', 'Photo Compress - Start')
+  for (const inPhoto of photos) {
+    let smlFile = inPhoto.split("/").pop();
 
-    for (const inPhoto of photos) {
+    let inStat = await _xo.getFileInfo(inPhoto);
+    let inFileSz = await _utl.getPhotoSize(inPhoto);
+    let outPhotoSz = await _utl.calcImageScale(
+      inFileSz.width,
+      inFileSz.height,
+      REDUX
+    );
 
-        let smlFile = inPhoto.split('/').pop()
+    let outPhoto = inPhoto.replace(dirIn, dirOut);
+    outPhoto = outPhoto.replace(fxDir, "");
+    await _xo.checkDirectory(outPhoto);
 
-        let inStat = await _xo.getFileInfo(inPhoto)
-        let inFileSz = await _utl.getPhotoSize(inPhoto)
-        let outPhotoSz = await _utl.calcImageScale(inFileSz.width, inFileSz.height, REDUX)
+    logit(
+      SLL,
+      "info",
+      `Compressing: ${smlFile} (ratio: ${REDUX} - W:${inFileSz.width}➡${
+        outPhotoSz.width
+      } H:${inFileSz.height}➡${outPhotoSz.height}) - total: ${_xo.niceBytes(
+        mbSaved
+      )}`
+    );
+    await _utl.photoCompress(inPhoto, outPhotoSz, outPhoto);
 
-        let outPhoto = inPhoto.replace(dirIn, dirOut)
-        outPhoto = outPhoto.replace(fxDir, '')
-        await _xo.checkDirectory(outPhoto)
+    let dbSuffix =
+      "web_" +
+      outPhoto.substring(outPhoto.lastIndexOf("_") + 1, outPhoto.length - 5);
+    let photoID = getPhotoIDbyPath(inPhoto);
+    let pObj = await _db.db_getPhotoByName(photoID);
+    await _db.db_addNewPath(pObj, dbSuffix, outPhoto);
 
-        logit(SLL, 'info', `Compressing: ${smlFile} (ratio: ${REDUX} - W:${inFileSz.width}➡${outPhotoSz.width} H:${inFileSz.height}➡${outPhotoSz.height}) - total: ${_xo.niceBytes(mbSaved)}`)
-        await _utl.photoCompress(inPhoto, outPhotoSz, outPhoto)
+    let outStat = await _xo.getFileInfo(outPhoto);
+    mbSaved = mbSaved + parseInt(inStat.fsz - outStat.fsz);
+    numPhotos++;
+  }
+  logit(SLL, "stop", "Photo Compress - Fini");
+  let totalBytesSaved = _xo.niceBytes(mbSaved);
+  return [numPhotos, totalBytesSaved];
+}
 
-        let outStat = await _xo.getFileInfo(outPhoto)
-        mbSaved = mbSaved + parseInt(inStat.fsz - outStat.fsz)
-        numPhotos++
+function getPhotoIDbyPath(photo) {
+  let pObj = path.parse(photo);
+  let name = pObj.name;
+  let pID = name.substring(0, name.lastIndexOf("_"));
 
-    }
-    logit(SLL, 'stop', 'Photo Compress - Fini')
-    let totalBytesSaved = _xo.niceBytes(mbSaved);
-    return [numPhotos, totalBytesSaved];
-
+  return pID;
 }

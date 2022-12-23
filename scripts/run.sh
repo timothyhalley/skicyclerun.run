@@ -1,18 +1,21 @@
 #!/bin/bash
 
-# Watercolor
-# http://www.fmwconcepts.com/imagemagick/watercolor/index.php
-# USAGE: watercolor [-s smoothing] [-e edge] [-m mixing] [-c contrast] infile outfile
+echo $0
 
-FILES="../PhotoTmp/2_ScalePhotos/**/*.jpeg"
+IN_PATH=$(realpath $1)
+DIR_PATH="dirname $path"
+FILES="../PhotoLib/**/*.jpeg"
+
 for f in $FILES
 do
-  echo "Processing $f file... & out: "${f/2_ScalePhotos/4_GMRepo}""
 
-#   echo "BASENAME: $(basename $(dirname $f))"
-#   echo "REALPATH: $(realpath $(dirname $f))"
-#   echo "DIRNAME: $(dirname $f)"
-  mkdir -p $(dirname "${f/2_ScalePhotos/4_GMRepo}")
-  ./scripts/watercolor.sh -s 3 -e 5 -m 33 -c 1 $f ${f/2_ScalePhotos/4_GMRepo}
-#   cat "$f"
+  echo "Processing $f file..."
+  FILE_PATH=$(dirname $f)
+  FILE_NAME=$(basename -s .jpeg $f)
+  OUT_DIR=$FILE_PATH/sketching
+  OUT_FILE=$OUT_DIR/$FILE_NAME.jpeg
+  # echo "PATH: " $FILE_PATH "FILE: " $FILE_NAME "OUT: " $OUT_FILE
+  mkdir -p $OUT_DIR
+  ./sketching.sh $f $OUT_FILE
+
 done

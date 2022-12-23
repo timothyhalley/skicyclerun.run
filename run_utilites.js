@@ -3,7 +3,7 @@
 //      * clean temporary directories & scale photos with watermark for FX series.
 //      * SHARP library only https://sharp.pixelplumbing.com/
 
-export { niceBytes, checkDirectory, cleanDirectories, countDirFiles, getDirFiles, getFileInfo, copyFile }
+export { niceBytes, checkDirectory, cleanDirectories, countDirFiles, getDirFiles, getFileInfo, copyFile, getFileType }
 
 import { deleteAsync } from 'del';                        // https://www.npmjs.com/package/del
 import fg from 'fast-glob';
@@ -123,4 +123,11 @@ async function countDirFiles(dir) {
         return null
     }
 
+}
+
+async function getFileType(fpath) {
+
+    let fileEXT = path.extname(fpath).slice(1).toLocaleLowerCase('en-US')
+
+    return fileEXT;
 }
