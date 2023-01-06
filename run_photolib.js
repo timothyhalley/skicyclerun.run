@@ -386,7 +386,7 @@ async function setPhotoResize(pObj) {
     let photoPath = pObj.info.paths.copy;
 
     let newPhotoPath = photoPath.replace("1_RenamePhotos", "2_ScalePhotos");
-    await _db.db_addNewPath(pObj, "scale", newPhotoPath);
+
     await _xo.checkDirectory(newPhotoPath); // create any new album folders for SHARP
 
     let svgImage = await svgText2Image(pObj);
@@ -410,6 +410,8 @@ async function setPhotoResize(pObj) {
         quality: 100,
       })
       .toFile(newPhotoPath);
+
+    await _db.db_addNewPath(pObj, "scale", newPhotoPath);
     // console.log('DONE')
   } catch (err) {
     logit(ERR, "photoLib:setPhotoScale", err);

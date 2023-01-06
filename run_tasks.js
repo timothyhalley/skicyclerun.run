@@ -15,7 +15,7 @@ const PHOTOLIB = "./PhotoLib";
 const PHOTOWEB = "./PhotoWeb";
 const PHOTOTMP = "./PhotoTmp";
 const PHOTOFX = "/3_FXRepo";
-const PHOTOSVG = "./PhotoSVG";
+const PHOTOSVG = "./PhotoLib/SVGPhotos";
 
 const ERR = "err";
 const BOX = "box";
@@ -114,14 +114,14 @@ async function web_01() {
 
 async function svg_01() {
   logit(BOX, "SVG - CONVERT");
-  const numSVGPhotos = await runSVG(PHOTOSVG);
+  const numSVGPhotos = await runSVG(PHOTOSVG, PHOTOWEB);
   logit(LOG, `SVG Converted: ${numSVGPhotos}`);
 }
 
 async function aws_01() {
   logit(BOX, `AWS #01 - LIST ITEMS: ${AWSBUCKET}`);
   const totalBytes = await _aws.listBucket(AWSBUCKET);
-  logit(LOG, `AWS #01 - Total Bytes: ${totalBytes}`);
+  logit(LOG, `AWS #01 - Total Bytes in ${AWSBUCKET} := ${totalBytes}`);
   // await _aws.createBucket('SkiCycleRun-Private')
   // await _aws.putObject('tst01', './images/car.svg')
 }
@@ -140,25 +140,22 @@ async function aws_02() {
   await task_01();
   await task_02();
   await task_03();
-  await task_04();
-  await fxtask_05();
-  await fxtask_06();
-  await fxtask_07();
-  await fxtask_08();
-  await fxtask_09();
-  await fxtask_10();
+  // await task_04();
+  // await fxtask_05();
+  // await fxtask_06();
+  // await fxtask_07();
+  // await fxtask_08();
+  // await fxtask_09();
+  // await fxtask_10();
 
-  await script_01();
-  await script_02();
-  await script_03();
-  await script_04();
+  // await script_01();
+  // await script_02();
+  // await script_03();
+  // await script_04();
 
-  await web_01();
+  // await web_01();
 
-  await aws_01();
-  await aws_02();
-
-  // Tasks FINI
+  // // Tasks FINI
   logit(FIG, "PHOTO FINI");
 
   // SVG START
@@ -166,6 +163,13 @@ async function aws_02() {
   await svg_01();
   logit(FIG, "SVG FINI");
   // SVG FINI
+
+  // Send to AWS
+  logit(FIG, "AWS START");
+  await aws_01();
+  await aws_02();
+  logit(FIG, "AWS FINI");
+  // AWS Fini
 })();
 
 export {

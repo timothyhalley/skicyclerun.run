@@ -8,7 +8,7 @@ import { logit } from "./run_logutil.js";
 
 // Node modules
 import path from "node:path";
-const svgX = /SVG/g;
+const svgX = /SVG/gi;
 
 const ERR = "err";
 const BOX = "box";
@@ -20,8 +20,12 @@ const SLL = "sllog";
 export { runSVG };
 
 // Locate all images in Photo DB with SVG in path to process
-async function runSVG(svgDir) {
+async function runSVG(svgDir, outDir) {
   logit(SLL, "start", "Generate SVG - Start");
+
+  // Create output directory if not there
+  const svgDirName = await _xo.getDirName(svgDir);
+  await _xo.checkDirectory(outDir + path.sep + svgDirName);
 
   let numPhotos = 0;
 
@@ -32,7 +36,8 @@ async function runSVG(svgDir) {
     let pathDir = pathObj.dir;
     if (pathDir.match(svgX) !== null) {
       let photoIn = photo;
-      let photoOut = pathObj.dir + path.sep + pathObj.name + ".svg";
+      let photoOut =
+        outDir + path.sep + svgDirName + path.sep + pathObj.name + ".svg";
       logit(SLL, "info", `Converting: ${pathObj.name} to SVG format`);
       try {
         const { stdout } = await execaCommand(
