@@ -140,22 +140,22 @@ async function aws_02() {
   await task_01();
   await task_02();
   await task_03();
-  // await task_04();
-  // await fxtask_05();
-  // await fxtask_06();
-  // await fxtask_07();
-  // await fxtask_08();
-  // await fxtask_09();
-  // await fxtask_10();
+  await task_04();
+  await fxtask_05();
+  await fxtask_06();
+  await fxtask_07();
+  await fxtask_08();
+  await fxtask_09();
+  await fxtask_10();
 
-  // await script_01();
-  // await script_02();
-  // await script_03();
-  // await script_04();
+  await script_01();
+  await script_02();
+  await script_03();
+  await script_04();
 
-  // await web_01();
+  await web_01();
 
-  // // Tasks FINI
+  // Tasks FINI
   logit(FIG, "PHOTO FINI");
 
   // SVG START
