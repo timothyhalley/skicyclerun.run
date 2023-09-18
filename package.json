@@ -25,7 +25,7 @@
     "figlet": "latest",
     "gm": "latest",
     "image-size": "latest",
-    "jimp": "^0.16.0",
+    "jimp": "latest",
     "lowdb-node": "latest",
     "marky": "latest",
     "ora": "latest",

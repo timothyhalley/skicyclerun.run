@@ -30,9 +30,14 @@ https://github.com/timothyhalley/run.skicyclerun.com
 
 ## Installation
 
-1. Clone the repo: `git clone https://github.com/timothyhalley/run.skicyclerun.com run`
+1. Clone the repo: `git clone https://github.com/timothyhalley/run.skicyclerun.com [local directory]`
 2. 'cd into project folder: run'
 3. `npm i` & `npm audit fix`
+4. Install image packages:
+  * brew install imagemagick
+  * brew install graphicsmagick
+  * npm upgrade
+  * setup necessary keys in ".env" file. This is exclude from GIT repo. See below for google APIs 
 
 ## Google API for geo processing
 
@@ -40,7 +45,8 @@ https://github.com/timothyhalley/run.skicyclerun.com
 2. Go to the project selector page in this case 'Project: SkiCycleRun'
 3. Select or Search for section: 'APIs & Services' - 'https://console.cloud.google.com/apis/credentials'
 4. Create a new key or copy already existing key to clipboard.
-5. Place key into key.json file for 'googleAPI:key'
+5. Place key into ".env" file for 'googleAPI:key'
+  * GOOGLE_API_KEY="API_KEY_FROM_CONSOLE"
 6. Verify google API url thru the GCP API finder. There are a lot of catagories for APIs. Locate the Geolocation API url: 'https://console.cloud.google.com/google/maps-apis/' & place reference into JSON file under: googleAPI:url. Note: Google will changes these url to later / better versions.
 
 ## Publish Photos

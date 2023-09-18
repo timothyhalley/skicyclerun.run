@@ -11,7 +11,6 @@ import axios from 'axios';
 
 // google API
 const gMapAPIKey = process.env.GOOGLE_API_KEY;
-const gMapURL = process.env.GOOGLE_API_URL;
 import { Client, Status } from '@googlemaps/google-maps-services-js';
 
 const gClient = new Client({});

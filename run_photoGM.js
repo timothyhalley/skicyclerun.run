@@ -66,7 +66,7 @@ async function genCharcoal(photoIn, photoOut) {
     const image = await gm(photoIn);
     await image.charcoal(0.95).write(photoOut, function (err) {
       if (err) {
-        logit(FIG, "ERROR");
+        logit(FIG, "ERROR: genCharcoal");
         logit(ERR, "genCharcoal", err);
       }
     });

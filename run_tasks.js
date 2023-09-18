@@ -135,7 +135,7 @@ async function aws_02() {
 // ********** Run sequence tasks
 (async function () {
   // Tasks START
-  logit(FIG, "PHOTO START");
+  logit(FIG, "PHOTO FX START");
 
   await task_01();
   await task_02();
@@ -155,9 +155,6 @@ async function aws_02() {
 
   await web_01();
 
-  // Tasks FINI
-  logit(FIG, "PHOTO FINI");
-
   // SVG START
   logit(FIG, "SVG START");
   await svg_01();
@@ -166,8 +163,8 @@ async function aws_02() {
 
   // Send to AWS
   logit(FIG, "AWS START");
-  await aws_01();
-  await aws_02();
+  // await aws_01();
+  // await aws_02();
   logit(FIG, "AWS FINI");
   // AWS Fini
 })();

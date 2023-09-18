@@ -97,7 +97,7 @@ async function listBucket(S3BUCKET) {
     logit(SLL, "stop", "Processing: ${S3BUCKET} - Fini");
     return _xo.niceBytes(totalBytes);
   } catch (err) {
-    logit(FIG, "ERROR");
+    logit(FIG, "ERROR: listBUcket");
     logit(ERR, "run_AWSS3:listBucket", err);
     return null;
   }

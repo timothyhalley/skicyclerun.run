@@ -12,9 +12,9 @@ export {
   photoFXMaker,
   photoFXGreyScale,
   photoCompress,
-  getPhotoExif,
+  getPhotoEXIF,
   getPhotoSize,
-  calcImageScale,
+  calcImageScale
 };
 
 // Node modules
@@ -228,7 +228,7 @@ async function setRenamePhoto(outDir, photo) {
   }
 }
 
-async function getPhotoExif(filepath) {
+async function getPhotoEXIF(filepath) {
   let exifTypes = ["jpg", "jpeg", "tiff", "heif", "heic", "png"];
   let fileEXT = await _xo.getFileType(filepath);
   const found = exifTypes.find((element) => element == fileEXT);
@@ -276,7 +276,7 @@ async function getPhotoData(filepath) {
 
   // Get EXIF data from photo
   // let pExif = await exifr.parse(filepath);
-  let pExif = await getPhotoExif(filepath);
+  let pExif = await getPhotoEXIF(filepath);
 
   // Get date from EXIF
   const ogDate = setPhotoDate(pExif);
@@ -426,28 +426,25 @@ async function svgText2Image(pObj) {
   const svgHeight = (pObj.size.height * 0.1).toFixed();
   const svgElev = pObj.locn.elevation.toFixed(2);
   let svgLoc = pObj.locn.locations;
-  svgLoc = svgLoc.replace(/[A-Z]*[0-9]|[A-Z]*\+[A-Z]|[A-Z]*\+/g, "");
-  let svgTxt = svgLoc.split(",");
+  // svgLoc = svgLoc.replace(/[A-Z]*[0-9]|[A-Z]*\+[A-Z]|[A-Z]*\+/g, "");
+  // let svgTxt = svgLoc.split(",");
+  let svgYear = "2023";
 
-  var svgCountry = svgTxt.length >= 0 ? svgTxt.pop() : "Earth";
-  var svgState = svgTxt.length >= 0 ? svgTxt.pop() : "Wind";
-  var svgLocation = svgTxt.length >= 0 ? svgTxt.pop() : "Fire";
+  // var svgCountry = svgTxt.length >= 0 ? svgTxt.pop() : "Earth";
+  // var svgState = svgTxt.length >= 0 ? svgTxt.pop() : "Wind";
+  // var svgLocation = svgTxt.length >= 0 ? svgTxt.pop() : "Fire";
 
   const svgImage = `
     <svg width="${svgWidth}" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg">
         <title>SkiCycleRun</title>
         <style>
-            .small { font: italic 18px sans-serif; fill: blue; }
-            .heavy { font: bold 30px sans-serif; fill: gold; }
+            .small { font: italic 18px sans-serif; fill: gold; }
+            .heavy { font: bold 30px sans-serif; fill: blue; }
             .strong { font: italic 40px serif; fill: black; }
-            .title { font: bold 20px comic; fill=black}
+            .title { font: bold 38px cambria; fill=black}
         </style>
-
-        <text x="22" y="35" class="small">In</text>
-        <text x="52" y="35" class="heavy">${svgCountry}</text>
-        <text x="67" y="55" class="small">at</text>
-        <text x="87" y="55" class="strong">${svgLocation} ${svgState}</text>
-        <text x="120" y="18" class="title">SkiCycleRun.com ©</text>
+        <text x="100" y="40" class="title">SkiCycleRun.com © ${svgYear}</text>
+        <text x="100" y="75" class="small">${svgLoc}</text>
     </svg>
     `;
 
