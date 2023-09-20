@@ -21,6 +21,8 @@ db.json
 *.exe
 *.o
 *.so
+*.cache
+*.mpc
 
 # Packages #
 ############
