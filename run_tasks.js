@@ -78,6 +78,11 @@ async function fxtask_10() {
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Charcoal");
   logit(LOG, `Charcoal Photos: ${numPhotos}`);
 }
+async function fxtask_11() {
+  logit(BOX, "TASK #11 - FX Transparent");
+  const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Transparent");
+  logit(LOG, `Transparent Photos: ${numPhotos}`);
+}
 async function script_01() {
   logit(BOX, "SCRIPT #01 - WATERCOLOR");
   const numPhotos = await runScript("watercolor");
@@ -163,8 +168,8 @@ async function aws_02() {
 
   // Send to AWS
   logit(FIG, "AWS START");
-  // await aws_01();
-  // await aws_02();
+  await aws_01();
+  await aws_02();
   logit(FIG, "AWS FINI");
   // AWS Fini
 })();

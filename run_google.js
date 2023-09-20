@@ -48,6 +48,7 @@ async function gmapElevation(lat, lon) {
 
     // usage: let elevation = await gmapElevation(latitude, longitude)
     // note: lat; lon must be in decimal notation - convert first
+    let elev = 0;
 
     return await gClient
         .elevation({
@@ -58,7 +59,7 @@ async function gmapElevation(lat, lon) {
             timeout: 1000 // milliseconds
         }, await axios)
         .then(r => {
-            const elev = r.data.results[0].elevation
+            elev = r.data.results[0].elevation
             // console.log("gmapElevation says your hight is: ", elev);
             return elev;
         })

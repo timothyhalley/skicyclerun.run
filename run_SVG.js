@@ -36,12 +36,18 @@ async function runSVG(svgDir, outDir) {
     let pathDir = pathObj.dir;
     if (pathDir.match(svgX) !== null) {
       let photoIn = photo;
-      let photoOut =
-        outDir + path.sep + svgDirName + path.sep + pathObj.name + ".svg";
-      logit(SLL, "info", `Converting: ${pathObj.name} to SVG format`);
+      let photoBMP = outDir + path.sep + svgDirName + path.sep + pathObj.name + ".bmp";
+      let photoSVG = outDir + path.sep + svgDirName + path.sep + pathObj.name + ".svg";
+      logit(SLL, "info", `Converting: ${pathObj.name} to BMP & SVG format`);
       try {
-        const { stdout } = await execaCommand(
-          `magick convert ${photoIn} ${photoOut}`
+        await execaCommand(
+          `magick convert ${photoIn} ${photoBMP}`
+        );
+        await execaCommand(
+          `potrace -s ${photoBMP} -o ${photoSVG}`
+        );
+        await execaCommand(
+          `rm ${photoBMP}`
         );
       } catch (err) {
         console.log(err);

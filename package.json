@@ -1,12 +1,11 @@
 {
-  "name": "runbookforphotos",
+  "name": "run_book_for_photos",
   "version": "1.0.00",
-  "description": "Runbook for publishing photos from Apple Photo app to AWS",
-  "main": "runbook.js",
+  "description": "Run_book for publishing photos from Apple Photo app to AWS",
+  "main": "run_tasks.js",
   "scripts": {
     "start": "node run_tasks.js",
-    "tasks": "node run_tasks.js",
-    "tasuku": "node tasuku.js"
+    "tasks": "node run_tasks.js"
   },
   "author": "Timothy Halley",
   "license": "ISC",

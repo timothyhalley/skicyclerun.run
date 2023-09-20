@@ -2,7 +2,7 @@
 // * Use of GraphicsMagic and ImageMagick via plug GM to add special effects to photos
 // http://www.fmwconcepts.com/imagemagick/index.php
 
-export { charcoal, waterColor };
+export { charcoal, waterColor, transparent };
 
 import gm from "gm";
 import { logit } from "./run_logutil.js";
@@ -40,6 +40,12 @@ async function charcoal(pObj) {
   await _xo.checkDirectory(photoOut); // need only the first FX to set album directories
   await genCharcoal(photoIn, photoOut);
 }
+async function transparent(pObj) {
+  let photoIn = pObj.info.paths.scale;
+  let photoOut = await setOutName(photoIn, "_TP");
+  await _xo.checkDirectory(photoOut); // need only the first FX to set album directories
+  await genCharcoal(photoIn, photoOut);
+}
 
 // **** ----
 async function genWaterColor(photoIn, photoOut) {
@@ -68,6 +74,20 @@ async function genCharcoal(photoIn, photoOut) {
       if (err) {
         logit(FIG, "ERROR: genCharcoal");
         logit(ERR, "genCharcoal", err);
+      }
+    });
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+async function genTransparent(photoIn, photoOut) {
+  try {
+    const image = await gm(photoIn);
+    await image.transparent('white').write(photoOut, function (err) {
+      if (err) {
+        logit(FIG, "ERROR: genTransparent");
+        logit(ERR, "genTransparent", err);
       }
     });
   } catch (err) {

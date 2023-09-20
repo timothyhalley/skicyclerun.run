@@ -1,42 +1,769 @@
 {
   "info": [
     {
-      "rundate": "Mon Sep 18 2023 07:38:18 GMT-0700 (Pacific Daylight Time)",
+      "rundate": "Wed Sep 20 2023 09:34:33 GMT-0700 (Pacific Daylight Time)",
       "author": "SkiCycleRun"
     }
   ],
   "photos": [
     {
-      "uuid": "16777232-18105127",
-      "nameID": "20230113161405",
+      "uuid": "16777232-19012395",
+      "nameID": "20220614200752",
       "file": {
-        "fid": 18105127,
-        "fsz": 11316748,
-        "ftm": "2023-09-13T15:00:15.703Z",
+        "fid": 19012395,
+        "fsz": 10928946,
+        "ftm": "2023-09-19T18:07:44.709Z",
         "fdv": 16777232
       },
       "info": {
-        "album": "SiteBase",
+        "album": "Barcelona",
+        "image": "IMG_3122.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Barcelona/IMG_3122.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220614200752.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220614200752.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220614200752_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220614200752_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220614200752_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220614200752_PC.jpeg"
+        },
+        "name": "20220614200752"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-14T20:07:52.000Z",
+        "DateTimeOriginal": "2022-06-14T20:07:52.000Z",
+        "CreateDate": "2022-06-14T20:07:52.000Z",
+        "OffsetTime": "+02:00",
+        "OffsetTimeOriginal": "+02:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          41,
+          24,
+          55.24
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          2,
+          9,
+          14.35
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 165.73767820773932,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 202.8277282086479,
+        "GPSDateStamp": "2022:06:14",
+        "GPSHPositioningError": 5.451300550598064,
+        "latitude": 41.41534444444444,
+        "longitude": 2.153986111111111
+      },
+      "locn": {
+        "elevation": 170.3641510009766,
+        "locations": "C583+4H Barcelona, Spain",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 3600,
+          "status": "OK",
+          "timeZoneId": "Europe/Madrid",
+          "timeZoneName": "Central European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012380",
+      "nameID": "20220615043504",
+      "file": {
+        "fid": 19012380,
+        "fsz": 8223710,
+        "ftm": "2023-09-19T18:07:46.426Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Barcelona",
+        "image": "IMG_3148.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Barcelona/IMG_3148.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615043504.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615043504.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_PC.jpeg"
+        },
+        "name": "20220615043504"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-15T04:35:04.000Z",
+        "DateTimeOriginal": "2022-06-15T04:35:04.000Z",
+        "CreateDate": "2022-06-15T04:35:04.000Z",
+        "OffsetTime": "+02:00",
+        "OffsetTimeOriginal": "+02:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          41,
+          22,
+          53.32
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          2,
+          10,
+          29.41
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 10.863599311656554,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 2.053695061285194,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 133.90715020576133,
+        "GPSHPositioningError": 21.661396838102863,
+        "latitude": 41.381477777777775,
+        "longitude": 2.174836111111111
+      },
+      "locn": {
+        "elevation": 6.611188411712646,
+        "locations": "C/ de la Boqueria, 26, 08002 Barcelona, Spain",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 3600,
+          "status": "OK",
+          "timeZoneId": "Europe/Madrid",
+          "timeZoneName": "Central European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012388",
+      "nameID": "20220615063754",
+      "file": {
+        "fid": 19012388,
+        "fsz": 9213729,
+        "ftm": "2023-09-19T18:07:47.042Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Barcelona",
+        "image": "IMG_3162.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Barcelona/IMG_3162.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615063754.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615063754.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_PC.jpeg"
+        },
+        "name": "20220615063754"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-15T06:37:54.000Z",
+        "DateTimeOriginal": "2022-06-15T06:37:54.000Z",
+        "CreateDate": "2022-06-15T06:37:54.000Z",
+        "OffsetTime": "+02:00",
+        "OffsetTimeOriginal": "+02:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          41,
+          22,
+          56.02
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          2,
+          10,
+          25.05
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 10.693928492768519,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.0364729805737032,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 181.82478347768154,
+        "GPSHPositioningError": 14.356275521169138,
+        "latitude": 41.38222777777778,
+        "longitude": 2.173625
+      },
+      "locn": {
+        "elevation": 6.875983715057373,
+        "locations": "Plaça del Pi, 13, 08002 Barcelona, Spain",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 3600,
+          "status": "OK",
+          "timeZoneId": "Europe/Madrid",
+          "timeZoneName": "Central European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131475",
+      "nameID": "20221027032132",
+      "file": {
+        "fid": 19131475,
+        "fsz": 2081761,
+        "ftm": "2023-09-20T15:42:06.293Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_0739.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_0739.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20221027032132.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20221027032132.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20221027032132_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20221027032132_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20221027032132_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20221027032132_PC.jpeg"
+        },
+        "name": "20221027032132"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-10-27T03:21:32.000Z",
+        "DateTimeOriginal": "2022-10-27T03:21:32.000Z",
+        "CreateDate": "2022-10-27T03:21:32.000Z",
+        "OffsetTime": "-07:00",
+        "OffsetTimeOriginal": "-07:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          34,
+          8,
+          51.74
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          118,
+          8,
+          30.01
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 261.9543408360129,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 238.4683837890625,
+        "GPSDateStamp": "2022:10:27",
+        "GPSHPositioningError": 4.74909205747671,
+        "latitude": 34.147705555555554,
+        "longitude": -118.14166944444445
+      },
+      "locn": {
+        "elevation": 260.4781188964844,
+        "locations": "135 N Los Robles Ave Suite 100, Pasadena, CA 91101, USA",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": -28800,
+          "status": "OK",
+          "timeZoneId": "America/Los_Angeles",
+          "timeZoneName": "Pacific Daylight Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131465",
+      "nameID": "20210514211427",
+      "file": {
+        "fid": 19131465,
+        "fsz": 2897903,
+        "ftm": "2023-09-20T15:42:05.106Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_0779.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_0779.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20210514211427.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20210514211427.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20210514211427_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20210514211427_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20210514211427_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20210514211427_PC.jpeg"
+        },
+        "name": "20210514211427"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2021-05-14T21:14:27.000Z",
+        "DateTimeOriginal": "2021-05-14T21:14:27.000Z",
+        "CreateDate": "2021-05-14T21:14:27.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          36,
+          22,
+          20.43
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          94,
+          12,
+          35.97
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 392.5,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 353.7183525136281,
+        "GPSDateStamp": "2021:05:14",
+        "GPSHPositioningError": 7.453447293447294,
+        "latitude": 36.372341666666664,
+        "longitude": -94.20999166666667
+      },
+      "locn": {
+        "elevation": 393.7613220214844,
+        "locations": "128 AR-72, Bentonville, AR 72712, USA",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": -21600,
+          "status": "OK",
+          "timeZoneId": "America/Chicago",
+          "timeZoneName": "Central Daylight Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131480",
+      "nameID": "20221214222336",
+      "file": {
+        "fid": 19131480,
+        "fsz": 2756807,
+        "ftm": "2023-09-20T15:42:06.595Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_0883.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_0883.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20221214222336.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20221214222336.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20221214222336_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20221214222336_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20221214222336_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20221214222336_PC.jpeg"
+        },
+        "name": "20221214222336"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-14T22:23:36.000Z",
+        "DateTimeOriginal": "2022-12-14T22:23:36.000Z",
+        "CreateDate": "2022-12-14T22:23:36.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          26.57
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          26.46
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.678201599161096,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 204.01560975609755,
+        "GPSDateStamp": "2022:12:14",
+        "GPSHPositioningError": 4.620087480946385,
+        "latitude": 18.107380555555558,
+        "longitude": -77.99068333333334
+      },
+      "locn": {
+        "elevation": 3.058483600616455,
+        "locations": "4255+5J, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131481",
+      "nameID": "20221217013034",
+      "file": {
+        "fid": 19131481,
+        "fsz": 2618178,
+        "ftm": "2023-09-20T15:42:06.778Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_0914.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_0914.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20221217013034.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20221217013034.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20221217013034_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20221217013034_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20221217013034_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20221217013034_PC.jpeg"
+        },
+        "name": "20221217013034"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-17T01:30:34.000Z",
+        "DateTimeOriginal": "2022-12-17T01:30:34.000Z",
+        "CreateDate": "2022-12-17T01:30:34.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          30.61
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          29.46
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 0.9537551473952546,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.02355346400795165,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 214.93412033511044,
+        "GPSDateStamp": "2022:12:16",
+        "GPSHPositioningError": 4.803500729318608,
+        "latitude": 18.10850277777778,
+        "longitude": -77.99151666666667
+      },
+      "locn": {
+        "elevation": 6.221256256103516,
+        "locations": "4255+C9 New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131483",
+      "nameID": "20230111192341",
+      "file": {
+        "fid": 19131483,
+        "fsz": 12486489,
+        "ftm": "2023-01-11T03:23:41.022Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_0981.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_0981.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230111192341.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230111192341.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230111192341_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230111192341_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230111192341_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230111192341_PC.jpeg"
+        },
+        "name": "20230111192341"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-01-11T19:23:41.000Z",
+        "DateTimeOriginal": "2023-01-11T19:23:41.000Z",
+        "CreateDate": "2023-01-11T19:23:41.000Z",
+        "OffsetTime": "+08:00",
+        "OffsetTimeOriginal": "+08:00",
+        "ExifImageWidth": 16348,
+        "ExifImageHeight": 3712,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          1,
+          16,
+          50.21
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          103,
+          51,
+          18.64
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 14.470941025274882,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 55.34313967861557,
+        "GPSDateStamp": "2023:01:11",
+        "GPSHPositioningError": 4.738187940650321,
+        "latitude": 1.280613888888889,
+        "longitude": 103.85517777777777
+      },
+      "locn": {
+        "elevation": 3.485012769699097,
+        "locations": "Marina Bay Financial Ctr, Singapore",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": 28800,
+          "status": "OK",
+          "timeZoneId": "Asia/Singapore",
+          "timeZoneName": "Singapore Standard Time"
+        }
+      },
+      "size": {
+        "height": 581,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131489",
+      "nameID": "20230112053618",
+      "file": {
+        "fid": 19131489,
+        "fsz": 2855155,
+        "ftm": "2023-09-20T15:42:08.627Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_1007.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_1007.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230112053618.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230112053618.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230112053618_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230112053618_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230112053618_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230112053618_PC.jpeg"
+        },
+        "name": "20230112053618"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-01-12T05:36:18.000Z",
+        "DateTimeOriginal": "2023-01-12T05:36:18.000Z",
+        "CreateDate": "2023-01-12T05:36:18.000Z",
+        "OffsetTime": "+08:00",
+        "OffsetTimeOriginal": "+08:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          1,
+          16,
+          53.2
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          103,
+          50,
+          40.88
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 9.578585129188763,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 306.9414976599064,
+        "GPSDateStamp": "2023:01:11",
+        "GPSHPositioningError": 4.741334590898373,
+        "latitude": 1.2814444444444444,
+        "longitude": 103.84468888888888
+      },
+      "locn": {
+        "elevation": 4.691161632537842,
+        "locations": "282A South Bridge Road, Sago Ln, Singapore 058831",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": 28800,
+          "status": "OK",
+          "timeZoneId": "Asia/Singapore",
+          "timeZoneName": "Singapore Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131491",
+      "nameID": "20230113035814",
+      "file": {
+        "fid": 19131491,
+        "fsz": 2183788,
+        "ftm": "2023-09-20T15:42:08.926Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_1098.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_1098.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230113035814.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230113035814.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113035814_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113035814_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113035814_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113035814_PC.jpeg"
+        },
+        "name": "20230113035814"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-01-13T03:58:14.000Z",
+        "DateTimeOriginal": "2023-01-13T03:58:14.000Z",
+        "CreateDate": "2023-01-13T03:58:14.000Z",
+        "OffsetTime": "+08:00",
+        "OffsetTimeOriginal": "+08:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          1,
+          16,
+          56.04
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          103,
+          51,
+          49.74
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 43.20565816476107,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 353.007171314741,
+        "GPSDateStamp": "2023:01:12",
+        "GPSHPositioningError": 20.971577726218097,
+        "latitude": 1.2822333333333333,
+        "longitude": 103.86381666666666
+      },
+      "locn": {
+        "elevation": 6.671922206878662,
+        "locations": "18 Marina Gardens Dr, Singapore 018953",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": 28800,
+          "status": "OK",
+          "timeZoneId": "Asia/Singapore",
+          "timeZoneName": "Singapore Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131493",
+      "nameID": "20230113161405",
+      "file": {
+        "fid": 19131493,
+        "fsz": 4200659,
+        "ftm": "2023-09-20T15:42:09.232Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
         "image": "IMG_1122.jpeg",
         "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1122.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230113161405.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230113161405.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230113161405_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230113161405_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230113161405_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230113161405_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230113161405_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230113161405_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230113161405_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230113161405_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230113161405_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230113161405_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230113161405_WC.jpeg"
+          "orig": "./PhotoLib/SVGPhotos/IMG_1122.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230113161405.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230113161405.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113161405_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113161405_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113161405_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230113161405_PC.jpeg"
         },
         "name": "20230113161405"
       },
@@ -92,45 +819,34 @@
       }
     },
     {
-      "uuid": "16777232-18105131",
-      "nameID": "20230115181952",
+      "uuid": "16777232-19131498",
+      "nameID": "20230116014557",
       "file": {
-        "fid": 18105131,
-        "fsz": 12043769,
-        "ftm": "2023-09-13T15:00:15.889Z",
+        "fid": 19131498,
+        "fsz": 393626,
+        "ftm": "2023-01-15T08:45:57.219Z",
         "fdv": 16777232
       },
       "info": {
-        "album": "SiteBase",
-        "image": "IMG_1200.jpeg",
+        "album": "SVGPhotos",
+        "image": "IMG_1228.jpeg",
         "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1200.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230115181952.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230115181952.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230115181952_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230115181952_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230115181952_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230115181952_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230115181952_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230115181952_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230115181952_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230115181952_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230115181952_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230115181952_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230115181952_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230115181952_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230115181952_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230115181952_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230115181952_WC.jpeg"
+          "orig": "./PhotoLib/SVGPhotos/IMG_1228.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230116014557.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230116014557.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116014557_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116014557_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116014557_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116014557_PC.jpeg"
         },
-        "name": "20230115181952"
+        "name": "20230116014557"
       },
       "data": {
         "Make": "Apple",
         "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-01-15T18:19:52.000Z",
-        "DateTimeOriginal": "2023-01-15T18:19:52.000Z",
-        "CreateDate": "2023-01-15T18:19:52.000Z",
+        "ModifyDate": "2023-01-16T01:45:57.000Z",
+        "DateTimeOriginal": "2023-01-16T01:45:57.000Z",
+        "CreateDate": "2023-01-16T01:45:57.000Z",
         "OffsetTime": "+09:00",
         "OffsetTimeOriginal": "+09:00",
         "ExifImageWidth": 4032,
@@ -139,114 +855,29 @@
         "GPSLatitude": [
           35,
           39,
-          18.34
+          21.15
         ],
         "GPSLongitudeRef": "E",
         "GPSLongitude": [
           139,
           45,
-          28.89
+          46.58
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 4.160392812510555,
+        "GPSAltitude": 10.511341573140124,
         "GPSSpeedRef": "K",
         "GPSSpeed": 0,
         "GPSImgDirectionRef": "T",
-        "GPSImgDirection": 79.61651612903226,
+        "GPSImgDirection": 158.52292632663574,
         "GPSDateStamp": "2023:01:15",
-        "GPSHPositioningError": 4.733536063860116,
-        "latitude": 35.655094444444444,
-        "longitude": 139.758025
-      },
-      "locn": {
-        "elevation": 2.0546555519104,
-        "locations": "Yukimi Lantern, 1-chōme-4 Kaigan, Minato City, Tokyo 105-0022, Japan",
-        "timezone": {
-          "dstOffset": 0,
-          "rawOffset": 32400,
-          "status": "OK",
-          "timeZoneId": "Asia/Tokyo",
-          "timeZoneName": "Japan Standard Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777232-18105134",
-      "nameID": "20230118171620",
-      "file": {
-        "fid": 18105134,
-        "fsz": 7602474,
-        "ftm": "2023-09-13T15:00:16.066Z",
-        "fdv": 16777232
-      },
-      "info": {
-        "album": "SiteBase",
-        "image": "IMG_1368.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1368.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230118171620.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230118171620.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230118171620_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230118171620_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230118171620_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230118171620_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230118171620_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230118171620_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230118171620_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230118171620_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230118171620_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230118171620_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230118171620_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230118171620_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230118171620_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230118171620_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230118171620_WC.jpeg"
-        },
-        "name": "20230118171620"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-01-18T17:16:20.000Z",
-        "DateTimeOriginal": "2023-01-18T17:16:20.000Z",
-        "CreateDate": "2023-01-18T17:16:20.000Z",
-        "OffsetTime": "+09:00",
-        "OffsetTimeOriginal": "+09:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          35,
-          39,
-          21.24
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          139,
-          45,
-          46.25
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 6.451853751674219,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "T",
-        "GPSImgDirection": 143.24447646493755,
-        "GPSDateStamp": "2023:01:18",
         "GPSHPositioningError": 35,
-        "latitude": 35.655899999999995,
-        "longitude": 139.76284722222223
+        "latitude": 35.655875,
+        "longitude": 139.7629388888889
       },
       "locn": {
-        "elevation": 4.759135723114014,
+        "elevation": 3.963784217834473,
         "locations": "1-chōme-10-30 Kaigan, Minato City, Tokyo 105-0022, Japan",
         "timezone": {
           "dstOffset": 0,
@@ -262,45 +893,34 @@
       }
     },
     {
-      "uuid": "16777232-18105135",
-      "nameID": "20230118181028",
+      "uuid": "16777232-19131499",
+      "nameID": "20230116195750",
       "file": {
-        "fid": 18105135,
-        "fsz": 6174187,
-        "ftm": "2023-09-13T15:00:16.252Z",
+        "fid": 19131499,
+        "fsz": 3956567,
+        "ftm": "2023-09-20T15:42:09.496Z",
         "fdv": 16777232
       },
       "info": {
-        "album": "SiteBase",
-        "image": "IMG_1379.jpeg",
+        "album": "SVGPhotos",
+        "image": "IMG_1253.jpeg",
         "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1379.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230118181028.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230118181028.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230118181028_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230118181028_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230118181028_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230118181028_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230118181028_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230118181028_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230118181028_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230118181028_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230118181028_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230118181028_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230118181028_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230118181028_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230118181028_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230118181028_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230118181028_WC.jpeg"
+          "orig": "./PhotoLib/SVGPhotos/IMG_1253.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230116195750.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230116195750.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116195750_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116195750_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116195750_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230116195750_PC.jpeg"
         },
-        "name": "20230118181028"
+        "name": "20230116195750"
       },
       "data": {
         "Make": "Apple",
         "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-01-18T18:10:28.000Z",
-        "DateTimeOriginal": "2023-01-18T18:10:28.000Z",
-        "CreateDate": "2023-01-18T18:10:28.000Z",
+        "ModifyDate": "2023-01-16T19:57:50.000Z",
+        "DateTimeOriginal": "2023-01-16T19:57:50.000Z",
+        "CreateDate": "2023-01-16T19:57:50.000Z",
         "OffsetTime": "+09:00",
         "OffsetTimeOriginal": "+09:00",
         "ExifImageWidth": 4032,
@@ -308,31 +928,31 @@
         "GPSLatitudeRef": "N",
         "GPSLatitude": [
           35,
-          37,
-          38.69
+          39,
+          32.31
         ],
         "GPSLongitudeRef": "E",
         "GPSLongitude": [
           139,
-          46,
-          20.09
+          41,
+          59.71
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 6.766374433630928,
+        "GPSAltitude": 17.268848251523902,
         "GPSSpeedRef": "K",
-        "GPSSpeed": 0.5119252806633438,
+        "GPSSpeed": 0.037622287862955316,
         "GPSImgDirectionRef": "T",
-        "GPSImgDirection": 13.145172116214402,
-        "GPSDateStamp": "2023:01:18",
-        "GPSHPositioningError": 4.560300556786854,
-        "latitude": 35.62741388888889,
-        "longitude": 139.77224722222223
+        "GPSImgDirection": 308.6034547502816,
+        "GPSDateStamp": "2023:01:16",
+        "GPSHPositioningError": 14.456007972665148,
+        "latitude": 35.658975,
+        "longitude": 139.69991944444445
       },
       "locn": {
-        "elevation": 8,
-        "locations": "1 Chome-8 Daiba, Minato City, Tokyo 135-0091, Japan",
+        "elevation": 20.45382881164551,
+        "locations": "Japan, 〒150-0043 Tokyo, Shibuya City, Dōgenzaka, 2-chōme−3−２, Daigai Building, 8階",
         "timezone": {
           "dstOffset": 0,
           "rawOffset": 32400,
@@ -347,36 +967,99 @@
       }
     },
     {
-      "uuid": "16777232-18105136",
-      "nameID": "20230118182342",
+      "uuid": "16777232-19131505",
+      "nameID": "20230117201450",
       "file": {
-        "fid": 18105136,
-        "fsz": 8294631,
-        "ftm": "2023-09-13T15:00:16.544Z",
+        "fid": 19131505,
+        "fsz": 4548226,
+        "ftm": "2023-09-20T15:42:09.803Z",
         "fdv": 16777232
       },
       "info": {
-        "album": "SiteBase",
+        "album": "SVGPhotos",
+        "image": "IMG_1313.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_1313.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230117201450.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230117201450.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230117201450_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230117201450_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230117201450_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230117201450_PC.jpeg"
+        },
+        "name": "20230117201450"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-01-17T20:14:50.000Z",
+        "DateTimeOriginal": "2023-01-17T20:14:50.000Z",
+        "CreateDate": "2023-01-17T20:14:50.000Z",
+        "OffsetTime": "+09:00",
+        "OffsetTimeOriginal": "+09:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          35,
+          37,
+          33.74
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          139,
+          14,
+          59.56
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 537.2008652657602,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 296.6700288184438,
+        "GPSDateStamp": "2023:01:17",
+        "GPSHPositioningError": 4.673006177552579,
+        "latitude": 35.62603888888889,
+        "longitude": 139.24987777777775
+      },
+      "locn": {
+        "elevation": 499.9585571289062,
+        "locations": "2177 Takaomachi, Hachioji, Tokyo 193-0844, Japan",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": 32400,
+          "status": "OK",
+          "timeZoneId": "Asia/Tokyo",
+          "timeZoneName": "Japan Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131510",
+      "nameID": "20230118182342",
+      "file": {
+        "fid": 19131510,
+        "fsz": 3061455,
+        "ftm": "2023-09-20T15:42:10.119Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
         "image": "IMG_1388.jpeg",
         "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1388.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230118182342.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230118182342.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230118182342_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230118182342_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230118182342_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230118182342_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230118182342_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230118182342_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230118182342_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230118182342_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230118182342_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230118182342_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230118182342_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230118182342_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230118182342_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230118182342_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230118182342_WC.jpeg"
+          "orig": "./PhotoLib/SVGPhotos/IMG_1388.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230118182342.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230118182342.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118182342_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118182342_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118182342_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118182342_PC.jpeg"
         },
         "name": "20230118182342"
       },
@@ -428,83 +1111,72 @@
       }
     },
     {
-      "uuid": "16777232-18105137",
-      "nameID": "20230129015728",
+      "uuid": "16777232-19131511",
+      "nameID": "20230118214902",
       "file": {
-        "fid": 18105137,
-        "fsz": 6930765,
-        "ftm": "2023-09-13T15:00:16.728Z",
+        "fid": 19131511,
+        "fsz": 3123299,
+        "ftm": "2023-09-20T15:42:10.311Z",
         "fdv": 16777232
       },
       "info": {
-        "album": "SiteBase",
-        "image": "IMG_1463.jpeg",
+        "album": "SVGPhotos",
+        "image": "IMG_1395.jpeg",
         "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1463.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230129015728.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230129015728.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230129015728_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230129015728_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230129015728_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230129015728_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230129015728_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230129015728_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230129015728_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230129015728_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230129015728_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230129015728_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230129015728_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230129015728_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230129015728_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230129015728_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230129015728_WC.jpeg"
+          "orig": "./PhotoLib/SVGPhotos/IMG_1395.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230118214902.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230118214902.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118214902_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118214902_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118214902_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118214902_PC.jpeg"
         },
-        "name": "20230129015728"
+        "name": "20230118214902"
       },
       "data": {
         "Make": "Apple",
         "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-01-29T01:57:28.000Z",
-        "DateTimeOriginal": "2023-01-29T01:57:28.000Z",
-        "CreateDate": "2023-01-29T01:57:28.000Z",
-        "OffsetTime": "-08:00",
-        "OffsetTimeOriginal": "-08:00",
+        "ModifyDate": "2023-01-18T21:49:02.000Z",
+        "DateTimeOriginal": "2023-01-18T21:49:02.000Z",
+        "CreateDate": "2023-01-18T21:49:02.000Z",
+        "OffsetTime": "+09:00",
+        "OffsetTimeOriginal": "+09:00",
         "ExifImageWidth": 4032,
         "ExifImageHeight": 3024,
         "GPSLatitudeRef": "N",
         "GPSLatitude": [
-          32,
+          35,
           41,
-          45.16
+          55.7
         ],
-        "GPSLongitudeRef": "W",
+        "GPSLongitudeRef": "E",
         "GPSLongitude": [
-          117,
-          9,
-          56.48
+          139,
+          46,
+          17.34
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 4.088972867542057,
+        "GPSAltitude": 6.419472673628999,
         "GPSSpeedRef": "K",
-        "GPSSpeed": 0.0029156701631462573,
+        "GPSSpeed": 1.0564588950297473,
         "GPSImgDirectionRef": "T",
-        "GPSImgDirection": 14.01837158203125,
-        "GPSDateStamp": "2023:01:29",
-        "GPSHPositioningError": 5.663528145806712,
-        "latitude": 32.695877777777774,
-        "longitude": -117.1656888888889
+        "GPSImgDirection": 285.496261682243,
+        "GPSDateStamp": "2023:01:18",
+        "GPSHPositioningError": 14.27447511205473,
+        "latitude": 35.69880555555555,
+        "longitude": 139.77148333333335
       },
       "locn": {
-        "elevation": 5.991989135742188,
-        "locations": "2000 2nd St, Coronado, CA 92118, USA",
+        "elevation": 5.263407230377197,
+        "locations": "Akiba1131.Bldg, 1-chōme-13-1 Sotokanda, Chiyoda City, Tokyo 101-0021, Japan",
         "timezone": {
           "dstOffset": 0,
-          "rawOffset": -28800,
+          "rawOffset": 32400,
           "status": "OK",
-          "timeZoneId": "America/Los_Angeles",
-          "timeZoneName": "Pacific Standard Time"
+          "timeZoneId": "Asia/Tokyo",
+          "timeZoneName": "Japan Standard Time"
         }
       },
       "size": {
@@ -513,83 +1185,72 @@
       }
     },
     {
-      "uuid": "16777232-18105138",
-      "nameID": "20230130041248",
+      "uuid": "16777232-19131513",
+      "nameID": "20230118215026",
       "file": {
-        "fid": 18105138,
-        "fsz": 6138339,
-        "ftm": "2023-09-13T15:00:16.922Z",
+        "fid": 19131513,
+        "fsz": 3010407,
+        "ftm": "2023-09-20T15:42:10.627Z",
         "fdv": 16777232
       },
       "info": {
-        "album": "SiteBase",
-        "image": "IMG_1527.jpeg",
+        "album": "SVGPhotos",
+        "image": "IMG_1397.jpeg",
         "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_1527.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230130041248.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230130041248.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230130041248_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230130041248_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230130041248_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230130041248_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230130041248_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230130041248_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230130041248_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230130041248_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230130041248_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230130041248_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230130041248_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230130041248_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230130041248_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230130041248_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230130041248_WC.jpeg"
+          "orig": "./PhotoLib/SVGPhotos/IMG_1397.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230118215026.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230118215026.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118215026_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118215026_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118215026_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230118215026_PC.jpeg"
         },
-        "name": "20230130041248"
+        "name": "20230118215026"
       },
       "data": {
         "Make": "Apple",
         "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-01-30T04:12:48.000Z",
-        "DateTimeOriginal": "2023-01-30T04:12:48.000Z",
-        "CreateDate": "2023-01-30T04:12:48.000Z",
-        "OffsetTime": "-08:00",
-        "OffsetTimeOriginal": "-08:00",
+        "ModifyDate": "2023-01-18T21:50:26.000Z",
+        "DateTimeOriginal": "2023-01-18T21:50:26.000Z",
+        "CreateDate": "2023-01-18T21:50:26.000Z",
+        "OffsetTime": "+09:00",
+        "OffsetTimeOriginal": "+09:00",
         "ExifImageWidth": 4032,
         "ExifImageHeight": 3024,
         "GPSLatitudeRef": "N",
         "GPSLatitude": [
-          47,
-          7,
-          20.83
+          35,
+          41,
+          58.29
         ],
-        "GPSLongitudeRef": "W",
+        "GPSLongitudeRef": "E",
         "GPSLongitude": [
-          122,
-          21,
-          5.68
+          139,
+          46,
+          17.45
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 1752.1594594594594,
+        "GPSAltitude": 6.322236321564529,
         "GPSSpeedRef": "K",
-        "GPSSpeed": 104.10185240693004,
+        "GPSSpeed": 0,
         "GPSImgDirectionRef": "T",
-        "GPSImgDirection": 178.61578362356428,
-        "GPSDateStamp": "2023:01:30",
-        "GPSHPositioningError": 18.748345555356824,
-        "latitude": 47.12245277777778,
-        "longitude": -122.35157777777778
+        "GPSImgDirection": 286.28973384030417,
+        "GPSDateStamp": "2023:01:18",
+        "GPSHPositioningError": 14.24521088892623,
+        "latitude": 35.699524999999994,
+        "longitude": 139.7715138888889
       },
       "locn": {
-        "elevation": 137.8133697509766,
-        "locations": "14715 58th Ave E, Puyallup, WA 98375, USA",
+        "elevation": 5.059517860412598,
+        "locations": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−18−１３ 愛三ビル",
         "timezone": {
           "dstOffset": 0,
-          "rawOffset": -28800,
+          "rawOffset": 32400,
           "status": "OK",
-          "timeZoneId": "America/Los_Angeles",
-          "timeZoneName": "Pacific Standard Time"
+          "timeZoneId": "Asia/Tokyo",
+          "timeZoneName": "Japan Standard Time"
         }
       },
       "size": {
@@ -598,10 +1259,597 @@
       }
     },
     {
-      "uuid": "16777232-18105139",
+      "uuid": "16777232-19131522",
+      "nameID": "20230518015852",
+      "file": {
+        "fid": 19131522,
+        "fsz": 3188512,
+        "ftm": "2023-09-20T15:42:10.937Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_1820.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_1820.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230518015852.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230518015852.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230518015852_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230518015852_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230518015852_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230518015852_PC.jpeg"
+        },
+        "name": "20230518015852"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-05-18T01:58:52.000Z",
+        "DateTimeOriginal": "2023-05-18T01:58:52.000Z",
+        "CreateDate": "2023-05-18T01:58:52.000Z",
+        "OffsetTime": "-07:00",
+        "OffsetTimeOriginal": "-07:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          36,
+          6,
+          45.38
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          115,
+          10,
+          21.91
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 643.8257866462011,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 54.59998702730752,
+        "GPSDateStamp": "2023:05:18",
+        "GPSHPositioningError": 20.471433871266925,
+        "latitude": 36.112605555555554,
+        "longitude": -115.17275277777779
+      },
+      "locn": {
+        "elevation": 642.489990234375,
+        "locations": "NB Las Vegas at the Paris, Paradise, NV 89109, USA",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": -28800,
+          "status": "OK",
+          "timeZoneId": "America/Los_Angeles",
+          "timeZoneName": "Pacific Daylight Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131523",
+      "nameID": "20230810213643",
+      "file": {
+        "fid": 19131523,
+        "fsz": 2056301,
+        "ftm": "2023-09-20T15:42:11.129Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_2126.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_2126.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20230810213643.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20230810213643.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20230810213643_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20230810213643_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20230810213643_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20230810213643_PC.jpeg"
+        },
+        "name": "20230810213643"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-08-10T21:36:43.000Z",
+        "DateTimeOriginal": "2023-08-10T21:36:43.000Z",
+        "CreateDate": "2023-08-10T21:36:43.000Z",
+        "OffsetTime": "-07:00",
+        "OffsetTimeOriginal": "-07:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          49,
+          53,
+          45.7
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          119,
+          29,
+          19.93
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 346.49077090119437,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.37393057179787037,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 238.1957090528519,
+        "GPSDateStamp": "2023:08:10",
+        "GPSHPositioningError": 4.7527969348659,
+        "latitude": 49.896027777777775,
+        "longitude": -119.48886944444445
+      },
+      "locn": {
+        "elevation": 342,
+        "locations": "1084 Richter St, Kelowna, BC V1Y 2K5, Canada",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": -28800,
+          "status": "OK",
+          "timeZoneId": "America/Vancouver",
+          "timeZoneName": "Pacific Daylight Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131466",
+      "nameID": "20220602181845",
+      "file": {
+        "fid": 19131466,
+        "fsz": 3664195,
+        "ftm": "2022-06-02T10:18:45.485Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_2419.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_2419.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20220602181845.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20220602181845.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20220602181845_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20220602181845_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20220602181845_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20220602181845_PC.jpeg"
+        },
+        "name": "20220602181845"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-02T18:18:45.000Z",
+        "DateTimeOriginal": "2022-06-02T18:18:45.000Z",
+        "CreateDate": "2022-06-02T18:18:45.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          38,
+          42,
+          47.66
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          9,
+          8,
+          21.6
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 6.661495210329029,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 140.9700012244398,
+        "GPSHPositioningError": 7.3272480701022324,
+        "latitude": 38.71323888888889,
+        "longitude": -9.139333333333333
+      },
+      "locn": {
+        "elevation": 9.808663368225098,
+        "locations": "Praça Dom Pedro IV 16, 1100-581 Lisboa, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131467",
+      "nameID": "20220603204257",
+      "file": {
+        "fid": 19131467,
+        "fsz": 3167534,
+        "ftm": "2023-09-20T15:42:05.482Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_2480.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_2480.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20220603204257.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20220603204257.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20220603204257_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20220603204257_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20220603204257_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20220603204257_PC.jpeg"
+        },
+        "name": "20220603204257"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-03T20:42:57.000Z",
+        "DateTimeOriginal": "2022-06-03T20:42:57.000Z",
+        "CreateDate": "2022-06-03T20:42:57.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          38,
+          42,
+          43
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          9,
+          7,
+          47.64
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 43.529745989304814,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 312.9186399514268,
+        "GPSHPositioningError": 4.756871919124404,
+        "latitude": 38.71194444444445,
+        "longitude": -9.129900000000001
+      },
+      "locn": {
+        "elevation": 39.88669967651367,
+        "locations": "Beco de Santa Helena 21, 1100-126 Lisboa, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131468",
+      "nameID": "20220605222651",
+      "file": {
+        "fid": 19131468,
+        "fsz": 3718914,
+        "ftm": "2023-09-20T15:42:05.686Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_2634.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_2634.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20220605222651.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20220605222651.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20220605222651_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20220605222651_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20220605222651_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20220605222651_PC.jpeg"
+        },
+        "name": "20220605222651"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-05T22:26:51.000Z",
+        "DateTimeOriginal": "2022-06-05T22:26:51.000Z",
+        "CreateDate": "2022-06-05T22:26:51.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          41,
+          8,
+          14.22
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          8,
+          36,
+          45.13
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 26.514553071106032,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.6100000143069908,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 144.805404589372,
+        "GPSHPositioningError": 10.632754566829444,
+        "latitude": 41.137283333333336,
+        "longitude": -8.61253611111111
+      },
+      "locn": {
+        "elevation": 11.85755348205566,
+        "locations": "R. Cândido dos Reis 31, 4430-175 Vila Nova de Gaia, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131469",
+      "nameID": "20220607221752",
+      "file": {
+        "fid": 19131469,
+        "fsz": 3530965,
+        "ftm": "2023-09-20T15:42:05.887Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_2758.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_2758.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20220607221752.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20220607221752.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20220607221752_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20220607221752_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20220607221752_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20220607221752_PC.jpeg"
+        },
+        "name": "20220607221752"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-07T22:17:52.000Z",
+        "DateTimeOriginal": "2022-06-07T22:17:52.000Z",
+        "CreateDate": "2022-06-07T22:17:52.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          39,
+          21,
+          44.53
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          9,
+          9,
+          28.45
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 76.48904996915485,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 37.829132099553284,
+        "GPSHPositioningError": 4.751859993236388,
+        "latitude": 39.36236944444445,
+        "longitude": -9.157902777777778
+      },
+      "locn": {
+        "elevation": 62.94001388549805,
+        "locations": "R. de Dom Antão Moniz 19, 2510-106 Óbidos, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19131470",
+      "nameID": "20220614201859",
+      "file": {
+        "fid": 19131470,
+        "fsz": 2847237,
+        "ftm": "2023-09-20T15:42:06.088Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SVGPhotos",
+        "image": "IMG_3129.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SVGPhotos/IMG_3129.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SVGPhotos/20220614201859.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SVGPhotos/20220614201859.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SVGPhotos/20220614201859_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SVGPhotos/20220614201859_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SVGPhotos/20220614201859_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SVGPhotos/20220614201859_PC.jpeg"
+        },
+        "name": "20220614201859"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-14T20:18:59.000Z",
+        "DateTimeOriginal": "2022-06-14T20:18:59.000Z",
+        "CreateDate": "2022-06-14T20:18:59.000Z",
+        "OffsetTime": "+02:00",
+        "OffsetTimeOriginal": "+02:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          41,
+          24,
+          49.53
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          2,
+          9,
+          10.79
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 136.24035369774919,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 128.96090695856137,
+        "GPSHPositioningError": 14.236580163526485,
+        "latitude": 41.413758333333334,
+        "longitude": 2.152997222222222
+      },
+      "locn": {
+        "elevation": 136.1717224121094,
+        "locations": "C/ d'Olot, 78, 08024 Barcelona, Spain",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 3600,
+          "status": "OK",
+          "timeZoneId": "Europe/Madrid",
+          "timeZoneName": "Central European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012409",
+      "nameID": "20230113161405",
+      "file": {
+        "fid": 19012409,
+        "fsz": 11316748,
+        "ftm": "2023-09-13T15:00:15.703Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "SiteBase",
+        "image": "IMG_1122.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/SiteBase/IMG_1122.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230113161405.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230113161405.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230113161405_PC.jpeg"
+        },
+        "name": "20230113161405"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2023-01-13T16:14:05.000Z",
+        "DateTimeOriginal": "2023-01-13T16:14:05.000Z",
+        "CreateDate": "2023-01-13T16:14:05.000Z",
+        "OffsetTime": "+08:00",
+        "OffsetTimeOriginal": "+08:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          1,
+          16,
+          44.49
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          103,
+          50,
+          35.85
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 11.263443101292205,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 200.93350946719508,
+        "GPSDateStamp": "2023:01:13",
+        "GPSHPositioningError": 12.086217707549537,
+        "latitude": 1.2790249999999999,
+        "longitude": 103.84329166666666
+      },
+      "locn": {
+        "elevation": 10.36850070953369,
+        "locations": "33 Duxton Rd, Singapore 089497",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": 28800,
+          "status": "OK",
+          "timeZoneId": "Asia/Singapore",
+          "timeZoneName": "Singapore Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012407",
       "nameID": "20230315190715",
       "file": {
-        "fid": 18105139,
+        "fid": 19012407,
         "fsz": 10075855,
         "ftm": "2023-03-15T19:07:15.067Z",
         "fdv": 16777232
@@ -616,18 +1864,7 @@
           "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230315190715_GS.jpeg",
           "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230315190715_SP.jpeg",
           "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230315190715_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230315190715_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230315190715_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230315190715_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230315190715_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230315190715_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230315190715_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230315190715_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230315190715_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230315190715_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230315190715_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230315190715_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230315190715_WC.jpeg"
+          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230315190715_PC.jpeg"
         },
         "name": "20230315190715"
       },
@@ -659,265 +1896,10 @@
       }
     },
     {
-      "uuid": "16777232-18105140",
-      "nameID": "20230727020606",
-      "file": {
-        "fid": 18105140,
-        "fsz": 8987139,
-        "ftm": "2023-09-13T15:00:17.285Z",
-        "fdv": 16777232
-      },
-      "info": {
-        "album": "SiteBase",
-        "image": "IMG_2070.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_2070.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230727020606.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230727020606.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230727020606_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230727020606_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230727020606_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230727020606_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230727020606_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230727020606_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230727020606_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230727020606_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230727020606_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230727020606_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230727020606_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230727020606_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230727020606_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230727020606_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230727020606_WC.jpeg"
-        },
-        "name": "20230727020606"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-07-27T02:06:06.000Z",
-        "DateTimeOriginal": "2023-07-27T02:06:06.000Z",
-        "CreateDate": "2023-07-27T02:06:06.000Z",
-        "OffsetTime": "-07:00",
-        "OffsetTimeOriginal": "-07:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          44,
-          5,
-          38.09
-        ],
-        "GPSLongitudeRef": "W",
-        "GPSLongitude": [
-          121,
-          15,
-          50.15
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 1052.8013565891472,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0.052572144575331235,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 173.50746924428822,
-        "GPSDateStamp": "2023:07:27",
-        "GPSHPositioningError": 4.757720616131725,
-        "latitude": 44.09391388888889,
-        "longitude": -121.26393055555556
-      },
-      "locn": {
-        "elevation": 1051.649658203125,
-        "locations": "63200 Overtree Rd, Bend, OR 97701, USA",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": -28800,
-          "status": "OK",
-          "timeZoneId": "America/Los_Angeles",
-          "timeZoneName": "Pacific Daylight Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777232-18105171",
-      "nameID": "20230730220523",
-      "file": {
-        "fid": 18105171,
-        "fsz": 11171709,
-        "ftm": "2023-09-13T15:00:18.706Z",
-        "fdv": 16777232
-      },
-      "info": {
-        "album": "SiteBase",
-        "image": "IMG_2078.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_2078.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230730220523.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230730220523.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230730220523_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230730220523_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230730220523_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230730220523_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230730220523_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230730220523_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230730220523_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230730220523_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230730220523_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230730220523_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230730220523_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230730220523_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230730220523_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230730220523_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230730220523_WC.jpeg"
-        },
-        "name": "20230730220523"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-07-30T22:05:23.000Z",
-        "DateTimeOriginal": "2023-07-30T22:05:23.000Z",
-        "CreateDate": "2023-07-30T22:05:23.000Z",
-        "OffsetTime": "-07:00",
-        "OffsetTimeOriginal": "-07:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          47,
-          42,
-          20.85
-        ],
-        "GPSLongitudeRef": "W",
-        "GPSLongitude": [
-          121,
-          50,
-          32.03
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 204.26371369903197,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 2.038939713816561,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 55.04104613149292,
-        "GPSDateStamp": "2023:07:30",
-        "GPSHPositioningError": 20.36694714698922,
-        "latitude": 47.70579166666667,
-        "longitude": -121.84223055555555
-      },
-      "locn": {
-        "elevation": 194.4356079101562,
-        "locations": "P545+84 Lake Marcel-Stillwater, WA, USA",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": -28800,
-          "status": "OK",
-          "timeZoneId": "America/Los_Angeles",
-          "timeZoneName": "Pacific Daylight Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777232-18105196",
-      "nameID": "20230810195258",
-      "file": {
-        "fid": 18105196,
-        "fsz": 9139448,
-        "ftm": "2023-09-13T15:00:20.509Z",
-        "fdv": 16777232
-      },
-      "info": {
-        "album": "SiteBase",
-        "image": "IMG_2122.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_2122.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230810195258.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230810195258.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230810195258_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230810195258_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230810195258_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230810195258_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230810195258_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230810195258_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230810195258_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230810195258_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230810195258_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230810195258_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230810195258_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230810195258_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230810195258_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230810195258_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230810195258_WC.jpeg"
-        },
-        "name": "20230810195258"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-08-10T19:52:58.000Z",
-        "DateTimeOriginal": "2023-08-10T19:52:58.000Z",
-        "CreateDate": "2023-08-10T19:52:58.000Z",
-        "OffsetTime": "-07:00",
-        "OffsetTimeOriginal": "-07:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          50,
-          10,
-          26.92
-        ],
-        "GPSLongitudeRef": "W",
-        "GPSLongitude": [
-          119,
-          21,
-          17.71
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 376.01025783199333,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 6.61758184426764,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 187.32289114455722,
-        "GPSDateStamp": "2023:08:10",
-        "GPSHPositioningError": 46.5895713371721,
-        "latitude": 50.174144444444444,
-        "longitude": -119.35491944444443
-      },
-      "locn": {
-        "elevation": 402.7060852050781,
-        "locations": "5JFW+M2 Vernon, BC, Canada",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": -28800,
-          "status": "OK",
-          "timeZoneId": "America/Vancouver",
-          "timeZoneName": "Pacific Daylight Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777232-18105222",
+      "uuid": "16777232-19012413",
       "nameID": "20230811194104",
       "file": {
-        "fid": 18105222,
+        "fid": 19012413,
         "fsz": 11438527,
         "ftm": "2023-09-13T15:00:21.805Z",
         "fdv": 16777232
@@ -932,18 +1914,7 @@
           "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230811194104_GS.jpeg",
           "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230811194104_SP.jpeg",
           "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230811194104_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230811194104_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230811194104_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230811194104_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230811194104_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230811194104_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230811194104_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230811194104_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230811194104_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230811194104_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230811194104_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230811194104_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230811194104_WC.jpeg"
+          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230811194104_PC.jpeg"
         },
         "name": "20230811194104"
       },
@@ -999,95 +1970,10 @@
       }
     },
     {
-      "uuid": "16777232-18105238",
-      "nameID": "20230818232112",
-      "file": {
-        "fid": 18105238,
-        "fsz": 12923113,
-        "ftm": "2023-09-13T15:00:22.563Z",
-        "fdv": 16777232
-      },
-      "info": {
-        "album": "SiteBase",
-        "image": "IMG_2208.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/SiteBase/IMG_2208.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/SiteBase/20230818232112.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/SiteBase/20230818232112.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230818232112_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230818232112_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230818232112_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230818232112_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230818232112_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230818232112_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230818232112_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230818232112_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230818232112_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230818232112_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230818232112_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230818232112_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230818232112_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230818232112_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230818232112_WC.jpeg"
-        },
-        "name": "20230818232112"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 14 Pro",
-        "ModifyDate": "2023-08-18T23:21:12.000Z",
-        "DateTimeOriginal": "2023-08-18T23:21:12.000Z",
-        "CreateDate": "2023-08-18T23:21:12.000Z",
-        "OffsetTime": "-07:00",
-        "OffsetTimeOriginal": "-07:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          47,
-          10,
-          58.52
-        ],
-        "GPSLongitudeRef": "W",
-        "GPSLongitude": [
-          120,
-          57,
-          22.51
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 587.3566760037348,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 7.8671987345412715,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 72.786865234375,
-        "GPSDateStamp": "2023:08:18",
-        "GPSHPositioningError": 4.73825918079096,
-        "latitude": 47.18292222222222,
-        "longitude": -120.95625277777778
-      },
-      "locn": {
-        "elevation": 588.2561645507812,
-        "locations": "South Cle Elum Depot, 801 Milwaukee Ave, Cle Elum, WA 98922, USA",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": -28800,
-          "status": "OK",
-          "timeZoneId": "America/Los_Angeles",
-          "timeZoneName": "Pacific Daylight Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777232-18105256",
+      "uuid": "16777232-19012402",
       "nameID": "20230901233139",
       "file": {
-        "fid": 18105256,
+        "fid": 19012402,
         "fsz": 11306426,
         "ftm": "2023-09-13T15:00:23.443Z",
         "fdv": 16777232
@@ -1102,18 +1988,7 @@
           "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230901233139_GS.jpeg",
           "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230901233139_SP.jpeg",
           "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230901233139_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230901233139_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230901233139_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230901233139_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230901233139_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230901233139_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230901233139_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230901233139_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230901233139_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230901233139_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230901233139_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230901233139_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230901233139_WC.jpeg"
+          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230901233139_PC.jpeg"
         },
         "name": "20230901233139"
       },
@@ -1169,10 +2044,10 @@
       }
     },
     {
-      "uuid": "16777232-18105287",
+      "uuid": "16777232-19012414",
       "nameID": "20230902005142",
       "file": {
-        "fid": 18105287,
+        "fid": 19012414,
         "fsz": 13758112,
         "ftm": "2023-09-13T15:00:24.981Z",
         "fdv": 16777232
@@ -1187,18 +2062,7 @@
           "FX_GS": "./PhotoTmp/3_FXRepo/SiteBase/20230902005142_GS.jpeg",
           "FX_SP": "./PhotoTmp/3_FXRepo/SiteBase/20230902005142_SP.jpeg",
           "FX_PO": "./PhotoTmp/3_FXRepo/SiteBase/20230902005142_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230902005142_PC.jpeg",
-          "web_CC": "./PhotoWeb/SiteBase/20230902005142_CC.jpeg",
-          "web_FC": "./PhotoWeb/SiteBase/20230902005142_FC.jpeg",
-          "web_GS": "./PhotoWeb/SiteBase/20230902005142_GS.jpeg",
-          "web_PC": "./PhotoWeb/SiteBase/20230902005142_PC.jpeg",
-          "web_PO": "./PhotoWeb/SiteBase/20230902005142_PO.jpeg",
-          "web_SE": "./PhotoWeb/SiteBase/20230902005142_SE.jpeg",
-          "web_SK1": "./PhotoWeb/SiteBase/20230902005142_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/SiteBase/20230902005142_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/SiteBase/20230902005142_SK3.jpeg",
-          "web_SP": "./PhotoWeb/SiteBase/20230902005142_SP.jpeg",
-          "web_WC": "./PhotoWeb/SiteBase/20230902005142_WC.jpeg"
+          "FX_PC": "./PhotoTmp/3_FXRepo/SiteBase/20230902005142_PC.jpeg"
         },
         "name": "20230902005142"
       },
@@ -1246,6 +2110,594 @@
           "status": "OK",
           "timeZoneId": "America/Los_Angeles",
           "timeZoneName": "Pacific Daylight Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012523",
+      "nameID": "20221214222336",
+      "file": {
+        "fid": 19012523,
+        "fsz": 8534731,
+        "ftm": "2023-09-19T18:08:10.451Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Jamacia",
+        "image": "IMG_0883.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Jamacia/IMG_0883.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Jamacia/20221214222336.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Jamacia/20221214222336.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Jamacia/20221214222336_PC.jpeg"
+        },
+        "name": "20221214222336"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2022-12-14T22:23:36.000Z",
+        "DateTimeOriginal": "2022-12-14T22:23:36.000Z",
+        "CreateDate": "2022-12-14T22:23:36.000Z",
+        "OffsetTime": "-05:00",
+        "OffsetTimeOriginal": "-05:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          18,
+          6,
+          26.57
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          77,
+          59,
+          26.46
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.678201599161096,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "T",
+        "GPSImgDirection": 204.01560975609755,
+        "GPSDateStamp": "2022:12:14",
+        "GPSHPositioningError": 4.620087480946385,
+        "latitude": 18.107380555555558,
+        "longitude": -77.99068333333334
+      },
+      "locn": {
+        "elevation": 3.058483600616455,
+        "locations": "4255+5J, New Hope, Jamaica",
+        "timezone": {
+          "dstOffset": 0,
+          "rawOffset": -18000,
+          "status": "OK",
+          "timeZoneId": "America/Jamaica",
+          "timeZoneName": "Eastern Standard Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012443",
+      "nameID": "20220602043008",
+      "file": {
+        "fid": 19012443,
+        "fsz": 7642001,
+        "ftm": "2023-09-19T18:08:12.997Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2360.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2360.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220602043008.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220602043008.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220602043008_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220602043008_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220602043008_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220602043008_PC.jpeg"
+        },
+        "name": "20220602043008"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-02T04:30:08.000Z",
+        "DateTimeOriginal": "2022-06-02T04:30:08.000Z",
+        "CreateDate": "2022-06-02T04:30:08.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          38,
+          42,
+          27.04
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          9,
+          8,
+          30.42
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 13.312354009862444,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.5452464794488747,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 51.401802076970064,
+        "GPSHPositioningError": 5.573574958813839,
+        "latitude": 38.70751111111112,
+        "longitude": -9.141783333333333
+      },
+      "locn": {
+        "elevation": 4.338238716125488,
+        "locations": "Tv. Cotovelo 35, 1200-182 Lisboa, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012462",
+      "nameID": "20220602162421",
+      "file": {
+        "fid": 19012462,
+        "fsz": 8475638,
+        "ftm": "2023-09-19T18:08:13.798Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2389.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2389.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220602162421.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220602162421.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220602162421_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220602162421_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220602162421_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220602162421_PC.jpeg"
+        },
+        "name": "20220602162421"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-02T16:24:21.000Z",
+        "DateTimeOriginal": "2022-06-02T16:24:21.000Z",
+        "CreateDate": "2022-06-02T16:24:21.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          38,
+          42,
+          35.58
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          9,
+          8,
+          24.82
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 50.30950550858314,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 129.1258393434469,
+        "GPSDateStamp": "2022:06:02",
+        "GPSHPositioningError": 9.032849079300453,
+        "latitude": 38.70988333333334,
+        "longitude": -9.140227777777778
+      },
+      "locn": {
+        "elevation": 33.6278190612793,
+        "locations": "R. Ivens 22, 1200-445 Lisboa, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012479",
+      "nameID": "20220602174547",
+      "file": {
+        "fid": 19012479,
+        "fsz": 9096822,
+        "ftm": "2023-09-19T18:08:30.075Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2411.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2411.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220602174547.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220602174547.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220602174547_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220602174547_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220602174547_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220602174547_PC.jpeg"
+        },
+        "name": "20220602174547"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-02T17:45:47.000Z",
+        "DateTimeOriginal": "2022-06-02T17:45:47.000Z",
+        "CreateDate": "2022-06-02T17:45:47.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          38,
+          42,
+          44.39
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          9,
+          8,
+          18.31
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 11.089360367892976,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 209.08555611474586,
+        "GPSHPositioningError": 4.821938512992025,
+        "latitude": 38.71233055555556,
+        "longitude": -9.138419444444445
+      },
+      "locn": {
+        "elevation": 8.608925819396973,
+        "locations": "R. de Santa Justa 66, 1100-052 Lisboa, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012486",
+      "nameID": "20220608181214",
+      "file": {
+        "fid": 19012486,
+        "fsz": 3250987,
+        "ftm": "2023-09-19T18:09:06.317Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2778.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2778.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220608181214.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220608181214.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220608181214_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220608181214_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220608181214_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220608181214_PC.jpeg"
+        },
+        "name": "20220608181214"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-08T18:12:14.000Z",
+        "DateTimeOriginal": "2022-06-08T18:12:14.000Z",
+        "CreateDate": "2022-06-08T18:12:14.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          37,
+          5,
+          9.28
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          8,
+          13,
+          0.94
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 9.173407368500037,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 150.17937853107344,
+        "GPSDateStamp": "2022:06:08",
+        "GPSHPositioningError": 4.747137083192994,
+        "latitude": 37.085911111111116,
+        "longitude": -8.216927777777778
+      },
+      "locn": {
+        "elevation": 7.026129245758057,
+        "locations": "3QPM+96 Albufeira, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012480",
+      "nameID": "20220608193548",
+      "file": {
+        "fid": 19012480,
+        "fsz": 7600068,
+        "ftm": "2023-09-19T18:09:07.733Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2807.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2807.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220608193548.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220608193548.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220608193548_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220608193548_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220608193548_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220608193548_PC.jpeg"
+        },
+        "name": "20220608193548"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-08T19:35:48.000Z",
+        "DateTimeOriginal": "2022-06-08T19:35:48.000Z",
+        "CreateDate": "2022-06-08T19:35:48.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          37,
+          5,
+          9.22
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          8,
+          14,
+          39.53
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 5.356772740073219,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 272.24359133126933,
+        "GPSHPositioningError": 4.738227807826917,
+        "latitude": 37.08589444444445,
+        "longitude": -8.244313888888888
+      },
+      "locn": {
+        "elevation": 5.819503307342529,
+        "locations": "Av. Infante Dom Henrique 68 8200, 8200, 8200 Albufeira, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 1920,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012504",
+      "nameID": "20220609224137",
+      "file": {
+        "fid": 19012504,
+        "fsz": 26856742,
+        "ftm": "2022-06-09T14:41:37.308Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2857.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2857.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220609224137.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220609224137.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220609224137_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220609224137_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220609224137_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220609224137_PC.jpeg"
+        },
+        "name": "20220609224137"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-09T22:41:37.000Z",
+        "DateTimeOriginal": "2022-06-09T22:41:37.000Z",
+        "CreateDate": "2022-06-09T22:41:37.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 12820,
+        "ExifImageHeight": 3832,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          36,
+          59,
+          9.49
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          7,
+          50,
+          22.24
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 11.270259865255053,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 5.93988037109375,
+        "GPSDateStamp": "2022:06:09",
+        "GPSHPositioningError": 3.5355339046563916,
+        "latitude": 36.98596944444444,
+        "longitude": -7.83951111111111
+      },
+      "locn": {
+        "elevation": 4.981948852539062,
+        "locations": "X5P6+95 Faro, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
+        }
+      },
+      "size": {
+        "height": 765,
+        "width": 2560
+      }
+    },
+    {
+      "uuid": "16777232-19012476",
+      "nameID": "20220610213226",
+      "file": {
+        "fid": 19012476,
+        "fsz": 7527592,
+        "ftm": "2023-09-19T18:09:16.964Z",
+        "fdv": 16777232
+      },
+      "info": {
+        "album": "Portugal",
+        "image": "IMG_2885.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Portugal/IMG_2885.jpeg",
+          "copy": "./PhotoTmp/1_RenamePhotos/Portugal/20220610213226.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Portugal/20220610213226.jpeg",
+          "FX_GS": "./PhotoTmp/3_FXRepo/Portugal/20220610213226_GS.jpeg",
+          "FX_SP": "./PhotoTmp/3_FXRepo/Portugal/20220610213226_SP.jpeg",
+          "FX_PO": "./PhotoTmp/3_FXRepo/Portugal/20220610213226_PO.jpeg",
+          "FX_PC": "./PhotoTmp/3_FXRepo/Portugal/20220610213226_PC.jpeg"
+        },
+        "name": "20220610213226"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 12 Pro",
+        "ModifyDate": "2022-06-10T21:32:26.000Z",
+        "DateTimeOriginal": "2022-06-10T21:32:26.000Z",
+        "CreateDate": "2022-06-10T21:32:26.000Z",
+        "OffsetTime": "+01:00",
+        "OffsetTimeOriginal": "+01:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "N",
+        "GPSLatitude": [
+          38,
+          34,
+          15.14
+        ],
+        "GPSLongitudeRef": "W",
+        "GPSLongitude": [
+          7,
+          54,
+          32.9
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 295.09425403225805,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 145.22718808193667,
+        "GPSHPositioningError": 35,
+        "latitude": 38.57087222222223,
+        "longitude": -7.909138888888889
+      },
+      "locn": {
+        "elevation": 294.0157470703125,
+        "locations": "Praça do Giraldo 46, 7000-508 Évora, Portugal",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 0,
+          "status": "OK",
+          "timeZoneId": "Europe/Lisbon",
+          "timeZoneName": "Western European Summer Time"
         }
       },
       "size": {
