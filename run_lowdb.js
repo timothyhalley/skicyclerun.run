@@ -65,12 +65,14 @@ async function db_Size(objName) {
 }
 
 async function db_getPhotos() {
-  // db._ = _.chain(db.data)
-  // let pDB = await db._.get('photos')
-  //     .value()
-  // return pDB
 
-  return db.data.photos;
+  // filter 'OUT' special ALBUMS
+  // * SVGPhotos
+  // note: no filter = return db.data.photos;
+
+  let dbPhotos = _.filter(db.data.photos, photos => photos.info.album != "SVGPhotos")
+
+  return dbPhotos;
 }
 
 async function db_getPhotoByName(nameKey) {
@@ -194,10 +196,6 @@ async function db_Upsert(photoObj) {
   }
   await db.write();
 
-  // db._ = _.chain(db.data)
-  // await db._
-  //     .upsert(photoObj, 'uuid')
-  //     .write()
 }
 
 _.mixin({
@@ -285,3 +283,14 @@ async function dumpObj(obj) {
 
 //     return photos;
 // }
+
+/// filter / get photos
+// db._ = _.chain(db.data)
+// let pDB = await db._.get('photos')
+//     .value()
+// return pDB
+
+// db._ = _.chain(db.data)
+// await db._
+//     .upsert(photoObj, 'uuid')
+//     .write()
