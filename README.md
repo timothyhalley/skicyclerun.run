@@ -2,6 +2,17 @@
 
 RUN is a supportive repo to take photos from your MAC Photo app and publish them, fully ready & optimized, to a public AWS S3 bucket for use.
 
+## Quick start
+
+- Clone repo from GitHub
+  - Have all prerequisites installed: nodejs/npm
+- Install libraries: npm i
+- Get API keys
+  - GoogleAPI (see below for required APIs)
+  - AWS S3 
+- Albums: select albums from osxPhotoExporter
+- Run: npm run start
+
 ## Active URL
 
 [https://skicyclerun.com](https://skicyclerun.com)
@@ -11,8 +22,13 @@ RUN is a supportive repo to take photos from your MAC Photo app and publish them
 This repo ties the necessary artifacts to the front end - not part of a DevOps pipeline but could be coupled at a later time.
 
 ## AWS Location Services
+This is a stretch to consolidate everything to one platform. So instead of GoogleAPI,
+use AWS location map services:
+ * https://us-west-2.console.aws.amazon.com/location/home?c=lc&p=pm&region=us-west-2&z=1#/
 
-https://us-west-2.console.aws.amazon.com/location/home?c=lc&p=pm&region=us-west-2&z=1#/
+## AWS S3 Access
+Need to setup access for CLI to access S3 services. Proceed to AWS console and create new keys in IAM that has access to write files to the S3 bucket that photos will be pushed to.
+
 
 ## del - Delete files and directories using globs
 
@@ -37,13 +53,20 @@ https://github.com/timothyhalley/run.skicyclerun.com
   * brew install imagemagick
   * brew install graphicsmagick
   * npm upgrade
-  * setup necessary keys in ".env" file. This is exclude from GIT repo. See below for google APIs 
+  * setup necessary keys in ".env" file. This is excluded from GIT repo. See below for google APIs 
 
 ## Google API for geo processing
 
 1. Need to register for a developer key to run google API. One should already have a GCP portal / console account available: 'https://console.cloud.google.com'
 2. Go to the project selector page in this case 'Project: SkiCycleRun'
 3. Select or Search for section: 'APIs & Services' - 'https://console.cloud.google.com/apis/credentials'
+  * Geocoding API
+  * Geolocation API
+  * Maps Elevation API
+  * Maps JavaScript API
+  * Maps Static API
+  * Places API
+  * Time Zone API
 4. Create a new key or copy already existing key to clipboard.
 5. Place key into ".env" file for 'googleAPI:key'
   * GOOGLE_API_KEY="API_KEY_FROM_CONSOLE"
@@ -119,7 +142,7 @@ https://github.com/timothyhalley/run.skicyclerun.com
         - Name = www
         - Region = westus2
         - SKU = Free
-        - Repository = https://github.com/timothyhalley/www.cascadezen.com
+        - Repository = https://github.com/timothyhalley/skicyclerun.com
         - Branch = master
         - App location = /
         - API location = api

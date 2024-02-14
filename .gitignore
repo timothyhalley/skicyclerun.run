@@ -11,7 +11,7 @@ package-lock.json
 key.json
 .env
 aws-credentials.json
-db.json
+photoDB.json
 
 # Compiled source #
 ###################
