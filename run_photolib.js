@@ -181,6 +181,10 @@ async function photoFXMaker(tmpDir, FXStyle) {
         await _gm.charcoal(pObj);
         break;
 
+      case "Transparent":
+        await _gm.transparent(pObj);
+        break;
+
       case "noOpt":
       default:
         logit(ERR, "photoFXMaker", "No FX defined");
@@ -428,7 +432,7 @@ async function svgText2Image(pObj) {
   let svgLoc = pObj.locn.locations;
   // svgLoc = svgLoc.replace(/[A-Z]*[0-9]|[A-Z]*\+[A-Z]|[A-Z]*\+/g, "");
   // let svgTxt = svgLoc.split(",");
-  let svgYear = "2023";
+  let svgYear = "2024";
 
   // var svgCountry = svgTxt.length >= 0 ? svgTxt.pop() : "Earth";
   // var svgState = svgTxt.length >= 0 ? svgTxt.pop() : "Wind";

@@ -7,9 +7,15 @@ RUN is a supportive repo to take photos from your MAC Photo app and publish them
 - Clone repo from GitHub
   - Have all prerequisites installed: nodejs/npm
 - Install libraries: npm i
-- Get API keys
+- Get API keys into .env file
   - GoogleAPI (see below for required APIs)
-  - AWS S3 
+  - AWS S3
+  - eg: .env file -->
+
+    GOOGLE_API_KEY=[value]
+    aws_access_key_id = [value] 
+    aws_secret_access_key = [value]
+
 - Albums: select albums from osxPhotoExporter
 - Run: npm run start
 
@@ -21,13 +27,15 @@ RUN is a supportive repo to take photos from your MAC Photo app and publish them
 
 This repo ties the necessary artifacts to the front end - not part of a DevOps pipeline but could be coupled at a later time.
 
-## AWS Location Services
+## AWS Location Services - Not yet implemented! Have everthing in the AWS eco-system
 This is a stretch to consolidate everything to one platform. So instead of GoogleAPI,
 use AWS location map services:
  * https://us-west-2.console.aws.amazon.com/location/home?c=lc&p=pm&region=us-west-2&z=1#/
 
 ## AWS S3 Access
 Need to setup access for CLI to access S3 services. Proceed to AWS console and create new keys in IAM that has access to write files to the S3 bucket that photos will be pushed to.
+ - Run: `aws configure sso`
+ - Edit: `cat ~/.aws/creditials >>.env` or add AWS keys manually to .env file
 
 
 ## del - Delete files and directories using globs
