@@ -34,7 +34,7 @@ import {
   DeleteBucketCommand,
   GetObjectCommand,
   GetObjectAttributesCommand,
-  ListObjectsCommand,
+  ListObjectsV2Command,
 } from "@aws-sdk/client-s3";
 
 // Module Constants
@@ -45,7 +45,7 @@ const FIG = "fig";
 const BUG = "debug";
 const SLL = "sllog";
 
-export { listBucket, createBucket, putObject, upLoadAlbums };
+export { listBucket, listBucketItems, createBucket, putObject, upLoadAlbums };
 
 // Module CONST
 
@@ -87,6 +87,7 @@ async function listBucket(S3BUCKET) {
       Bucket: S3BUCKET,
     };
     let getBucketList = new ListObjectsCommand(cmdParams);
+
     let bucket_data = await sndCommand(getBucketList);
     let bucketContents = bucket_data.Contents;
     logit(SLL, "start", `Processing: ${S3BUCKET} - Start`);
@@ -102,6 +103,37 @@ async function listBucket(S3BUCKET) {
     return null;
   }
 }
+
+async function listBucketItems(S3BUCKET) {
+
+  const AWSID = process.env.aws_access_key_id
+  const AWSXX = process.env.aws_secret_access_key
+
+  const client = new S3Client({
+    region: "us-west-2",
+    credentials: {
+      accessKeyId: AWSID,
+      secretAccessKey: AWSXX,
+    },
+  });
+
+  const command = new ListObjectsV2Command({
+    Bucket: S3BUCKET,
+    MaxKeys: 10, // default 1000
+  });
+
+  try {
+
+    console.log("Your bucket contains the following objects:\n");
+    let contents = "";
+    const { Contents } = await client.send(command);
+    const contentsList = Contents.map((c) => ` • ${c.Key}`).join("\n");
+
+    console.log(contentsList);
+  } catch (err) {
+    console.error(err);
+  }
+};
 
 async function putObject(S3BUCKET, inFile) {
   // https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/modules/putobjectrequest.html#body
@@ -159,10 +191,16 @@ async function createBucket(bucket) {
 }
 
 async function sndCommand(command) {
+
+  const AWSID = process.env.aws_access_key_id
+  const AWSXX = process.env.aws_secret_access_key
+
   const s3 = new S3Client({
     region: "us-west-2",
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    credentials: {
+      accessKeyId: AWSID,
+      secretAccessKey: AWSXX,
+    },
   });
 
   try {

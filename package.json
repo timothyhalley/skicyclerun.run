@@ -5,7 +5,8 @@
   "main": "run_tasks.js",
   "scripts": {
     "start": "node run_tasks.js",
-    "tasks": "node run_tasks.js"
+    "tasks": "node run_tasks.js",
+    "test": "node run_test.js"
   },
   "author": "Timothy Halley",
   "license": "ISC",
