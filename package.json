@@ -17,6 +17,7 @@
     "axios": "latest",
     "boxen": "latest",
     "chalk": "latest",
+    "core-js": "latest",
     "del": "latest",
     "dotenv": "latest",
     "execa": "latest",

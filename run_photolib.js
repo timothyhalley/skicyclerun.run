@@ -480,7 +480,14 @@ async function getPhotolocations(lat, lon, photoDate) {
   // console.log('Final Pic Data: ', photoData)
   return pLoc;
 }
+async function calcImageScale2(imgWidth, imgHeight, imgPCT) {
 
+  return {
+    height: newHeight,
+    width: newWidth,
+  };
+
+}
 async function calcImageScale(imgWidth, imgHeight, imgPCT) {
   //https://flothemes.com/flothemes-image-sizes/
   // GRIDSOME: https://gridsome.org/docs/images/

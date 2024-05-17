@@ -7,6 +7,7 @@ const AWSID = process.env.aws_access_key_id
 const AWSXX = process.env.aws_secret_access_key
 
 const client = new S3Client({
+    region: "us-west-2",
     credentials: {
         accessKeyId: AWSID,
         secretAccessKey: AWSXX,
