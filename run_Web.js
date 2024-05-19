@@ -22,7 +22,8 @@ export { runWeb };
 
 // Master queue to process images
 async function runWeb(dirIn, fxDir, dirOut) {
-  const REDUX = 95; // % value
+  const P_MAXWIDTH = 1024;
+  const P_MAXHEIGHT = 1024;
   const photoDir = dirIn + fxDir;
   let numPhotos = 0;
   let mbSaved = 0;
@@ -34,10 +35,11 @@ async function runWeb(dirIn, fxDir, dirOut) {
 
     let inStat = await _xo.getFileInfo(inPhoto);
     let inFileSz = await _utl.getPhotoSize(inPhoto);
-    let outPhotoSz = await _utl.calcImageScale(
+    let outPhotoSz = await _utl.calcImageScale2(
       inFileSz.width,
       inFileSz.height,
-      REDUX
+      P_MAXWIDTH,
+      P_MAXHEIGHT
     );
 
     let outPhoto = inPhoto.replace(dirIn, dirOut);
@@ -47,8 +49,7 @@ async function runWeb(dirIn, fxDir, dirOut) {
     logit(
       SLL,
       "info",
-      `Compressing: ${smlFile} (ratio: ${REDUX} - W:${inFileSz.width}➡${
-        outPhotoSz.width
+      `Compressing: ${smlFile} (ratio: W:${inFileSz.width}➡${outPhotoSz.width
       } H:${inFileSz.height}➡${outPhotoSz.height}) - total: ${_xo.niceBytes(
         mbSaved
       )}`

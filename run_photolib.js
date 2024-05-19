@@ -9,12 +9,13 @@ export {
   photoData,
   photoRename,
   photoScale,
+  copyRight,
   photoFXMaker,
   photoFXGreyScale,
   photoCompress,
   getPhotoEXIF,
   getPhotoSize,
-  calcImageScale
+  calcImageScale2
 };
 
 // Node modules
@@ -39,6 +40,8 @@ const FIG = "fig";
 const ERR = "err";
 const BUG = "debug";
 const SLL = "sllog";
+const PHOTO_MAXWIDTH = 1024;
+const PHOTO_MAXHEIGHT = 1024;
 
 // ***
 // *** --- photo library utilities
@@ -115,6 +118,35 @@ async function photoScale(tmpDir) {
   }
 
   logit(SLL, "stop", "Photo Scale - Fini");
+  return numPhotos;
+}
+
+async function copyRight(tmpDir) {
+  let inDir = tmpDir + "/3_FXRepo"
+  let outDir = tmpDir + "/4_CopyRight";
+  await _xo.checkDirectory(outDir); // Make directory for process
+
+  let arrFiles = await _xo.getDirFiles(inDir, "JPEG",
+    "JPG",
+    "GIF",
+    "SVG")
+  let pDB = await _db.db_getPhotos();
+  let numPhotos = 0;
+  logit(SLL, "start", "CopyRight - Start");
+  for (const file of arrFiles) {
+    numPhotos++;
+    let pathID = file.split('/').pop().split('_')[0];
+    logit(
+      SLL,
+      "info",
+      `photo: ${numPhotos} of ${arrFiles.length}\t → ${pathID}`
+    );
+    let nameKey = file.split('/').pop().split('.')[0];
+    let pObj = await _db.db_getPhotoByName(pathID)
+    await setCopyRight(file, pObj);
+    logit(SLL, "info", `photo: ${pathID} - COMPLETE`);
+  }
+  logit(SLL, "stop", "CopyRight - Fini");
   return numPhotos;
 }
 
@@ -315,10 +347,11 @@ async function getPhotoData(filepath) {
   let pLoc = await getPhotolocations(pExif.latitude, pExif.longitude, ogDate);
 
   // Get image size
-  let pSize = await calcImageScale(
+  let pSize = await calcImageScale2(
     pExif.ExifImageWidth,
     pExif.ExifImageHeight,
-    100
+    PHOTO_MAXWIDTH,
+    PHOTO_MAXHEIGHT
   ); // 100%
 
   let pData = {
@@ -381,8 +414,34 @@ async function getPhotoSize(photo) {
   return imageSize(photo);
 }
 
+async function setCopyRight(photoPath, pObj) {
+  try {
+
+    let newPhotoPath = photoPath.replace("3_FXRepo", "4_CopyRight");
+    await _xo.checkDirectory(newPhotoPath); // create any new album folders for SHARP
+
+    let svgImage = await svgText2Image(pObj);
+    const svgBuffer = Buffer.from(svgImage);
+
+    await sharp(photoPath)
+      .composite([
+        { input: svgBuffer, top: 10, left: 10, title: true },
+      ])
+      .withMetadata()
+      .jpeg({
+        quality: 100,
+      })
+      .toFile(newPhotoPath);
+
+    await _db.db_addNewPath(pObj, "copyright", newPhotoPath);
+  }
+  catch (err) {
+    logit(ERR, "photoLib:setCopyRight", err);
+  }
+}
 async function setPhotoResize(pObj) {
   // consider --> https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/
+  // sharp: https://sharp.pixelplumbing.com/api-resize
 
   try {
     let width = pObj.size.width;
@@ -393,22 +452,23 @@ async function setPhotoResize(pObj) {
 
     await _xo.checkDirectory(newPhotoPath); // create any new album folders for SHARP
 
-    let svgImage = await svgText2Image(pObj);
-    const svgBuffer = Buffer.from(svgImage);
+    // let svgImage = await svgText2Image(pObj);
+    // const svgBuffer = Buffer.from(svgImage);
     // console.log(`DEBUG: ${pObj.info.image} - has a w/h of: ${width} & ${height}`)
     await sharp(photoPath)
       .resize({
         width: width,
         height: height,
-        kernel: sharp.kernel.nearest,
-        fit: "inside",
+        // kernel: sharp.kernel.nearest,
+        kernel: 'lanczos3',
+        fit: "cover",
         position: "center",
-        background: { r: 255, g: 255, b: 255, alpha: 0.5 },
+        background: { r: 255, g: 255, b: 255, alpha: 0.5 }, // semi-transparent white
       })
-      .composite([
-        // { input: './skicyclerun_logo.png', top: 75, left: 75, title: true },
-        { input: svgBuffer, top: 10, left: 10, title: true },
-      ])
+      // .composite([
+      //   // { input: './skicyclerun_logo.png', top: 75, left: 75, title: true },
+      //   { input: svgBuffer, top: 10, left: 10, title: true },
+      // ])
       .withMetadata()
       .jpeg({
         quality: 100,
@@ -422,14 +482,32 @@ async function setPhotoResize(pObj) {
   }
 }
 
+function splitLocation(str) {
+  // Split the string into an array of words
+  const words = str.split(' ');
+
+  // Get the last two tokens
+  const lastTwoTokens = words.slice(-2).join(' ');
+
+  // Get the remaining part of the string
+  const remainingString = words.slice(0, -2).join(' ');
+
+  // Return the two parts
+  return {
+    streetLoc: remainingString,
+    cityCountryLoc: lastTwoTokens
+  };
+}
+
 async function svgText2Image(pObj) {
   // https://jakearchibald.github.io/svgomg/
   // https://vectr.com/design/editor
 
-  const svgWidth = (pObj.size.width * 0.28).toFixed();
-  const svgHeight = (pObj.size.height * 0.1).toFixed();
+  const svgWidth = (pObj.size.width * 0.50).toFixed();
+  const svgHeight = (pObj.size.height * 0.20).toFixed();
   const svgElev = pObj.locn.elevation.toFixed(2);
-  let svgLoc = pObj.locn.locations;
+  const { streetLoc, cityCountryLoc } = splitLocation(pObj.locn.locations);
+  // let svgLoc = pObj.locn.locations;
   // svgLoc = svgLoc.replace(/[A-Z]*[0-9]|[A-Z]*\+[A-Z]|[A-Z]*\+/g, "");
   // let svgTxt = svgLoc.split(",");
   let svgYear = "2024";
@@ -443,12 +521,13 @@ async function svgText2Image(pObj) {
         <title>SkiCycleRun</title>
         <style>
             .small { font: italic 18px sans-serif; fill: gold; }
-            .heavy { font: bold 30px sans-serif; fill: blue; }
-            .strong { font: italic 40px serif; fill: black; }
-            .title { font: bold 38px cambria; fill=black}
+            .heavy { font: bold 18px sans-serif; fill: red; }
+            .strong { font: italic 28px serif; fill: black; }
+            .title { font: bold 28px cambria; fill=black}
         </style>
         <text x="100" y="40" class="title">SkiCycleRun.com © ${svgYear}</text>
-        <text x="100" y="75" class="small">${svgLoc}</text>
+        <text x="100" y="75" class="small">${streetLoc}</text>
+        <text x="100" y="105" class="heavy">${cityCountryLoc}</text>
     </svg>
     `;
 
@@ -480,14 +559,26 @@ async function getPhotolocations(lat, lon, photoDate) {
   // console.log('Final Pic Data: ', photoData)
   return pLoc;
 }
-async function calcImageScale2(imgWidth, imgHeight, imgPCT) {
+async function calcImageScale2(originalWidth, originalHeight, maxWidth, maxHeight) {
 
-  return {
-    height: newHeight,
-    width: newWidth,
-  };
+  // Calculate the original aspect ratio
+  // const originalRatio = originalWidth / originalHeight;
+  const newRatio = maxWidth / maxHeight;
 
+  // Determine the new width and height based on the max values
+  let newWidth = maxWidth;
+  let newHeight = Math.round(maxWidth / newRatio);
+
+  // If the new height exceeds the max height, recalculate both
+  if (newHeight > maxHeight) {
+    newHeight = maxHeight;
+    newWidth = Math.round(maxHeight * newRatio);
+  }
+
+  // Return the new dimensions
+  return { width: newWidth, height: newHeight };
 }
+
 async function calcImageScale(imgWidth, imgHeight, imgPCT) {
   //https://flothemes.com/flothemes-image-sizes/
   // GRIDSOME: https://gridsome.org/docs/images/

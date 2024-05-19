@@ -1,17 +1,17 @@
 {
   "info": [
     {
-      "rundate": "Thu May 16 2024 12:40:29 GMT-0700 (Pacific Daylight Time)",
+      "rundate": "Sun May 19 2024 13:12:17 GMT-0700 (Pacific Daylight Time)",
       "author": "SkiCycleRun"
     }
   ],
   "photos": [
     {
-      "uuid": "16777231-34003579",
+      "uuid": "16777231-45708899",
       "nameID": "20220612003310",
       "file": {
-        "fid": 34003579,
-        "fsz": 5787650,
+        "fid": 45708899,
+        "fsz": 2581957,
         "ftm": "2022-06-11T15:33:10.043Z",
         "fdv": 16777231
       },
@@ -22,14 +22,19 @@
           "orig": "./PhotoLib/Barcelona/IMG_2928.jpeg",
           "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612003310.jpeg",
           "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612003310.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612003310_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612003310_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612003310_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612003310_PC.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220612003310_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Barcelona/20220612003310_CC.jpeg",
           "web_GS": "./PhotoWeb/Barcelona/20220612003310_GS.jpeg",
           "web_PC": "./PhotoWeb/Barcelona/20220612003310_PC.jpeg",
           "web_PO": "./PhotoWeb/Barcelona/20220612003310_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612003310_SP.jpeg"
+          "web_SE": "./PhotoWeb/Barcelona/20220612003310_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Barcelona/20220612003310_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Barcelona/20220612003310_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Barcelona/20220612003310_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Barcelona/20220612003310_SP.jpeg",
+          "web_TP": "./PhotoWeb/Barcelona/20220612003310_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Barcelona/20220612003310_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Barcelona/20220612003310_WC2.jpeg"
         },
         "name": "20220612003310"
       },
@@ -80,482 +85,16 @@
         }
       },
       "size": {
-        "height": 1920,
-        "width": 2560
+        "width": 1024,
+        "height": 1024
       }
     },
     {
-      "uuid": "16777231-34003580",
-      "nameID": "20220612003819",
-      "file": {
-        "fid": 34003580,
-        "fsz": 7824882,
-        "ftm": "2022-06-11T15:38:19.688Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2930.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2930.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612003819.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612003819.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612003819_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612003819_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612003819_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612003819_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612003819_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612003819_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612003819_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612003819_SP.jpeg"
-        },
-        "name": "20220612003819"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T00:38:19.000Z",
-        "DateTimeOriginal": "2022-06-12T00:38:19.000Z",
-        "CreateDate": "2022-06-12T00:38:19.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          1.13
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          10,
-          14.52
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 14.818586342632209,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 92.8723526044648,
-        "GPSDateStamp": "2022:06:11",
-        "GPSHPositioningError": 35.666666666666664,
-        "latitude": 41.38364722222222,
-        "longitude": 2.1707
-      },
-      "locn": {
-        "elevation": 12.54996681213379,
-        "locations": "C/ del Pintor Fortuny, 2, Ciutat Vella, 08001 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003586",
-      "nameID": "20220612014652",
-      "file": {
-        "fid": 34003586,
-        "fsz": 5533436,
-        "ftm": "2022-06-11T16:46:52.539Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2937.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2937.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612014652.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612014652.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612014652_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612014652_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612014652_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612014652_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612014652_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612014652_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612014652_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612014652_SP.jpeg"
-        },
-        "name": "20220612014652"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T01:46:52.000Z",
-        "DateTimeOriginal": "2022-06-12T01:46:52.000Z",
-        "CreateDate": "2022-06-12T01:46:52.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 3088,
-        "ExifImageHeight": 2316,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          23.27
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          10,
-          5.82
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 34.55257801899593,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 232.11854951185495,
-        "GPSDateStamp": "2022:06:11",
-        "GPSHPositioningError": 15.777411657766162,
-        "latitude": 41.38979722222222,
-        "longitude": 2.168283333333333
-      },
-      "locn": {
-        "elevation": 22.7291431427002,
-        "locations": "Pg. de Gràcia, 18, L'Eixample, 08007 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003587",
-      "nameID": "20220612020147",
-      "file": {
-        "fid": 34003587,
-        "fsz": 10021510,
-        "ftm": "2022-06-11T17:01:47.862Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2939.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2939.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612020147.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612020147.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612020147_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612020147_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612020147_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612020147_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612020147_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612020147_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612020147_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612020147_SP.jpeg"
-        },
-        "name": "20220612020147"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T02:01:47.000Z",
-        "DateTimeOriginal": "2022-06-12T02:01:47.000Z",
-        "CreateDate": "2022-06-12T02:01:47.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          42.15
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          9,
-          41.58
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 41.115979161328895,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 95.81451408272012,
-        "GPSHPositioningError": 14.245450606585788,
-        "latitude": 41.395041666666664,
-        "longitude": 2.16155
-      },
-      "locn": {
-        "elevation": 37.94181442260742,
-        "locations": "Pg. de Gràcia, 92, L'Eixample, 08008 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003588",
-      "nameID": "20220612045633",
-      "file": {
-        "fid": 34003588,
-        "fsz": 7727505,
-        "ftm": "2022-06-11T19:56:33.209Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2953.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2953.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612045633.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612045633.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612045633_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612045633_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612045633_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612045633_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612045633_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612045633_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612045633_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612045633_SP.jpeg"
-        },
-        "name": "20220612045633"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T04:56:33.000Z",
-        "DateTimeOriginal": "2022-06-12T04:56:33.000Z",
-        "CreateDate": "2022-06-12T04:56:33.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          3.25
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          10,
-          11.19
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 15.543037049530556,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 354.3014527845036,
-        "GPSHPositioningError": 14.871503426037888,
-        "latitude": 41.38423611111111,
-        "longitude": 2.169775
-      },
-      "locn": {
-        "elevation": 11.70129489898682,
-        "locations": "Carrer de les Sitges, 2, Ciutat Vella, 08001 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003609",
-      "nameID": "20220612192326",
-      "file": {
-        "fid": 34003609,
-        "fsz": 1857698,
-        "ftm": "2022-06-12T10:23:26.054Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2964.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2964.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612192326.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612192326.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612192326_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612192326_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612192326_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612192326_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612192326_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612192326_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612192326_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612192326_SP.jpeg"
-        },
-        "name": "20220612192326"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T19:23:26.000Z",
-        "DateTimeOriginal": "2022-06-12T19:23:26.000Z",
-        "CreateDate": "2022-06-12T19:23:26.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          22,
-          57.67
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          6,
-          38.36
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 74.0528936742934,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 32.35842895792518,
-        "GPSDateStamp": "2022:06:12",
-        "GPSHPositioningError": 14.28891944253484,
-        "latitude": 41.38268611111111,
-        "longitude": 2.1106555555555557
-      },
-      "locn": {
-        "elevation": 72.58322143554688,
-        "locations": "Av. Dr. Marañón, 19-31, Les Corts, 08028 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003610",
-      "nameID": "20220612212628",
-      "file": {
-        "fid": 34003610,
-        "fsz": 12376441,
-        "ftm": "2022-06-12T12:26:28.797Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2978.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2978.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612212628.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612212628.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612212628_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612212628_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612212628_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612212628_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612212628_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612212628_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612212628_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612212628_SP.jpeg"
-        },
-        "name": "20220612212628"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T21:26:28.000Z",
-        "DateTimeOriginal": "2022-06-12T21:26:28.000Z",
-        "CreateDate": "2022-06-12T21:26:28.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          21.68
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          7,
-          48.83
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 62.79959239130435,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 1.8985643014313414,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 74.87378693120552,
-        "GPSDateStamp": "2022:06:12",
-        "GPSHPositioningError": 4.832891637220259,
-        "latitude": 41.389355555555554,
-        "longitude": 2.1302305555555554
-      },
-      "locn": {
-        "elevation": 63.02769088745117,
-        "locations": "Av. Diagonal, 660X, Les Corts, 08034 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003611",
+      "uuid": "16777231-45708912",
       "nameID": "20220612215305",
       "file": {
-        "fid": 34003611,
-        "fsz": 10703257,
+        "fid": 45708912,
+        "fsz": 4733608,
         "ftm": "2022-06-12T12:53:05.448Z",
         "fdv": 16777231
       },
@@ -566,14 +105,19 @@
           "orig": "./PhotoLib/Barcelona/IMG_2981.jpeg",
           "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612215305.jpeg",
           "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612215305.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612215305_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612215305_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612215305_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612215305_PC.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220612215305_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Barcelona/20220612215305_CC.jpeg",
           "web_GS": "./PhotoWeb/Barcelona/20220612215305_GS.jpeg",
           "web_PC": "./PhotoWeb/Barcelona/20220612215305_PC.jpeg",
           "web_PO": "./PhotoWeb/Barcelona/20220612215305_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612215305_SP.jpeg"
+          "web_SE": "./PhotoWeb/Barcelona/20220612215305_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Barcelona/20220612215305_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Barcelona/20220612215305_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Barcelona/20220612215305_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Barcelona/20220612215305_SP.jpeg",
+          "web_TP": "./PhotoWeb/Barcelona/20220612215305_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Barcelona/20220612215305_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Barcelona/20220612215305_WC2.jpeg"
         },
         "name": "20220612215305"
       },
@@ -623,403 +167,16 @@
         }
       },
       "size": {
-        "height": 1920,
-        "width": 2560
+        "width": 1024,
+        "height": 1024
       }
     },
     {
-      "uuid": "16777231-34003626",
-      "nameID": "20220612222924",
-      "file": {
-        "fid": 34003626,
-        "fsz": 5981519,
-        "ftm": "2022-06-12T13:29:24.168Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_2995.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2995.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612222924.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612222924.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220612222924_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220612222924_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220612222924_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220612222924_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612222924_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612222924_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612222924_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612222924_SP.jpeg"
-        },
-        "name": "20220612222924"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T22:29:24.000Z",
-        "DateTimeOriginal": "2022-06-12T22:29:24.000Z",
-        "CreateDate": "2022-06-12T22:29:24.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          15
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          11,
-          52.87
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 8.408060889119529,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 297.09381107491856,
-        "GPSHPositioningError": 4.746562553047021,
-        "latitude": 41.3875,
-        "longitude": 2.1980194444444443
-      },
-      "locn": {
-        "elevation": 6.478232383728027,
-        "locations": "Carrer de la Marina, 16, LOCAL 5, Sant Martí, 08005 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003649",
-      "nameID": "20220613062632",
-      "file": {
-        "fid": 34003649,
-        "fsz": 5437218,
-        "ftm": "2022-06-12T21:26:32.794Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_3026.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_3026.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220613062632.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220613062632.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220613062632_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220613062632_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220613062632_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220613062632_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220613062632_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220613062632_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220613062632_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220613062632_SP.jpeg"
-        },
-        "name": "20220613062632"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-13T06:26:32.000Z",
-        "DateTimeOriginal": "2022-06-13T06:26:32.000Z",
-        "CreateDate": "2022-06-13T06:26:32.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 3088,
-        "ExifImageHeight": 2316,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          23,
-          5.12
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          10,
-          14.07
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 15.519752035979094,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 159.93054187192118,
-        "GPSDateStamp": "2022:06:12",
-        "GPSHPositioningError": 28.59065947184948,
-        "latitude": 41.38475555555556,
-        "longitude": 2.170575
-      },
-      "locn": {
-        "elevation": 13.29380798339844,
-        "locations": "Rambla de Canaletes, 127, Ciutat Vella, 08002 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003651",
-      "nameID": "20220614200444",
-      "file": {
-        "fid": 34003651,
-        "fsz": 9794494,
-        "ftm": "2022-06-14T11:04:44.845Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_3118.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_3118.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220614200444.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220614200444.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220614200444_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220614200444_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220614200444_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220614200444_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220614200444_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220614200444_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220614200444_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220614200444_SP.jpeg"
-        },
-        "name": "20220614200444"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-14T20:04:44.000Z",
-        "DateTimeOriginal": "2022-06-14T20:04:44.000Z",
-        "CreateDate": "2022-06-14T20:04:44.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          24,
-          55.07
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          9,
-          14.03
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 167.07749160134378,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 227.29089376053963,
-        "GPSDateStamp": "2022:06:14",
-        "GPSHPositioningError": 4.73113093802749,
-        "latitude": 41.41529722222222,
-        "longitude": 2.153897222222222
-      },
-      "locn": {
-        "elevation": 169.4428558349609,
-        "locations": "Itinerari de la Biodiversitat, Av. del Santuari de St. Josep de la Muntanya, Gràcia, 08024 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003652",
-      "nameID": "20220614202343",
-      "file": {
-        "fid": 34003652,
-        "fsz": 6052564,
-        "ftm": "2022-06-14T11:23:43.689Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_3133.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_3133.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220614202343.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220614202343.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220614202343_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220614202343_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220614202343_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220614202343_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220614202343_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220614202343_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220614202343_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220614202343_SP.jpeg"
-        },
-        "name": "20220614202343"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-14T20:23:43.000Z",
-        "DateTimeOriginal": "2022-06-14T20:23:43.000Z",
-        "CreateDate": "2022-06-14T20:23:43.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          24,
-          49.14
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          9,
-          11.21
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 132.93118279569893,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0.6272867002200054,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 220.61175529788085,
-        "GPSHPositioningError": 14.247519083969467,
-        "latitude": 41.41365,
-        "longitude": 2.153113888888889
-      },
-      "locn": {
-        "elevation": 131.4943084716797,
-        "locations": "C/ d'Olot, 11, Gràcia, 08024 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003653",
-      "nameID": "20220615043504",
-      "file": {
-        "fid": 34003653,
-        "fsz": 8420082,
-        "ftm": "2022-06-14T19:35:04.713Z",
-        "fdv": 16777231
-      },
-      "info": {
-        "album": "Barcelona",
-        "image": "IMG_3148.jpeg",
-        "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_3148.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615043504.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615043504.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220615043504_PC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220615043504_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220615043504_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220615043504_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220615043504_SP.jpeg"
-        },
-        "name": "20220615043504"
-      },
-      "data": {
-        "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-15T04:35:04.000Z",
-        "DateTimeOriginal": "2022-06-15T04:35:04.000Z",
-        "CreateDate": "2022-06-15T04:35:04.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
-        "GPSLatitude": [
-          41,
-          22,
-          53.32
-        ],
-        "GPSLongitudeRef": "E",
-        "GPSLongitude": [
-          2,
-          10,
-          29.41
-        ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 10.863599311656554,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 2.053695061285194,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 133.90715020576133,
-        "GPSHPositioningError": 21.661396838102863,
-        "latitude": 41.381477777777775,
-        "longitude": 2.174836111111111
-      },
-      "locn": {
-        "elevation": 6.611188411712646,
-        "locations": "C/ de la Boqueria, 26, Ciutat Vella, 08002 Barcelona, Spain",
-        "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
-        }
-      },
-      "size": {
-        "height": 1920,
-        "width": 2560
-      }
-    },
-    {
-      "uuid": "16777231-34003672",
+      "uuid": "16777231-45708938",
       "nameID": "20220615044149",
       "file": {
-        "fid": 34003672,
-        "fsz": 8866238,
+        "fid": 45708938,
+        "fsz": 3962550,
         "ftm": "2022-06-14T19:41:49.327Z",
         "fdv": 16777231
       },
@@ -1030,14 +187,19 @@
           "orig": "./PhotoLib/Barcelona/IMG_3154.jpeg",
           "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615044149.jpeg",
           "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615044149.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220615044149_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220615044149_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220615044149_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220615044149_PC.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220615044149_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Barcelona/20220615044149_CC.jpeg",
           "web_GS": "./PhotoWeb/Barcelona/20220615044149_GS.jpeg",
           "web_PC": "./PhotoWeb/Barcelona/20220615044149_PC.jpeg",
           "web_PO": "./PhotoWeb/Barcelona/20220615044149_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220615044149_SP.jpeg"
+          "web_SE": "./PhotoWeb/Barcelona/20220615044149_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Barcelona/20220615044149_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Barcelona/20220615044149_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Barcelona/20220615044149_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Barcelona/20220615044149_SP.jpeg",
+          "web_TP": "./PhotoWeb/Barcelona/20220615044149_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Barcelona/20220615044149_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Barcelona/20220615044149_WC2.jpeg"
         },
         "name": "20220615044149"
       },
@@ -1087,16 +249,16 @@
         }
       },
       "size": {
-        "height": 1920,
-        "width": 2560
+        "width": 1024,
+        "height": 1024
       }
     },
     {
-      "uuid": "16777231-34003674",
+      "uuid": "16777231-45708939",
       "nameID": "20220615063754",
       "file": {
-        "fid": 34003674,
-        "fsz": 9528184,
+        "fid": 45708939,
+        "fsz": 4744295,
         "ftm": "2022-06-14T21:37:54.376Z",
         "fdv": 16777231
       },
@@ -1107,14 +269,19 @@
           "orig": "./PhotoLib/Barcelona/IMG_3162.jpeg",
           "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615063754.jpeg",
           "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615063754.jpeg",
-          "FX_GS": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_GS.jpeg",
-          "FX_SP": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_SP.jpeg",
-          "FX_PO": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_PO.jpeg",
-          "FX_PC": "./PhotoTmp/3_FXRepo/Barcelona/20220615063754_PC.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220615063754_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Barcelona/20220615063754_CC.jpeg",
           "web_GS": "./PhotoWeb/Barcelona/20220615063754_GS.jpeg",
           "web_PC": "./PhotoWeb/Barcelona/20220615063754_PC.jpeg",
           "web_PO": "./PhotoWeb/Barcelona/20220615063754_PO.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220615063754_SP.jpeg"
+          "web_SE": "./PhotoWeb/Barcelona/20220615063754_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Barcelona/20220615063754_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Barcelona/20220615063754_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Barcelona/20220615063754_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Barcelona/20220615063754_SP.jpeg",
+          "web_TP": "./PhotoWeb/Barcelona/20220615063754_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Barcelona/20220615063754_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Barcelona/20220615063754_WC2.jpeg"
         },
         "name": "20220615063754"
       },
@@ -1164,8 +331,8 @@
         }
       },
       "size": {
-        "height": 1920,
-        "width": 2560
+        "width": 1024,
+        "height": 1024
       }
     }
   ]

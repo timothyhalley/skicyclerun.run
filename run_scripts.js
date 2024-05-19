@@ -85,7 +85,7 @@ async function setOutName(photo, style) {
 //
 async function runWaterColor(pObj) {
   let photoIn = pObj.info.paths.scale;
-  let photoOut = await setOutName(photoIn, "_WC");
+  let photoOut = await setOutName(photoIn, "_WC1");
   await _xo.checkDirectory(photoOut); // need only the first FX to set album directories
   let fSize = await genWaterColor(photoIn, photoOut);
   return fSize;

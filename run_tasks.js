@@ -15,6 +15,7 @@ const PHOTOLIB = "./PhotoLib";
 const PHOTOWEB = "./PhotoWeb";
 const PHOTOTMP = "./PhotoTmp";
 const PHOTOFX = "/3_FXRepo";
+const PHOTOCR = "/4_CopyRight";
 const PHOTOSVG = "./PhotoLib/SVGPhotos";
 
 const ERR = "err";
@@ -104,11 +105,19 @@ async function script_04() {
   logit(LOG, `SCRIPT #04 - SHARPEDGE: ${numPhotos}`);
 }
 
+async function copyRight_00() {
+
+  logit(BOX, "CopyRight #00 - SkiCycleRun");
+  const numPhotos = await _lib.copyRight(PHOTOTMP);
+  logit(LOG, `CopyRight #00 - SkiCycleRun: ${numPhotos}`);
+
+}
+
 async function web_01() {
   logit(BOX, "WEB #01 - WEB REDUX");
   const [numPhotos, totalBytesSaved] = await runWeb(
     PHOTOTMP,
-    PHOTOFX,
+    PHOTOCR,
     PHOTOWEB
   );
   logit(
@@ -159,6 +168,8 @@ async function aws_02() {
   await script_03();
   await script_04();
 
+  await copyRight_00();
+
   await web_01();
 
   // SVG START
@@ -191,6 +202,7 @@ export {
   script_02,
   script_03,
   script_04,
+  copyRight_00,
   web_01,
   aws_01,
   aws_02,

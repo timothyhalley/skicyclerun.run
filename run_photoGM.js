@@ -30,7 +30,7 @@ async function setOutName(photo, style) {
 }
 async function waterColor(pObj) {
   let photoIn = pObj.info.paths.scale;
-  let photoOut = await setOutName(photoIn, "_FC");
+  let photoOut = await setOutName(photoIn, "_WC2");
   await _xo.checkDirectory(photoOut); // need only the first FX to set album directories
   await genWaterColor(photoIn, photoOut);
 }
@@ -52,10 +52,32 @@ async function genWaterColor(photoIn, photoOut) {
   try {
     const image = await gm(photoIn);
     await image
-      .flatten()
-      .edge(1)
-      .equalize()
-      .contrast(5)
+
+      //.noise('laplacian') // Add noise to simulate the watercolor texture
+      //.modulate(120, 100) // Slightly increase brightness and maintain color saturation
+      // .gaussian(2, 0) // Apply a mild Gaussian blur to soften the image
+      .paint(2) // Apply a slight paint effect to simulate brush strokes
+      .unsharp(1) // Sharpen the edges
+      .modulate(120, 110)
+      // .contrast(10) // Slightly decrease contrast for a softer effect
+      //
+      // .noise('laplacian') // Add noise to simulate the watercolor texture
+      // .edge(1) // Apply a slight edge to enhance details
+      // .modulate(100, 120) // Adjust brightness and saturation
+      // .contrast(-5) // Slightly reduce contrast
+      //
+      // .modulate(120, 80, 100) // Adjust brightness and saturation
+      // .gaussian(20, 5) // Apply a Gaussian blur with reduced intensity
+      // .paint(2) // Increase the paint radius for a stronger brush effect
+      // V2 - completely black!
+      // .colorize(150, 100, 200) // Adjust the color to a lighter palette
+      // .paint(7) // Apply a paint-like effect to blur the image
+      // .edge(3) // Add some edge definition if desired
+      // V1 - really dark lines
+      // .flatten()
+      // .edge(1)
+      // .equalize()
+      // .contrast(5)
       .write(photoOut, function (err) {
         if (err) {
           logit(FIG, "ERROR");

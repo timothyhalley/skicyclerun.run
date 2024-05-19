@@ -26,28 +26,28 @@ async function photoFXGreyScale(pObj) {
   let photoOut = await setOutName(photoIn, "_GS");
   await _xo.checkDirectory(photoOut); // need only the first FX to set album directories
   await genGreyScale(photoIn, photoOut);
-  await _db.db_addNewPath(pObj, "FX_GS", photoOut);
+  // await _db.db_addNewPath(pObj, "FX_GS", photoOut);
 }
 
 async function photoFXSepia(pObj) {
   let photoIn = pObj.info.paths.scale;
   let photoOut = await setOutName(photoIn, "_SP");
   await genSepia(photoIn, photoOut);
-  await _db.db_addNewPath(pObj, "FX_SP", photoOut);
+  // await _db.db_addNewPath(pObj, "FX_SP", photoOut);
 }
 
 async function photoFXPoster(pObj) {
   let photoIn = pObj.info.paths.scale;
   let photoOut = await setOutName(photoIn, "_PO");
   await genPoster(photoIn, photoOut);
-  await _db.db_addNewPath(pObj, "FX_PO", photoOut);
+  // await _db.db_addNewPath(pObj, "FX_PO", photoOut);
 }
 
 async function photoFXPencil(pObj) {
   let photoIn = pObj.info.paths.scale;
   let photoOut = await setOutName(photoIn, "_PC");
   await genPencil(photoIn, photoOut);
-  await _db.db_addNewPath(pObj, "FX_PC", photoOut);
+  // await _db.db_addNewPath(pObj, "FX_PC", photoOut);
 }
 
 // **** ----
