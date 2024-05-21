@@ -1,87 +1,62 @@
 {
   "info": [
     {
-      "rundate": "Sun May 19 2024 13:12:17 GMT-0700 (Pacific Daylight Time)",
+      "rundate": "Tue May 21 2024 14:54:24 GMT-0700 (Pacific Daylight Time)",
       "author": "SkiCycleRun"
     }
   ],
   "photos": [
     {
-      "uuid": "16777231-45708899",
-      "nameID": "20220612003310",
+      "uuid": "16777231-46167000",
+      "nameID": "20240325212738",
       "file": {
-        "fid": 45708899,
-        "fsz": 2581957,
-        "ftm": "2022-06-11T15:33:10.043Z",
+        "fid": 46167000,
+        "fsz": 2541469,
+        "ftm": "2024-03-25T21:27:38.733Z",
         "fdv": 16777231
       },
       "info": {
-        "album": "Barcelona",
-        "image": "IMG_2928.jpeg",
+        "album": "Voyage",
+        "image": "IMG_0110.jpeg",
         "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2928.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612003310.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612003310.jpeg",
-          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220612003310_WC2.jpeg",
-          "web_CC": "./PhotoWeb/Barcelona/20220612003310_CC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612003310_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612003310_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612003310_PO.jpeg",
-          "web_SE": "./PhotoWeb/Barcelona/20220612003310_SE.jpeg",
-          "web_SK1": "./PhotoWeb/Barcelona/20220612003310_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/Barcelona/20220612003310_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/Barcelona/20220612003310_SK3.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612003310_SP.jpeg",
-          "web_TP": "./PhotoWeb/Barcelona/20220612003310_TP.jpeg",
-          "web_WC1": "./PhotoWeb/Barcelona/20220612003310_WC1.jpeg",
-          "web_WC2": "./PhotoWeb/Barcelona/20220612003310_WC2.jpeg"
+          "orig": "./PhotoLib/Voyage/IMG_0110.jpeg",
+          "copy": null,
+          "scale": null
         },
-        "name": "20220612003310"
+        "name": "20240325212738"
       },
       "data": {
         "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T00:33:10.000Z",
-        "DateTimeOriginal": "2022-06-12T00:33:10.000Z",
-        "CreateDate": "2022-06-12T00:33:10.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
+        "Model": "iPad mini (5th generation)",
+        "ModifyDate": "2024-03-25T21:27:38.000Z",
+        "DateTimeOriginal": "2024-03-25T21:27:38.000Z",
+        "CreateDate": "2024-03-25T21:27:38.000Z",
+        "OffsetTime": "-07:00",
+        "OffsetTimeOriginal": "-07:00",
+        "ExifImageWidth": 2448,
+        "ExifImageHeight": 2448,
+        "GPSLatitudeRef": "S",
         "GPSLatitude": [
-          41,
-          23,
-          0.73
+          38,
+          56,
+          1.78
         ],
         "GPSLongitudeRef": "E",
         "GPSLongitude": [
-          2,
-          10,
-          12.53
+          144,
+          42,
+          42.63
         ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 35.61532214401733,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 37.672271733647214,
-        "GPSDateStamp": "2022:06:11",
-        "GPSHPositioningError": 14.267767230705736,
-        "latitude": 41.38353611111111,
-        "longitude": 2.170147222222222
+        "GPSDateStamp": "2024:05:21",
+        "GPSHPositioningError": 1,
+        "latitude": -38.93382777777777,
+        "longitude": 144.71184166666666
       },
       "locn": {
-        "elevation": 15.98301792144775,
-        "locations": "C/ d'en Xuclà, 10, Ciutat Vella, 08001 Barcelona, Spain",
+        "elevation": -68.60940551757812,
+        "locations": "4RH63P86+FP",
         "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
+          "status": "ZERO_RESULTS"
         }
       },
       "size": {
@@ -90,80 +65,56 @@
       }
     },
     {
-      "uuid": "16777231-45708912",
-      "nameID": "20220612215305",
+      "uuid": "16777231-46167001",
+      "nameID": "20240325212756",
       "file": {
-        "fid": 45708912,
-        "fsz": 4733608,
-        "ftm": "2022-06-12T12:53:05.448Z",
+        "fid": 46167001,
+        "fsz": 8255774,
+        "ftm": "2024-03-25T21:27:56.016Z",
         "fdv": 16777231
       },
       "info": {
-        "album": "Barcelona",
-        "image": "IMG_2981.jpeg",
+        "album": "Voyage",
+        "image": "IMG_0116.jpeg",
         "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_2981.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220612215305.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220612215305.jpeg",
-          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220612215305_WC2.jpeg",
-          "web_CC": "./PhotoWeb/Barcelona/20220612215305_CC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220612215305_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220612215305_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220612215305_PO.jpeg",
-          "web_SE": "./PhotoWeb/Barcelona/20220612215305_SE.jpeg",
-          "web_SK1": "./PhotoWeb/Barcelona/20220612215305_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/Barcelona/20220612215305_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/Barcelona/20220612215305_SK3.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220612215305_SP.jpeg",
-          "web_TP": "./PhotoWeb/Barcelona/20220612215305_TP.jpeg",
-          "web_WC1": "./PhotoWeb/Barcelona/20220612215305_WC1.jpeg",
-          "web_WC2": "./PhotoWeb/Barcelona/20220612215305_WC2.jpeg"
+          "orig": "./PhotoLib/Voyage/IMG_0116.jpeg",
+          "copy": null,
+          "scale": null
         },
-        "name": "20220612215305"
+        "name": "20240325212756"
       },
       "data": {
         "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-12T21:53:05.000Z",
-        "DateTimeOriginal": "2022-06-12T21:53:05.000Z",
-        "CreateDate": "2022-06-12T21:53:05.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
-        "ExifImageWidth": 4032,
-        "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
+        "Model": "iPad mini (5th generation)",
+        "ModifyDate": "2024-03-25T21:27:56.000Z",
+        "DateTimeOriginal": "2024-03-25T21:27:56.000Z",
+        "CreateDate": "2024-03-25T21:27:56.000Z",
+        "OffsetTime": "-07:00",
+        "OffsetTimeOriginal": "-07:00",
+        "ExifImageWidth": 9486,
+        "ExifImageHeight": 3102,
+        "GPSLatitudeRef": "S",
         "GPSLatitude": [
-          41,
-          24,
-          9.37
+          37,
+          54,
+          17.35
         ],
         "GPSLongitudeRef": "E",
         "GPSLongitude": [
-          2,
-          10,
-          19.08
+          144,
+          55,
+          24.58
         ],
-        "GPSAltitudeRef": {
-          "0": 0
-        },
-        "GPSAltitude": 35.96146867328424,
-        "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
-        "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 73.12939453125,
-        "GPSHPositioningError": 14.25321506298226,
-        "latitude": 41.40260277777778,
-        "longitude": 2.1719666666666666
+        "GPSDateStamp": "2024:05:21",
+        "GPSHPositioningError": 1,
+        "latitude": -37.90481944444444,
+        "longitude": 144.92349444444443
       },
       "locn": {
-        "elevation": 34.90343475341797,
-        "locations": "C/ de Provença, 426, L'Eixample, 08025 Barcelona, Spain",
+        "elevation": -9.073348999023438,
+        "locations": "3WWF+39 Williamstown VIC, Australia",
         "timezone": {
-          "dstOffset": 3600,
-          "rawOffset": 3600,
-          "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
+          "status": "ZERO_RESULTS"
         }
       },
       "size": {
@@ -172,80 +123,1180 @@
       }
     },
     {
-      "uuid": "16777231-45708938",
-      "nameID": "20220615044149",
+      "uuid": "16777231-46166662",
+      "nameID": "20240315161114",
       "file": {
-        "fid": 45708938,
-        "fsz": 3962550,
-        "ftm": "2022-06-14T19:41:49.327Z",
+        "fid": 46166662,
+        "fsz": 2512875,
+        "ftm": "2024-03-14T20:11:14.670Z",
         "fdv": 16777231
       },
       "info": {
-        "album": "Barcelona",
-        "image": "IMG_3154.jpeg",
+        "album": "Voyage",
+        "image": "IMG_2670.jpeg",
         "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_3154.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615044149.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615044149.jpeg",
-          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220615044149_WC2.jpeg",
-          "web_CC": "./PhotoWeb/Barcelona/20220615044149_CC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220615044149_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220615044149_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220615044149_PO.jpeg",
-          "web_SE": "./PhotoWeb/Barcelona/20220615044149_SE.jpeg",
-          "web_SK1": "./PhotoWeb/Barcelona/20220615044149_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/Barcelona/20220615044149_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/Barcelona/20220615044149_SK3.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220615044149_SP.jpeg",
-          "web_TP": "./PhotoWeb/Barcelona/20220615044149_TP.jpeg",
-          "web_WC1": "./PhotoWeb/Barcelona/20220615044149_WC1.jpeg",
-          "web_WC2": "./PhotoWeb/Barcelona/20220615044149_WC2.jpeg"
+          "orig": "./PhotoLib/Voyage/IMG_2670.jpeg",
+          "copy": null,
+          "scale": null
         },
-        "name": "20220615044149"
+        "name": "20240315161114"
       },
       "data": {
         "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-15T04:41:49.000Z",
-        "DateTimeOriginal": "2022-06-15T04:41:49.000Z",
-        "CreateDate": "2022-06-15T04:41:49.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-15T16:11:14.000Z",
+        "DateTimeOriginal": "2024-03-15T16:11:14.000Z",
+        "CreateDate": "2024-03-15T16:11:14.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
         "ExifImageWidth": 4032,
         "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          35.89
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          3.28
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 6.530668726266332,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 11.003442764047707,
+        "GPSDateStamp": "2024:03:14",
+        "GPSHPositioningError": 4.745340001298954,
+        "latitude": -36.84330277777778,
+        "longitude": 174.7675777777778
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "2 Queen Street, Auckland CBD, Auckland 1010, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166663",
+      "nameID": "20240315161813",
+      "file": {
+        "fid": 46166663,
+        "fsz": 4154390,
+        "ftm": "2024-03-14T20:18:13.524Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2672.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2672.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240315161813"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-15T16:18:13.000Z",
+        "DateTimeOriginal": "2024-03-15T16:18:13.000Z",
+        "CreateDate": "2024-03-15T16:18:13.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          38.17
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          0.64
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 8.18495074407881,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 60.414661443760494,
+        "GPSDateStamp": "2024:03:14",
+        "GPSHPositioningError": 4.736736736736737,
+        "latitude": -36.84393611111111,
+        "longitude": 174.76684444444444
+      },
+      "locn": {
+        "elevation": 3.968351602554321,
+        "locations": "New Zealand, Auckland, Auckland CBD, Queen St, Level 10",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166664",
+      "nameID": "20240315234119",
+      "file": {
+        "fid": 46166664,
+        "fsz": 2746273,
+        "ftm": "2024-03-15T03:41:19.525Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2675.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2675.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240315234119"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-15T23:41:19.000Z",
+        "DateTimeOriginal": "2024-03-15T23:41:19.000Z",
+        "CreateDate": "2024-03-15T23:41:19.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          29.73
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          4.71
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 12.18550647270786,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 4.269598484087222,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 132.09100346020762,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 54.285498032092036,
+        "latitude": -36.841591666666666,
+        "longitude": 174.767975
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "89 Quay Street, Auckland CBD, Auckland 1010, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166665",
+      "nameID": "20240315235635",
+      "file": {
+        "fid": 46166665,
+        "fsz": 4382886,
+        "ftm": "2024-03-15T03:56:35.290Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2677.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2677.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240315235635"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-15T23:56:35.000Z",
+        "DateTimeOriginal": "2024-03-15T23:56:35.000Z",
+        "CreateDate": "2024-03-15T23:56:35.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          32.09
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          3.45
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 31.615507116552205,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 93.90431125131441,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 2511,
+        "latitude": -36.84224722222223,
+        "longitude": 174.767625
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "Queens Wharf International Cruise Terminal, 89 Quay Street, Auckland CBD, Auckland 1010, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166666",
+      "nameID": "20240316005850",
+      "file": {
+        "fid": 46166666,
+        "fsz": 3141831,
+        "ftm": "2024-03-15T04:58:50.200Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2679.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2679.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316005850"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T00:58:50.000Z",
+        "DateTimeOriginal": "2024-03-16T00:58:50.000Z",
+        "CreateDate": "2024-03-16T00:58:50.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          26.43
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          8.66
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 44.89638540543608,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.36685615312874714,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 174.39437856829161,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 4.76962539928371,
+        "latitude": -36.840675000000005,
+        "longitude": 174.76907222222223
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "89 Quay Street, Auckland CBD, Auckland 1010, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166667",
+      "nameID": "20240316011452",
+      "file": {
+        "fid": 46166667,
+        "fsz": 5009442,
+        "ftm": "2024-03-15T05:14:52.639Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2682.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2682.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316011452"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T01:14:52.000Z",
+        "DateTimeOriginal": "2024-03-16T01:14:52.000Z",
+        "CreateDate": "2024-03-16T01:14:52.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          49,
+          52.3
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          1.36
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 36.615505226480835,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 338.68597387847814,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 1237.834862385321,
+        "latitude": -36.83119444444445,
+        "longitude": 174.76704444444445
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "5Q98+GR Auckland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166668",
+      "nameID": "20240316011835",
+      "file": {
+        "fid": 46166668,
+        "fsz": 4297394,
+        "ftm": "2024-03-15T05:18:35.465Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2683.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2683.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316011835"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T01:18:35.000Z",
+        "DateTimeOriginal": "2024-03-16T01:18:35.000Z",
+        "CreateDate": "2024-03-16T01:18:35.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          13.76
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          17.29
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.0369857910701934,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 200.45597064709807,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 58.65464285714286,
+        "latitude": -36.837155555555555,
+        "longitude": 174.77146944444445
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "5Q7C+4H Auckland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166671",
+      "nameID": "20240316012138",
+      "file": {
+        "fid": 46166671,
+        "fsz": 2699434,
+        "ftm": "2024-03-15T05:21:38.174Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2687.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2687.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316012138"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T01:21:38.000Z",
+        "DateTimeOriginal": "2024-03-16T01:21:38.000Z",
+        "CreateDate": "2024-03-16T01:21:38.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          50,
+          12.48
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          46,
+          47.01
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.2602707226740124,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 3.455913544086456,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 212.9789350497367,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 23.840150446638457,
+        "latitude": -36.836800000000004,
+        "longitude": 174.779725
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "5Q7H+7V Auckland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166699",
+      "nameID": "20240316013814",
+      "file": {
+        "fid": 46166699,
+        "fsz": 2020828,
+        "ftm": "2024-03-15T05:38:14.596Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2688.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2688.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316013814"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T01:38:14.000Z",
+        "DateTimeOriginal": "2024-03-16T01:38:14.000Z",
+        "CreateDate": "2024-03-16T01:38:14.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          48,
+          59.61
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          49,
+          53.55
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.2417372719639723,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 6.859153742414025,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 226.12017804154303,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 16.988827398976714,
+        "latitude": -36.81655833333333,
+        "longitude": 174.83154166666665
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "5RMJ+9J Auckland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166716",
+      "nameID": "20240316155012",
+      "file": {
+        "fid": 46166716,
+        "fsz": 2182582,
+        "ftm": "2024-03-15T19:50:12.944Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2691.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2691.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316155012"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T15:50:12.000Z",
+        "DateTimeOriginal": "2024-03-16T15:50:12.000Z",
+        "CreateDate": "2024-03-16T15:50:12.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          25,
+          51.08
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          178,
+          39,
+          59.58
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.267417649885217,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 9.383265464417297,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 126.98455428067079,
+        "GPSDateStamp": "2024:03:15",
+        "GPSHPositioningError": 4.7655948187705945,
+        "latitude": -37.43085555555555,
+        "longitude": 178.66655
+      },
+      "locn": {
+        "elevation": -1151.919921875,
+        "locations": "4VJWHM98+MJ",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166722",
+      "nameID": "20240316201538",
+      "file": {
+        "fid": 46166722,
+        "fsz": 3422797,
+        "ftm": "2024-03-16T00:15:38.329Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2693.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2693.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240316201538"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-16T20:15:38.000Z",
+        "DateTimeOriginal": "2024-03-16T20:15:38.000Z",
+        "CreateDate": "2024-03-16T20:15:38.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          38,
+          26,
+          44.83
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          178,
+          38,
+          19
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 1.2920580029080049,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 7.476606363069245,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 23.535827626524135,
+        "GPSDateStamp": "2024:03:16",
+        "GPSHPositioningError": 16.03222392096907,
+        "latitude": -38.445786111111104,
+        "longitude": 178.63861111111112
+      },
+      "locn": {
+        "elevation": -163.4394378662109,
+        "locations": "4VHWHJ3Q+MC",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166723",
+      "nameID": "20240317173059",
+      "file": {
+        "fid": 46166723,
+        "fsz": 3794707,
+        "ftm": "2024-03-16T21:30:59.648Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2698.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2698.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240317173059"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-17T17:30:59.000Z",
+        "DateTimeOriginal": "2024-03-17T17:30:59.000Z",
+        "CreateDate": "2024-03-17T17:30:59.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          41,
+          17,
+          17.69
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          47,
+          57.21
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 5.686470505420245,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 3.614716735402648,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 305.6856080722252,
+        "GPSDateStamp": "2024:03:16",
+        "GPSHPositioningError": 4.743212574598639,
+        "latitude": -41.28824722222222,
+        "longitude": 174.799225
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "Oriental Parade opposite Carlton Gore Road, Wellington 6011, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166746",
+      "nameID": "20240317173213",
+      "file": {
+        "fid": 46166746,
+        "fsz": 4443517,
+        "ftm": "2024-03-16T21:32:13.816Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2702.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2702.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240317173213"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-17T17:32:13.000Z",
+        "DateTimeOriginal": "2024-03-17T17:32:13.000Z",
+        "CreateDate": "2024-03-17T17:32:13.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          41,
+          17,
+          11.95
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          48,
+          7.1
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 6.94082400279916,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.13526101861629033,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 292.0045167118338,
+        "GPSDateStamp": "2024:03:16",
+        "GPSHPositioningError": 4.744326852079744,
+        "latitude": -41.286652777777775,
+        "longitude": 174.80197222222225
+      },
+      "locn": {
+        "elevation": 1.388293981552124,
+        "locations": "1 Carlton Gore Road, Roseneath, Wellington 6011, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166751",
+      "nameID": "20240317225648",
+      "file": {
+        "fid": 46166751,
+        "fsz": 2642996,
+        "ftm": "2024-03-17T02:56:48.944Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2734.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2734.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240317225648"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-17T22:56:48.000Z",
+        "DateTimeOriginal": "2024-03-17T22:56:48.000Z",
+        "CreateDate": "2024-03-17T22:56:48.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          41,
+          16,
+          19.51
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          47,
+          18.32
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 0.6830619299487735,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.6088876729461423,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 115.28015143320714,
+        "GPSDateStamp": "2024:03:17",
+        "GPSHPositioningError": 7.053815478725464,
+        "latitude": -41.27208611111111,
+        "longitude": 174.7884222222222
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "PQHQ+59 Wellington, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166753",
+      "nameID": "20240318000437",
+      "file": {
+        "fid": 46166753,
+        "fsz": 3340122,
+        "ftm": "2024-03-17T04:04:37.906Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2736.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2736.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240318000437"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-18T00:04:37.000Z",
+        "DateTimeOriginal": "2024-03-18T00:04:37.000Z",
+        "CreateDate": "2024-03-18T00:04:37.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          41,
+          16,
+          13.98
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          47,
+          33.15
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 47.115492957746476,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.7241784337257104,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 44.39962767607819,
+        "GPSDateStamp": "2024:03:17",
+        "GPSHPositioningError": 4.605408388520972,
+        "latitude": -41.27055,
+        "longitude": 174.79254166666666
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "PQHV+Q2 Wellington, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166775",
+      "nameID": "20240318003306",
+      "file": {
+        "fid": 46166775,
+        "fsz": 5238019,
+        "ftm": "2024-03-17T04:33:06.197Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2739.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2739.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240318003306"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-18T00:33:06.000Z",
+        "DateTimeOriginal": "2024-03-18T00:33:06.000Z",
+        "CreateDate": "2024-03-18T00:33:06.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          41,
+          20,
+          48.93
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          174,
+          50,
+          35.19
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 51.0141745414119,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.10588949605343,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 257.5930023923445,
+        "GPSDateStamp": "2024:03:17",
+        "GPSHPositioningError": 4.78034625221326,
+        "latitude": -41.346925,
+        "longitude": 174.84310833333333
+      },
+      "locn": {
+        "elevation": -0.4891601502895355,
+        "locations": "MR3V+66 Lower Hutt, Wellington, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166780",
+      "nameID": "20240318004321",
+      "file": {
+        "fid": 46166780,
+        "fsz": 3735073,
+        "ftm": "2024-03-17T04:43:21.075Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2741.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2741.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240318004321"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-18T00:43:21.000Z",
+        "DateTimeOriginal": "2024-03-18T00:43:21.000Z",
+        "CreateDate": "2024-03-18T00:43:21.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
         "GPSLatitude": [
           41,
           22,
-          48.05
+          43.75
         ],
         "GPSLongitudeRef": "E",
         "GPSLongitude": [
-          2,
-          10,
-          31.72
+          174,
+          49,
+          5.65
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 9.307739482399118,
+        "GPSAltitude": 52.145712293748545,
         "GPSSpeedRef": "K",
-        "GPSSpeed": 0,
+        "GPSSpeed": 5.951686381074169,
         "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 287.02755696873345,
-        "GPSHPositioningError": 14.243050801040669,
-        "latitude": 41.38001388888889,
-        "longitude": 2.1754777777777776
+        "GPSImgDirection": 252.70338420703385,
+        "GPSDateStamp": "2024:03:17",
+        "GPSHPositioningError": 9.502025132412504,
+        "latitude": -41.378819444444446,
+        "longitude": 174.8182361111111
       },
       "locn": {
-        "elevation": 5.939433574676514,
-        "locations": "Pl. Reial, 1, Ciutat Vella, 08002 Barcelona, Spain",
+        "elevation": -29.47628402709961,
+        "locations": "JRC9+F7 Lower Hutt, Wellington, New Zealand",
         "timezone": {
           "dstOffset": 3600,
-          "rawOffset": 3600,
+          "rawOffset": 43200,
           "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
         }
       },
       "size": {
@@ -254,80 +1305,3054 @@
       }
     },
     {
-      "uuid": "16777231-45708939",
-      "nameID": "20220615063754",
+      "uuid": "16777231-46166781",
+      "nameID": "20240320023622",
       "file": {
-        "fid": 45708939,
-        "fsz": 4744295,
-        "ftm": "2022-06-14T21:37:54.376Z",
+        "fid": 46166781,
+        "fsz": 3609055,
+        "ftm": "2024-03-19T06:36:22.354Z",
         "fdv": 16777231
       },
       "info": {
-        "album": "Barcelona",
-        "image": "IMG_3162.jpeg",
+        "album": "Voyage",
+        "image": "IMG_2805.jpeg",
         "paths": {
-          "orig": "./PhotoLib/Barcelona/IMG_3162.jpeg",
-          "copy": "./PhotoTmp/1_RenamePhotos/Barcelona/20220615063754.jpeg",
-          "scale": "./PhotoTmp/2_ScalePhotos/Barcelona/20220615063754.jpeg",
-          "copyright": "./PhotoTmp/4_CopyRight/Barcelona/20220615063754_WC2.jpeg",
-          "web_CC": "./PhotoWeb/Barcelona/20220615063754_CC.jpeg",
-          "web_GS": "./PhotoWeb/Barcelona/20220615063754_GS.jpeg",
-          "web_PC": "./PhotoWeb/Barcelona/20220615063754_PC.jpeg",
-          "web_PO": "./PhotoWeb/Barcelona/20220615063754_PO.jpeg",
-          "web_SE": "./PhotoWeb/Barcelona/20220615063754_SE.jpeg",
-          "web_SK1": "./PhotoWeb/Barcelona/20220615063754_SK1.jpeg",
-          "web_SK2": "./PhotoWeb/Barcelona/20220615063754_SK2.jpeg",
-          "web_SK3": "./PhotoWeb/Barcelona/20220615063754_SK3.jpeg",
-          "web_SP": "./PhotoWeb/Barcelona/20220615063754_SP.jpeg",
-          "web_TP": "./PhotoWeb/Barcelona/20220615063754_TP.jpeg",
-          "web_WC1": "./PhotoWeb/Barcelona/20220615063754_WC1.jpeg",
-          "web_WC2": "./PhotoWeb/Barcelona/20220615063754_WC2.jpeg"
+          "orig": "./PhotoLib/Voyage/IMG_2805.jpeg",
+          "copy": null,
+          "scale": null
         },
-        "name": "20220615063754"
+        "name": "20240320023622"
       },
       "data": {
         "Make": "Apple",
-        "Model": "iPhone 12 Pro",
-        "ModifyDate": "2022-06-15T06:37:54.000Z",
-        "DateTimeOriginal": "2022-06-15T06:37:54.000Z",
-        "CreateDate": "2022-06-15T06:37:54.000Z",
-        "OffsetTime": "+02:00",
-        "OffsetTimeOriginal": "+02:00",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T02:36:22.000Z",
+        "DateTimeOriginal": "2024-03-20T02:36:22.000Z",
+        "CreateDate": "2024-03-20T02:36:22.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
         "ExifImageWidth": 4032,
         "ExifImageHeight": 3024,
-        "GPSLatitudeRef": "N",
+        "GPSLatitudeRef": "S",
         "GPSLatitude": [
-          41,
-          22,
-          56.02
+          38,
+          51,
+          55.49
         ],
         "GPSLongitudeRef": "E",
         "GPSLongitude": [
-          2,
-          10,
-          25.05
+          178,
+          27,
+          57.94
         ],
         "GPSAltitudeRef": {
           "0": 0
         },
-        "GPSAltitude": 10.693928492768519,
+        "GPSAltitude": 43.99755474046904,
         "GPSSpeedRef": "K",
-        "GPSSpeed": 1.0364729805737032,
+        "GPSSpeed": 0,
         "GPSImgDirectionRef": "M",
-        "GPSImgDirection": 181.82478347768154,
-        "GPSHPositioningError": 14.356275521169138,
-        "latitude": 41.38222777777778,
-        "longitude": 2.173625
+        "GPSImgDirection": 104.18501956400223,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 5005,
+        "latitude": -38.86541388888889,
+        "longitude": 178.46609444444442
       },
       "locn": {
-        "elevation": 6.875983715057373,
-        "locations": "Plaça del Pi, 13, Ciutat Vella, 08002 Barcelona, Spain",
+        "elevation": -711.484130859375,
+        "locations": "4VHW4FM8+RC",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166784",
+      "nameID": "20240320164758",
+      "file": {
+        "fid": 46166784,
+        "fsz": 2273936,
+        "ftm": "2024-03-19T20:47:58.647Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2808.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2808.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320164758"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T16:47:58.000Z",
+        "DateTimeOriginal": "2024-03-20T16:47:58.000Z",
+        "CreateDate": "2024-03-20T16:47:58.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          45,
+          47,
+          16.92
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          166,
+          29,
+          50
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 52.46322607605516,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.53451347138722,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 27.13287353515625,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 16.70118721461187,
+        "latitude": -45.78803333333333,
+        "longitude": 166.4972222222222
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "4V686F6W+QV",
         "timezone": {
           "dstOffset": 3600,
-          "rawOffset": 3600,
+          "rawOffset": 43200,
           "status": "OK",
-          "timeZoneId": "Europe/Madrid",
-          "timeZoneName": "Central European Summer Time"
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166785",
+      "nameID": "20240320165458",
+      "file": {
+        "fid": 46166785,
+        "fsz": 2512339,
+        "ftm": "2024-03-19T20:54:58.850Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2809.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2809.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320165458"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T16:54:58.000Z",
+        "DateTimeOriginal": "2024-03-20T16:54:58.000Z",
+        "CreateDate": "2024-03-20T16:54:58.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          45,
+          47,
+          5.64
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          166,
+          32,
+          23.87
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 45.95345140781108,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 7.682677739745245,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 319.54046639231825,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 4.70921086018777,
+        "latitude": -45.7849,
+        "longitude": 166.53996388888888
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "4V686G8Q+2X",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166786",
+      "nameID": "20240320170659",
+      "file": {
+        "fid": 46166786,
+        "fsz": 2255116,
+        "ftm": "2024-03-19T21:06:59.007Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2811.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2811.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320170659"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T17:06:59.000Z",
+        "DateTimeOriginal": "2024-03-20T17:06:59.000Z",
+        "CreateDate": "2024-03-20T17:06:59.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          45,
+          45,
+          50.92
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          166,
+          36,
+          12.22
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 15.226742129465865,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 9.044180874722016,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 28.34609985963505,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 9.682852386237514,
+        "latitude": -45.76414444444445,
+        "longitude": 166.60339444444443
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "4V686JP3+89",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166787",
+      "nameID": "20240320173335",
+      "file": {
+        "fid": 46166787,
+        "fsz": 3974281,
+        "ftm": "2024-03-19T21:33:35.287Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2816.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2816.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320173335"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T17:33:35.000Z",
+        "DateTimeOriginal": "2024-03-20T17:33:35.000Z",
+        "CreateDate": "2024-03-20T17:33:35.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          45,
+          41,
+          29.02
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          166,
+          43,
+          41.01
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 1.7585946068605576,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 313.20864864864865,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 132.6324064879179,
+        "latitude": -45.69139444444444,
+        "longitude": 166.72805833333334
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "4V688P5H+C6",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166788",
+      "nameID": "20240320175634",
+      "file": {
+        "fid": 46166788,
+        "fsz": 4111717,
+        "ftm": "2024-03-19T21:56:34.904Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2818.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2818.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320175634"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T17:56:34.000Z",
+        "DateTimeOriginal": "2024-03-20T17:56:34.000Z",
+        "CreateDate": "2024-03-20T17:56:34.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          45,
+          35,
+          29.66
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          166,
+          40,
+          47.42
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 55.59099181073703,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.45302868414564,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 41.98468019915741,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 11.483664902354445,
+        "latitude": -45.591572222222226,
+        "longitude": 166.67983888888887
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "4V68CM5H+9W",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166789",
+      "nameID": "20240320175754",
+      "file": {
+        "fid": 46166789,
+        "fsz": 3275297,
+        "ftm": "2024-03-19T21:57:54.438Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2819.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2819.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320175754"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T17:57:54.000Z",
+        "DateTimeOriginal": "2024-03-20T17:57:54.000Z",
+        "CreateDate": "2024-03-20T17:57:54.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          45,
+          35,
+          15.2
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          166,
+          40,
+          20.4
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 2.8196241528034505,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 9.114855767269166,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 226.46740740740742,
+        "GPSDateStamp": "2024:03:19",
+        "GPSHPositioningError": 14.58166409861325,
+        "latitude": -45.58755555555556,
+        "longitude": 166.6723333333333
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "4V68CM6C+XW",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166790",
+      "nameID": "20240320233245",
+      "file": {
+        "fid": 46166790,
+        "fsz": 2756786,
+        "ftm": "2024-03-20T03:32:45.481Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2820.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2820.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320233245"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T23:32:45.000Z",
+        "DateTimeOriginal": "2024-03-20T23:32:45.000Z",
+        "CreateDate": "2024-03-20T23:32:45.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          33,
+          47.35
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          47,
+          40.62
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 39.60208695652174,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 5.506215570613757,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 111.09560392658985,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 38.14167655361453,
+        "latitude": -44.56315277777777,
+        "longitude": 167.79461666666666
+      },
+      "locn": {
+        "elevation": -8.257404327392578,
+        "locations": "4V79CQPV+PR",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166791",
+      "nameID": "20240320234442",
+      "file": {
+        "fid": 46166791,
+        "fsz": 4172250,
+        "ftm": "2024-03-20T03:44:42.954Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2824.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2824.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320234442"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T23:44:42.000Z",
+        "DateTimeOriginal": "2024-03-20T23:44:42.000Z",
+        "CreateDate": "2024-03-20T23:44:42.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          35,
+          46.58
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          48,
+          40
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 38.275179464868394,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 4.813604357645809,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 80.5634460547504,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 37.46060663868752,
+        "latitude": -44.596272222222225,
+        "longitude": 167.81111111111113
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "CR36+FC Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166792",
+      "nameID": "20240320234548",
+      "file": {
+        "fid": 46166792,
+        "fsz": 4486016,
+        "ftm": "2024-03-20T03:45:48.290Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2827.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2827.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320234548"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T23:45:48.000Z",
+        "DateTimeOriginal": "2024-03-20T23:45:48.000Z",
+        "CreateDate": "2024-03-20T23:45:48.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          35,
+          55.61
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          48,
+          48.08
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 40.20929858429859,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 5.152703857020829,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 69.79292300024919,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.765193129305083,
+        "latitude": -44.59878055555556,
+        "longitude": 167.81335555555557
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "CR27+F8 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166793",
+      "nameID": "20240320234734",
+      "file": {
+        "fid": 46166793,
+        "fsz": 5478944,
+        "ftm": "2024-03-20T03:47:34.547Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2830.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2830.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240320234734"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-20T23:47:34.000Z",
+        "DateTimeOriginal": "2024-03-20T23:47:34.000Z",
+        "CreateDate": "2024-03-20T23:47:34.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          36,
+          7.29
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          49,
+          6.09
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 39.46583553104771,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 5.025743011821898,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 125.57791890571568,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.82540206185567,
+        "latitude": -44.602025000000005,
+        "longitude": 167.81835833333332
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "9RX9+58 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166794",
+      "nameID": "20240321000340",
+      "file": {
+        "fid": 46166794,
+        "fsz": 3940774,
+        "ftm": "2024-03-20T04:03:40.752Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2838.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2838.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321000340"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:03:40.000Z",
+        "DateTimeOriginal": "2024-03-21T00:03:40.000Z",
+        "CreateDate": "2024-03-21T00:03:40.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          37,
+          20.47
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          52,
+          25.61
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 7.242247893685399,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 5.232768675367954,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 351.9937743190661,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.705493005800069,
+        "latitude": -44.62235277777778,
+        "longitude": 167.87378055555556
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "9VHF+3G Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166795",
+      "nameID": "20240321000748",
+      "file": {
+        "fid": 46166795,
+        "fsz": 5393165,
+        "ftm": "2024-03-20T04:07:48.678Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2839.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2839.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321000748"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:07:48.000Z",
+        "DateTimeOriginal": "2024-03-21T00:07:48.000Z",
+        "CreateDate": "2024-03-21T00:07:48.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          37,
+          50.61
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          53,
+          7.63
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 0.35840165865611157,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 5.226009838564401,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 82.36871336007405,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 57.169685851868834,
+        "latitude": -44.630725,
+        "longitude": 167.88545277777777
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "9V9P+P5 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166796",
+      "nameID": "20240321001141",
+      "file": {
+        "fid": 46166796,
+        "fsz": 4416844,
+        "ftm": "2024-03-20T04:11:41.268Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2842.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2842.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321001141"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:11:41.000Z",
+        "DateTimeOriginal": "2024-03-21T00:11:41.000Z",
+        "CreateDate": "2024-03-21T00:11:41.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          31.84
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          54.64
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 13.02313041010359,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 14.21767711383887,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 2702,
+        "latitude": -44.65884444444444,
+        "longitude": 167.91517777777779
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WR8+F3 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166797",
+      "nameID": "20240321002335",
+      "file": {
+        "fid": 46166797,
+        "fsz": 3755126,
+        "ftm": "2024-03-20T04:23:35.140Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2847.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2847.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321002335"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:23:35.000Z",
+        "DateTimeOriginal": "2024-03-21T00:23:35.000Z",
+        "CreateDate": "2024-03-21T00:23:35.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          36.78
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          36.29
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 58.76961157654227,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.3445918560350185,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 343.7828371278459,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 11.217697380146141,
+        "latitude": -44.66021666666666,
+        "longitude": 167.91008055555557
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WQ6+W2 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166798",
+      "nameID": "20240321002336",
+      "file": {
+        "fid": 46166798,
+        "fsz": 3268295,
+        "ftm": "2024-03-20T04:23:36.476Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2848.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2848.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321002336"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:23:36.000Z",
+        "DateTimeOriginal": "2024-03-21T00:23:36.000Z",
+        "CreateDate": "2024-03-21T00:23:36.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          36.93
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          36.23
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 60.63795309168444,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.3445918560350185,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 342.24433912585573,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 8.368234584652495,
+        "latitude": -44.66025833333333,
+        "longitude": 167.91006388888889
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WQ6+V2 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166799",
+      "nameID": "20240321002347",
+      "file": {
+        "fid": 46166799,
+        "fsz": 12845554,
+        "ftm": "2024-03-20T04:23:47.595Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2850.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2850.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321002347"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:23:47.000Z",
+        "DateTimeOriginal": "2024-03-21T00:23:47.000Z",
+        "CreateDate": "2024-03-21T00:23:47.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 16300,
+        "ExifImageHeight": 3886,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          37.3
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          36.4
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 66.27195550351288,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.904388369089248,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 31.084716796875,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 6.204504195083656,
+        "latitude": -44.66036111111111,
+        "longitude": 167.91011111111112
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WQ6+V2 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166800",
+      "nameID": "20240321002433",
+      "file": {
+        "fid": 46166800,
+        "fsz": 8876255,
+        "ftm": "2024-03-20T04:24:33.913Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2852.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2852.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321002433"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:24:33.000Z",
+        "DateTimeOriginal": "2024-03-21T00:24:33.000Z",
+        "CreateDate": "2024-03-21T00:24:33.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 10536,
+        "ExifImageHeight": 3892,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          39.49
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          37.39
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 41.29582089552239,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 2.011369241392917,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 35.7017822265625,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.6179297854555585,
+        "latitude": -44.66096944444444,
+        "longitude": 167.9103861111111
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WQ6+J5 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166801",
+      "nameID": "20240321002519",
+      "file": {
+        "fid": 46166801,
+        "fsz": 4444553,
+        "ftm": "2024-03-20T04:25:19.543Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2853.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2853.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321002519"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T00:25:19.000Z",
+        "DateTimeOriginal": "2024-03-21T00:25:19.000Z",
+        "CreateDate": "2024-03-21T00:25:19.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          40.94
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          37.44
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 23.079687169731557,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.13961092038581,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 323.28570556640625,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.682661290322581,
+        "latitude": -44.66137222222222,
+        "longitude": 167.9104
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WQ6+F5 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166802",
+      "nameID": "20240321012200",
+      "file": {
+        "fid": 46166802,
+        "fsz": 3618344,
+        "ftm": "2024-03-20T05:22:00.724Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2860.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2860.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321012200"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T01:22:00.000Z",
+        "DateTimeOriginal": "2024-03-21T01:22:00.000Z",
+        "CreateDate": "2024-03-21T01:22:00.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          39,
+          41.08
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          54,
+          38.81
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 15.491582128210663,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.5231063968973413,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 24.293731676671786,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.677807227357942,
+        "latitude": -44.66141111111111,
+        "longitude": 167.91078055555556
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "8WQ6+C8 Milford Sound, Southland, New Zealand",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 43200,
+          "status": "OK",
+          "timeZoneId": "Pacific/Auckland",
+          "timeZoneName": "New Zealand Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166803",
+      "nameID": "20240321025322",
+      "file": {
+        "fid": 46166803,
+        "fsz": 4889218,
+        "ftm": "2024-03-20T06:53:22.972Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2863.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2863.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321025322"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T02:53:22.000Z",
+        "DateTimeOriginal": "2024-03-21T02:53:22.000Z",
+        "CreateDate": "2024-03-21T02:53:22.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          33,
+          27.12
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          167,
+          12,
+          1.86
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 0.745645569033096,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 7.998384951548546,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 181.22408293460924,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 12.33918826739427,
+        "latitude": -44.55753333333333,
+        "longitude": 167.20051666666666
+      },
+      "locn": {
+        "elevation": -3361.468017578125,
+        "locations": "4V79C6R2+X6",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166804",
+      "nameID": "20240321174750",
+      "file": {
+        "fid": 46166804,
+        "fsz": 2886249,
+        "ftm": "2024-03-20T21:47:50.936Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2868.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2868.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321174750"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T17:47:50.000Z",
+        "DateTimeOriginal": "2024-03-21T17:47:50.000Z",
+        "CreateDate": "2024-03-21T17:47:50.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          32,
+          57.94
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          162,
+          11,
+          6.6
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 43.32714039456043,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.461901660696842,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 334.05662514156285,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 5.000530383391423,
+        "latitude": -44.54942777777777,
+        "longitude": 162.18516666666667
+      },
+      "locn": {
+        "elevation": -4845.36376953125,
+        "locations": "4V74F52P+63",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166805",
+      "nameID": "20240321174801",
+      "file": {
+        "fid": 46166805,
+        "fsz": 2684183,
+        "ftm": "2024-03-20T21:48:01.772Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2869.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2869.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321174801"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T17:48:01.000Z",
+        "DateTimeOriginal": "2024-03-21T17:48:01.000Z",
+        "CreateDate": "2024-03-21T17:48:01.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          32,
+          57.62
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          162,
+          11,
+          2.26
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 42.026052422557584,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.664022443649028,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 2.410271646859083,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.492090333842461,
+        "latitude": -44.54933888888889,
+        "longitude": 162.1839611111111
+      },
+      "locn": {
+        "elevation": -4844.0234375,
+        "locations": "4V74F52M+7H",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166806",
+      "nameID": "20240321174803",
+      "file": {
+        "fid": 46166806,
+        "fsz": 2672292,
+        "ftm": "2024-03-20T21:48:03.074Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2870.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2870.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321174803"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T17:48:03.000Z",
+        "DateTimeOriginal": "2024-03-21T17:48:03.000Z",
+        "CreateDate": "2024-03-21T17:48:03.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          32,
+          57.59
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          162,
+          11,
+          1.87
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 42.62591679000165,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.664022443649028,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 15.419914244878514,
+        "GPSDateStamp": "2024:03:20",
+        "GPSHPositioningError": 4.470543118738315,
+        "latitude": -44.54933055555556,
+        "longitude": 162.1838527777778
+      },
+      "locn": {
+        "elevation": -4843.904296875,
+        "locations": "4V74F52M+7G",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166807",
+      "nameID": "20240321203751",
+      "file": {
+        "fid": 46166807,
+        "fsz": 2967252,
+        "ftm": "2024-03-21T00:37:51.418Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2872.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2872.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321203751"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T20:37:51.000Z",
+        "DateTimeOriginal": "2024-03-21T20:37:51.000Z",
+        "CreateDate": "2024-03-21T20:37:51.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          31,
+          51.65
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          161,
+          1,
+          39.48
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 41.3917696992065,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 8.641481393413388,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 288.20874035989715,
+        "GPSDateStamp": "2024:03:21",
+        "GPSHPositioningError": 12.90453533880746,
+        "latitude": -44.531013888888886,
+        "longitude": 161.02763333333334
+      },
+      "locn": {
+        "elevation": -4971.998046875,
+        "locations": "4V73F29H+H3",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166808",
+      "nameID": "20240321222351",
+      "file": {
+        "fid": 46166808,
+        "fsz": 7218485,
+        "ftm": "2024-03-21T02:23:51.045Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2875.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2875.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240321222351"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-21T22:23:51.000Z",
+        "DateTimeOriginal": "2024-03-21T22:23:51.000Z",
+        "CreateDate": "2024-03-21T22:23:51.000Z",
+        "OffsetTime": "+13:00",
+        "OffsetTimeOriginal": "+13:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          44,
+          29,
+          59.42
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          160,
+          18,
+          19.95
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 46.27651369070575,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 9.057940558390873,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 142.80496209510682,
+        "GPSDateStamp": "2024:03:21",
+        "GPSHPositioningError": 4.759093143278447,
+        "latitude": -44.49983888888889,
+        "longitude": 160.30554166666667
+      },
+      "locn": {
+        "elevation": -5004.56982421875,
+        "locations": "4V72G824+36",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166892",
+      "nameID": "20240323142840",
+      "file": {
+        "fid": 46166892,
+        "fsz": 4032068,
+        "ftm": "2024-03-22T20:28:40.411Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2887.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2887.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240323142840"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-23T14:28:40.000Z",
+        "DateTimeOriginal": "2024-03-23T14:28:40.000Z",
+        "CreateDate": "2024-03-23T14:28:40.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          42,
+          52,
+          55.39
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          147,
+          20,
+          14.48
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 9.68999958034328,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 356.52764879696076,
+        "GPSDateStamp": "2024:03:22",
+        "GPSHPositioningError": 1564.9535655058044,
+        "latitude": -42.88205277777778,
+        "longitude": 147.33735555555558
+      },
+      "locn": {
+        "elevation": 2.291903734207153,
+        "locations": "18 Hunter St, Hobart TAS 7000, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Hobart",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166902",
+      "nameID": "20240323154050",
+      "file": {
+        "fid": 46166902,
+        "fsz": 3396500,
+        "ftm": "2024-03-22T21:40:50.989Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2888.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2888.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240323154050"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-23T15:40:50.000Z",
+        "DateTimeOriginal": "2024-03-23T15:40:50.000Z",
+        "CreateDate": "2024-03-23T15:40:50.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          42,
+          52,
+          56.12
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          147,
+          20,
+          9.27
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 4.964506835039539,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 1.384964345319375,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 240.4413453650533,
+        "GPSDateStamp": "2024:03:22",
+        "GPSHPositioningError": 4.733673990802249,
+        "latitude": -42.88225555555556,
+        "longitude": 147.33590833333335
+      },
+      "locn": {
+        "elevation": 1.627453804016113,
+        "locations": "18 Hunter St, Hobart TAS 7000, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Hobart",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166903",
+      "nameID": "20240323234708",
+      "file": {
+        "fid": 46166903,
+        "fsz": 5334413,
+        "ftm": "2024-03-23T05:47:08.278Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2957.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2957.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240323234708"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-23T23:47:08.000Z",
+        "DateTimeOriginal": "2024-03-23T23:47:08.000Z",
+        "CreateDate": "2024-03-23T23:47:08.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          42,
+          52,
+          55.56
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          147,
+          20,
+          20.42
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.2442198668967217,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.003983872380462637,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 48.18959044368601,
+        "GPSDateStamp": "2024:03:23",
+        "GPSHPositioningError": 4.778622079570053,
+        "latitude": -42.8821,
+        "longitude": 147.33900555555556
+      },
+      "locn": {
+        "elevation": 2.84901237487793,
+        "locations": "18 Hunter St, Hobart TAS 7000, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Hobart",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166908",
+      "nameID": "20240323234812",
+      "file": {
+        "fid": 46166908,
+        "fsz": 318991,
+        "ftm": "2024-03-23T05:48:12.000Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2958.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2958.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240323234812"
+      },
+      "data": {
+        "ModifyDate": "2024-03-23T23:48:12.000Z",
+        "DateTimeOriginal": "2024-03-23T23:48:12.000Z",
+        "CreateDate": "2024-03-23T23:48:12.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 895,
+        "ExifImageHeight": 658,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          43,
+          8,
+          48.01
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          147,
+          50,
+          36.95
+        ],
+        "GPSDateStamp": "2024:05:21",
+        "GPSHPositioningError": 1,
+        "latitude": -43.14666944444444,
+        "longitude": 147.84359722222223
+      },
+      "locn": {
+        "elevation": 21.05429458618164,
+        "locations": "1 Tramway St, Port Arthur TAS 7182, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Hobart",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166909",
+      "nameID": "20240324040450",
+      "file": {
+        "fid": 46166909,
+        "fsz": 2645444,
+        "ftm": "2024-03-23T10:04:50.890Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2961.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2961.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240324040450"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-24T04:04:50.000Z",
+        "DateTimeOriginal": "2024-03-24T04:04:50.000Z",
+        "CreateDate": "2024-03-24T04:04:50.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          43,
+          16,
+          59.78
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          148,
+          1,
+          21.08
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 1.3000040059287745,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 102.77132412672624,
+        "GPSDateStamp": "2024:03:23",
+        "GPSHPositioningError": 965.8313513513514,
+        "latitude": -43.28327222222222,
+        "longitude": 148.02252222222222
+      },
+      "locn": {
+        "elevation": -92.1058349609375,
+        "locations": "P28F+M2 Cape Pillar TAS, Australia",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166910",
+      "nameID": "20240325020645",
+      "file": {
+        "fid": 46166910,
+        "fsz": 2771865,
+        "ftm": "2024-03-24T08:06:45.289Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2965.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2965.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240325020645"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-25T02:06:45.000Z",
+        "DateTimeOriginal": "2024-03-25T02:06:45.000Z",
+        "CreateDate": "2024-03-25T02:06:45.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          39,
+          33,
+          48.03
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          146,
+          6,
+          7
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 1.3061207540901918,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 193.98306280875087,
+        "GPSDateStamp": "2024:03:24",
+        "GPSHPositioningError": 5005,
+        "latitude": -39.563341666666666,
+        "longitude": 146.10194444444443
+      },
+      "locn": {
+        "elevation": -74,
+        "locations": "4RG8C4P2+MQ",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166911",
+      "nameID": "20240325020645",
+      "file": {
+        "fid": 46166911,
+        "fsz": 2828794,
+        "ftm": "2024-03-24T08:06:45.956Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2966.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2966.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240325020645"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-25T02:06:45.000Z",
+        "DateTimeOriginal": "2024-03-25T02:06:45.000Z",
+        "CreateDate": "2024-03-25T02:06:45.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          39,
+          33,
+          48.03
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          146,
+          6,
+          7
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 1.3061207540901918,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 193.10272213662043,
+        "GPSDateStamp": "2024:03:24",
+        "GPSHPositioningError": 5005,
+        "latitude": -39.563341666666666,
+        "longitude": 146.10194444444443
+      },
+      "locn": {
+        "elevation": -74,
+        "locations": "4RG8C4P2+MQ",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166941",
+      "nameID": "20240325142622",
+      "file": {
+        "fid": 46166941,
+        "fsz": 3032656,
+        "ftm": "2024-03-24T20:26:22.625Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2970.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2970.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240325142622"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-25T14:26:22.000Z",
+        "DateTimeOriginal": "2024-03-25T14:26:22.000Z",
+        "CreateDate": "2024-03-25T14:26:22.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          38,
+          21,
+          58.32
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          50,
+          33.11
+        ],
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 21.177795400475812,
+        "GPSDateStamp": "2024:03:24",
+        "GPSHPositioningError": 16420.487046632123,
+        "latitude": -38.3662,
+        "longitude": 144.84253055555556
+      },
+      "locn": {
+        "elevation": -0.01108802948147058,
+        "locations": "JRMV+G2 Tootgarook VIC, Australia",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166946",
+      "nameID": "20240325142759",
+      "file": {
+        "fid": 46166946,
+        "fsz": 1794562,
+        "ftm": "2024-03-24T20:27:59.006Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2973.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2973.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240325142759"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-25T14:27:59.000Z",
+        "DateTimeOriginal": "2024-03-25T14:27:59.000Z",
+        "CreateDate": "2024-03-25T14:27:59.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          50,
+          40
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          55,
+          51.21
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 10.850588905775076,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.14544372261929742,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 76.7550353837779,
+        "GPSDateStamp": "2024:03:24",
+        "GPSHPositioningError": 9.637251248416188,
+        "latitude": -37.84444444444445,
+        "longitude": 144.93089166666667
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "6 Waterfront Pl, Port Melbourne VIC 3207, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Melbourne",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166947",
+      "nameID": "20240325142814",
+      "file": {
+        "fid": 46166947,
+        "fsz": 5272134,
+        "ftm": "2024-03-24T20:28:14.941Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2974.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2974.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240325142814"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-25T14:28:14.000Z",
+        "DateTimeOriginal": "2024-03-25T14:28:14.000Z",
+        "CreateDate": "2024-03-25T14:28:14.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 11304,
+        "ExifImageHeight": 3886,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          50,
+          39.77
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          55,
+          51.6
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 11.019042316258352,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0.11721799517611829,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 107.8989352989353,
+        "GPSDateStamp": "2024:03:24",
+        "GPSHPositioningError": 8.352227298686465,
+        "latitude": -37.84438055555556,
+        "longitude": 144.93099999999998
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "6 Waterfront Pl, Port Melbourne VIC 3207, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Melbourne",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166961",
+      "nameID": "20240325143250",
+      "file": {
+        "fid": 46166961,
+        "fsz": 2838011,
+        "ftm": "2024-03-24T20:32:50.537Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_2975.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_2975.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240325143250"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-25T14:32:50.000Z",
+        "DateTimeOriginal": "2024-03-25T14:32:50.000Z",
+        "CreateDate": "2024-03-25T14:32:50.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          50,
+          39.7
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          55,
+          51.38
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 9.187369347562989,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 66.7152099609375,
+        "GPSDateStamp": "2024:03:24",
+        "GPSHPositioningError": 1833.5415204678363,
+        "latitude": -37.84436111111111,
+        "longitude": 144.93093888888887
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "6 Waterfront Pl, Port Melbourne VIC 3207, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Melbourne",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166993",
+      "nameID": "20240326015644",
+      "file": {
+        "fid": 46166993,
+        "fsz": 3995884,
+        "ftm": "2024-03-25T07:56:44.785Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3025.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3025.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240326015644"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-26T01:56:44.000Z",
+        "DateTimeOriginal": "2024-03-26T01:56:44.000Z",
+        "CreateDate": "2024-03-26T01:56:44.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          50,
+          39.77
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          55,
+          50.28
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 32.10191324114415,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 273.8233644859813,
+        "GPSDateStamp": "2024:03:25",
+        "GPSHPositioningError": 21.62405127340192,
+        "latitude": -37.84438055555556,
+        "longitude": 144.93063333333333
+      },
+      "locn": {
+        "elevation": 0,
+        "locations": "6 Waterfront Pl, Port Melbourne VIC 3207, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Melbourne",
+          "timeZoneName": "Australian Eastern Daylight Time"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166994",
+      "nameID": "20240326021833",
+      "file": {
+        "fid": 46166994,
+        "fsz": 3270484,
+        "ftm": "2024-03-25T08:18:33.202Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3026.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3026.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240326021833"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-26T02:18:33.000Z",
+        "DateTimeOriginal": "2024-03-26T02:18:33.000Z",
+        "CreateDate": "2024-03-26T02:18:33.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          54,
+          17.35
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          55,
+          24.58
+        ],
+        "GPSDateStamp": "2024:05:21",
+        "GPSHPositioningError": 1,
+        "latitude": -37.90481944444444,
+        "longitude": 144.92349444444443
+      },
+      "locn": {
+        "elevation": -9.073348999023438,
+        "locations": "3WWF+39 Williamstown VIC, Australia",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46166995",
+      "nameID": "20240326021947",
+      "file": {
+        "fid": 46166995,
+        "fsz": 3101339,
+        "ftm": "2024-03-25T08:19:47.547Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3028.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3028.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240326021947"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-26T02:19:47.000Z",
+        "DateTimeOriginal": "2024-03-26T02:19:47.000Z",
+        "CreateDate": "2024-03-26T02:19:47.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          37,
+          53,
+          17.54
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          144,
+          55,
+          38.75
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.569510752030032,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 7.772894760492496,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 260.20161438268207,
+        "GPSDateStamp": "2024:03:25",
+        "GPSHPositioningError": 4.841691969427285,
+        "latitude": -37.88820555555556,
+        "longitude": 144.92743055555556
+      },
+      "locn": {
+        "elevation": -5.892888069152832,
+        "locations": "4W6G+PX Williamstown VIC, Australia",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46167002",
+      "nameID": "20240326233756",
+      "file": {
+        "fid": 46167002,
+        "fsz": 3139332,
+        "ftm": "2024-03-26T05:37:56.121Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3037.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3037.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240326233756"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-26T23:37:56.000Z",
+        "DateTimeOriginal": "2024-03-26T23:37:56.000Z",
+        "CreateDate": "2024-03-26T23:37:56.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          58,
+          12.54
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          150,
+          30,
+          40.98
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 3.8042078715072676,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 9.829556459422816,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 7.647796638514926,
+        "GPSDateStamp": "2024:03:26",
+        "GPSHPositioningError": 5.21720337151502,
+        "latitude": -36.970150000000004,
+        "longitude": 150.51138333333333
+      },
+      "locn": {
+        "elevation": -3410.266845703125,
+        "locations": "4RMG2GH6+WH",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46167003",
+      "nameID": "20240327012124",
+      "file": {
+        "fid": 46167003,
+        "fsz": 3648172,
+        "ftm": "2024-03-26T07:21:24.773Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3041.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3041.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240327012124"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-27T01:21:24.000Z",
+        "DateTimeOriginal": "2024-03-27T01:21:24.000Z",
+        "CreateDate": "2024-03-27T01:21:24.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          39,
+          53.04
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          150,
+          37,
+          13.36
+        ],
+        "GPSAltitudeRef": {
+          "0": 1
+        },
+        "GPSAltitude": 1.4233422284879915,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 161.8509977827051,
+        "GPSDateStamp": "2024:03:26",
+        "GPSHPositioningError": 5005,
+        "latitude": -36.66473333333333,
+        "longitude": 150.62037777777778
+      },
+      "locn": {
+        "elevation": -3773.319091796875,
+        "locations": "4RMG8JPC+45",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46167008",
+      "nameID": "20240327013335",
+      "file": {
+        "fid": 46167008,
+        "fsz": 3864936,
+        "ftm": "2024-03-26T07:33:35.520Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3043.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3043.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240327013335"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-27T01:33:35.000Z",
+        "DateTimeOriginal": "2024-03-27T01:33:35.000Z",
+        "CreateDate": "2024-03-27T01:33:35.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          22,
+          32.32
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          150,
+          43,
+          21.95
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 4.132388588476599,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 359.9714964370546,
+        "GPSDateStamp": "2024:03:26",
+        "GPSHPositioningError": 149.02640914465906,
+        "latitude": -36.37564444444445,
+        "longitude": 150.7227638888889
+      },
+      "locn": {
+        "elevation": -3640.5986328125,
+        "locations": "4RMGJPFF+P4",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46167015",
+      "nameID": "20240327013424",
+      "file": {
+        "fid": 46167015,
+        "fsz": 3270223,
+        "ftm": "2024-03-26T07:34:24.782Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3044.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3044.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240327013424"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-27T01:34:24.000Z",
+        "DateTimeOriginal": "2024-03-27T01:34:24.000Z",
+        "CreateDate": "2024-03-27T01:34:24.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          36,
+          22,
+          26.22
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          150,
+          43,
+          19.97
+        ],
+        "GPSAltitudeRef": {
+          "0": 0
+        },
+        "GPSAltitude": 1.2491707790631825,
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 96.14365199797673,
+        "GPSDateStamp": "2024:03:26",
+        "GPSHPositioningError": 609.9060427413411,
+        "latitude": -36.37395,
+        "longitude": 150.7222138888889
+      },
+      "locn": {
+        "elevation": -3632.25048828125,
+        "locations": "4RMGJPGC+CV",
+        "timezone": {
+          "status": "ZERO_RESULTS"
+        }
+      },
+      "size": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    {
+      "uuid": "16777231-46167016",
+      "nameID": "20240327130154",
+      "file": {
+        "fid": 46167016,
+        "fsz": 2625751,
+        "ftm": "2024-03-26T19:01:54.091Z",
+        "fdv": 16777231
+      },
+      "info": {
+        "album": "Voyage",
+        "image": "IMG_3045.jpeg",
+        "paths": {
+          "orig": "./PhotoLib/Voyage/IMG_3045.jpeg",
+          "copy": null,
+          "scale": null
+        },
+        "name": "20240327130154"
+      },
+      "data": {
+        "Make": "Apple",
+        "Model": "iPhone 14 Pro",
+        "ModifyDate": "2024-03-27T13:01:54.000Z",
+        "DateTimeOriginal": "2024-03-27T13:01:54.000Z",
+        "CreateDate": "2024-03-27T13:01:54.000Z",
+        "OffsetTime": "+11:00",
+        "OffsetTimeOriginal": "+11:00",
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "GPSLatitudeRef": "S",
+        "GPSLatitude": [
+          33,
+          52,
+          5.35
+        ],
+        "GPSLongitudeRef": "E",
+        "GPSLongitude": [
+          151,
+          13,
+          10.8
+        ],
+        "GPSSpeedRef": "K",
+        "GPSSpeed": 0,
+        "GPSImgDirectionRef": "M",
+        "GPSImgDirection": 25.7578125,
+        "GPSDateStamp": "2024:03:26",
+        "GPSHPositioningError": 2000.2186788154897,
+        "latitude": -33.86815277777778,
+        "longitude": 151.21966666666665
+      },
+      "locn": {
+        "elevation": 5.468550205230713,
+        "locations": "10 Lincoln Cres, Woolloomooloo NSW 2011, Australia",
+        "timezone": {
+          "dstOffset": 3600,
+          "rawOffset": 36000,
+          "status": "OK",
+          "timeZoneId": "Australia/Sydney",
+          "timeZoneName": "Australian Eastern Daylight Time"
         }
       },
       "size": {

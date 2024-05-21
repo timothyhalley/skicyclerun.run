@@ -153,24 +153,24 @@ async function aws_02() {
 
   await task_01();
   await task_02();
-  await task_03();
-  await task_04();
-  await fxtask_05();
-  await fxtask_06();
-  await fxtask_07();
-  await fxtask_08();
-  await fxtask_09();
-  await fxtask_10();
-  await fxtask_11();
+  // await task_03();
+  // await task_04();
+  // await fxtask_05();
+  // await fxtask_06();
+  // await fxtask_07();
+  // await fxtask_08();
+  // await fxtask_09();
+  // await fxtask_10();
+  // await fxtask_11();
 
-  await script_01();
-  await script_02();
-  await script_03();
-  await script_04();
+  // await script_01();
+  // await script_02();
+  // await script_03();
+  // await script_04();
 
-  await copyRight_00();
+  // await copyRight_00();
 
-  await web_01();
+  // await web_01();
 
   // SVG START
   logit(FIG, "SVG START");
