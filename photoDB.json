@@ -1,7 +1,7 @@
 {
   "info": [
     {
-      "rundate": "Tue May 21 2024 14:54:24 GMT-0700 (Pacific Daylight Time)",
+      "rundate": "Tue May 21 2024 15:39:18 GMT-0700 (Pacific Daylight Time)",
       "author": "SkiCycleRun"
     }
   ],
@@ -20,8 +20,21 @@
         "image": "IMG_0110.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_0110.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325212738.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325212738.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325212738_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325212738_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325212738_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325212738_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325212738_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325212738_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325212738_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325212738_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325212738_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325212738_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325212738_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325212738_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325212738_WC2.jpeg"
         },
         "name": "20240325212738"
       },
@@ -78,8 +91,21 @@
         "image": "IMG_0116.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_0116.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325212756.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325212756.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325212756_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325212756_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325212756_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325212756_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325212756_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325212756_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325212756_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325212756_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325212756_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325212756_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325212756_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325212756_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325212756_WC2.jpeg"
         },
         "name": "20240325212756"
       },
@@ -136,8 +162,21 @@
         "image": "IMG_2670.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2670.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240315161114.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240315161114.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240315161114_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240315161114_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240315161114_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240315161114_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240315161114_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240315161114_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240315161114_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240315161114_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240315161114_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240315161114_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240315161114_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240315161114_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240315161114_WC2.jpeg"
         },
         "name": "20240315161114"
       },
@@ -206,8 +245,21 @@
         "image": "IMG_2672.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2672.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240315161813.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240315161813.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240315161813_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240315161813_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240315161813_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240315161813_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240315161813_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240315161813_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240315161813_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240315161813_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240315161813_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240315161813_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240315161813_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240315161813_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240315161813_WC2.jpeg"
         },
         "name": "20240315161813"
       },
@@ -276,8 +328,21 @@
         "image": "IMG_2675.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2675.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240315234119.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240315234119.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240315234119_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240315234119_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240315234119_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240315234119_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240315234119_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240315234119_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240315234119_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240315234119_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240315234119_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240315234119_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240315234119_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240315234119_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240315234119_WC2.jpeg"
         },
         "name": "20240315234119"
       },
@@ -346,8 +411,21 @@
         "image": "IMG_2677.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2677.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240315235635.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240315235635.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240315235635_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240315235635_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240315235635_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240315235635_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240315235635_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240315235635_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240315235635_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240315235635_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240315235635_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240315235635_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240315235635_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240315235635_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240315235635_WC2.jpeg"
         },
         "name": "20240315235635"
       },
@@ -416,8 +494,21 @@
         "image": "IMG_2679.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2679.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316005850.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316005850.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316005850_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316005850_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316005850_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316005850_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316005850_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316005850_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316005850_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316005850_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316005850_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316005850_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316005850_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316005850_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316005850_WC2.jpeg"
         },
         "name": "20240316005850"
       },
@@ -486,8 +577,21 @@
         "image": "IMG_2682.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2682.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316011452.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316011452.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316011452_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316011452_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316011452_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316011452_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316011452_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316011452_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316011452_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316011452_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316011452_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316011452_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316011452_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316011452_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316011452_WC2.jpeg"
         },
         "name": "20240316011452"
       },
@@ -556,8 +660,21 @@
         "image": "IMG_2683.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2683.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316011835.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316011835.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316011835_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316011835_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316011835_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316011835_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316011835_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316011835_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316011835_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316011835_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316011835_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316011835_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316011835_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316011835_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316011835_WC2.jpeg"
         },
         "name": "20240316011835"
       },
@@ -626,8 +743,21 @@
         "image": "IMG_2687.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2687.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316012138.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316012138.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316012138_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316012138_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316012138_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316012138_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316012138_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316012138_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316012138_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316012138_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316012138_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316012138_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316012138_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316012138_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316012138_WC2.jpeg"
         },
         "name": "20240316012138"
       },
@@ -696,8 +826,21 @@
         "image": "IMG_2688.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2688.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316013814.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316013814.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316013814_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316013814_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316013814_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316013814_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316013814_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316013814_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316013814_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316013814_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316013814_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316013814_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316013814_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316013814_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316013814_WC2.jpeg"
         },
         "name": "20240316013814"
       },
@@ -766,8 +909,21 @@
         "image": "IMG_2691.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2691.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316155012.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316155012.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316155012_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316155012_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316155012_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316155012_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316155012_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316155012_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316155012_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316155012_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316155012_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316155012_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316155012_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316155012_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316155012_WC2.jpeg"
         },
         "name": "20240316155012"
       },
@@ -832,8 +988,21 @@
         "image": "IMG_2693.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2693.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240316201538.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240316201538.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240316201538_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240316201538_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240316201538_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240316201538_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240316201538_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240316201538_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240316201538_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240316201538_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240316201538_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240316201538_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240316201538_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240316201538_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240316201538_WC2.jpeg"
         },
         "name": "20240316201538"
       },
@@ -898,8 +1067,21 @@
         "image": "IMG_2698.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2698.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240317173059.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240317173059.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240317173059_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240317173059_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240317173059_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240317173059_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240317173059_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240317173059_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240317173059_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240317173059_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240317173059_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240317173059_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240317173059_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240317173059_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240317173059_WC2.jpeg"
         },
         "name": "20240317173059"
       },
@@ -968,8 +1150,21 @@
         "image": "IMG_2702.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2702.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240317173213.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240317173213.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240317173213_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240317173213_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240317173213_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240317173213_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240317173213_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240317173213_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240317173213_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240317173213_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240317173213_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240317173213_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240317173213_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240317173213_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240317173213_WC2.jpeg"
         },
         "name": "20240317173213"
       },
@@ -1038,8 +1233,21 @@
         "image": "IMG_2734.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2734.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240317225648.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240317225648.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240317225648_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240317225648_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240317225648_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240317225648_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240317225648_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240317225648_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240317225648_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240317225648_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240317225648_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240317225648_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240317225648_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240317225648_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240317225648_WC2.jpeg"
         },
         "name": "20240317225648"
       },
@@ -1108,8 +1316,21 @@
         "image": "IMG_2736.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2736.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240318000437.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240318000437.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240318000437_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240318000437_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240318000437_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240318000437_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240318000437_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240318000437_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240318000437_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240318000437_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240318000437_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240318000437_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240318000437_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240318000437_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240318000437_WC2.jpeg"
         },
         "name": "20240318000437"
       },
@@ -1178,8 +1399,21 @@
         "image": "IMG_2739.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2739.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240318003306.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240318003306.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240318003306_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240318003306_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240318003306_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240318003306_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240318003306_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240318003306_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240318003306_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240318003306_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240318003306_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240318003306_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240318003306_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240318003306_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240318003306_WC2.jpeg"
         },
         "name": "20240318003306"
       },
@@ -1248,8 +1482,21 @@
         "image": "IMG_2741.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2741.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240318004321.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240318004321.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240318004321_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240318004321_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240318004321_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240318004321_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240318004321_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240318004321_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240318004321_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240318004321_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240318004321_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240318004321_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240318004321_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240318004321_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240318004321_WC2.jpeg"
         },
         "name": "20240318004321"
       },
@@ -1318,8 +1565,21 @@
         "image": "IMG_2805.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2805.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320023622.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320023622.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320023622_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320023622_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320023622_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320023622_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320023622_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320023622_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320023622_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320023622_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320023622_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320023622_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320023622_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320023622_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320023622_WC2.jpeg"
         },
         "name": "20240320023622"
       },
@@ -1384,8 +1644,21 @@
         "image": "IMG_2808.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2808.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320164758.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320164758.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320164758_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320164758_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320164758_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320164758_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320164758_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320164758_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320164758_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320164758_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320164758_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320164758_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320164758_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320164758_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320164758_WC2.jpeg"
         },
         "name": "20240320164758"
       },
@@ -1454,8 +1727,21 @@
         "image": "IMG_2809.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2809.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320165458.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320165458.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320165458_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320165458_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320165458_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320165458_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320165458_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320165458_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320165458_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320165458_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320165458_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320165458_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320165458_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320165458_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320165458_WC2.jpeg"
         },
         "name": "20240320165458"
       },
@@ -1524,8 +1810,21 @@
         "image": "IMG_2811.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2811.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320170659.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320170659.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320170659_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320170659_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320170659_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320170659_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320170659_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320170659_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320170659_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320170659_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320170659_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320170659_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320170659_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320170659_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320170659_WC2.jpeg"
         },
         "name": "20240320170659"
       },
@@ -1594,8 +1893,21 @@
         "image": "IMG_2816.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2816.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320173335.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320173335.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320173335_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320173335_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320173335_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320173335_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320173335_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320173335_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320173335_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320173335_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320173335_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320173335_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320173335_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320173335_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320173335_WC2.jpeg"
         },
         "name": "20240320173335"
       },
@@ -1664,8 +1976,21 @@
         "image": "IMG_2818.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2818.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320175634.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320175634.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320175634_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320175634_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320175634_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320175634_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320175634_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320175634_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320175634_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320175634_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320175634_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320175634_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320175634_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320175634_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320175634_WC2.jpeg"
         },
         "name": "20240320175634"
       },
@@ -1734,8 +2059,21 @@
         "image": "IMG_2819.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2819.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320175754.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320175754.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320175754_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320175754_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320175754_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320175754_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320175754_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320175754_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320175754_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320175754_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320175754_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320175754_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320175754_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320175754_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320175754_WC2.jpeg"
         },
         "name": "20240320175754"
       },
@@ -1804,8 +2142,21 @@
         "image": "IMG_2820.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2820.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320233245.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320233245.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320233245_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320233245_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320233245_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320233245_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320233245_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320233245_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320233245_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320233245_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320233245_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320233245_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320233245_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320233245_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320233245_WC2.jpeg"
         },
         "name": "20240320233245"
       },
@@ -1874,8 +2225,21 @@
         "image": "IMG_2824.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2824.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320234442.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320234442.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320234442_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320234442_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320234442_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320234442_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320234442_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320234442_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320234442_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320234442_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320234442_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320234442_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320234442_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320234442_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320234442_WC2.jpeg"
         },
         "name": "20240320234442"
       },
@@ -1944,8 +2308,21 @@
         "image": "IMG_2827.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2827.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320234548.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320234548.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320234548_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320234548_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320234548_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320234548_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320234548_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320234548_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320234548_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320234548_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320234548_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320234548_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320234548_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320234548_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320234548_WC2.jpeg"
         },
         "name": "20240320234548"
       },
@@ -2014,8 +2391,21 @@
         "image": "IMG_2830.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2830.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240320234734.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240320234734.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240320234734_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240320234734_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240320234734_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240320234734_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240320234734_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240320234734_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240320234734_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240320234734_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240320234734_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240320234734_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240320234734_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240320234734_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240320234734_WC2.jpeg"
         },
         "name": "20240320234734"
       },
@@ -2084,8 +2474,21 @@
         "image": "IMG_2838.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2838.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321000340.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321000340.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321000340_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321000340_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321000340_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321000340_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321000340_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321000340_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321000340_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321000340_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321000340_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321000340_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321000340_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321000340_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321000340_WC2.jpeg"
         },
         "name": "20240321000340"
       },
@@ -2154,8 +2557,21 @@
         "image": "IMG_2839.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2839.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321000748.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321000748.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321000748_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321000748_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321000748_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321000748_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321000748_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321000748_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321000748_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321000748_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321000748_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321000748_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321000748_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321000748_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321000748_WC2.jpeg"
         },
         "name": "20240321000748"
       },
@@ -2224,8 +2640,21 @@
         "image": "IMG_2842.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2842.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321001141.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321001141.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321001141_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321001141_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321001141_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321001141_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321001141_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321001141_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321001141_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321001141_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321001141_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321001141_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321001141_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321001141_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321001141_WC2.jpeg"
         },
         "name": "20240321001141"
       },
@@ -2294,8 +2723,21 @@
         "image": "IMG_2847.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2847.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321002335.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321002335.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321002335_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321002335_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321002335_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321002335_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321002335_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321002335_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321002335_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321002335_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321002335_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321002335_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321002335_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321002335_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321002335_WC2.jpeg"
         },
         "name": "20240321002335"
       },
@@ -2364,8 +2806,21 @@
         "image": "IMG_2848.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2848.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321002336.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321002336.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321002336_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321002336_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321002336_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321002336_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321002336_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321002336_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321002336_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321002336_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321002336_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321002336_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321002336_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321002336_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321002336_WC2.jpeg"
         },
         "name": "20240321002336"
       },
@@ -2434,8 +2889,21 @@
         "image": "IMG_2850.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2850.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321002347.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321002347.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321002347_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321002347_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321002347_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321002347_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321002347_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321002347_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321002347_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321002347_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321002347_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321002347_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321002347_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321002347_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321002347_WC2.jpeg"
         },
         "name": "20240321002347"
       },
@@ -2504,8 +2972,21 @@
         "image": "IMG_2852.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2852.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321002433.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321002433.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321002433_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321002433_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321002433_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321002433_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321002433_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321002433_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321002433_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321002433_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321002433_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321002433_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321002433_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321002433_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321002433_WC2.jpeg"
         },
         "name": "20240321002433"
       },
@@ -2574,8 +3055,21 @@
         "image": "IMG_2853.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2853.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321002519.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321002519.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321002519_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321002519_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321002519_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321002519_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321002519_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321002519_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321002519_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321002519_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321002519_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321002519_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321002519_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321002519_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321002519_WC2.jpeg"
         },
         "name": "20240321002519"
       },
@@ -2644,8 +3138,21 @@
         "image": "IMG_2860.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2860.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321012200.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321012200.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321012200_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321012200_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321012200_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321012200_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321012200_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321012200_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321012200_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321012200_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321012200_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321012200_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321012200_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321012200_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321012200_WC2.jpeg"
         },
         "name": "20240321012200"
       },
@@ -2714,8 +3221,21 @@
         "image": "IMG_2863.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2863.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321025322.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321025322.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321025322_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321025322_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321025322_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321025322_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321025322_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321025322_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321025322_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321025322_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321025322_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321025322_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321025322_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321025322_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321025322_WC2.jpeg"
         },
         "name": "20240321025322"
       },
@@ -2780,8 +3300,21 @@
         "image": "IMG_2868.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2868.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321174750.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321174750.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321174750_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321174750_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321174750_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321174750_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321174750_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321174750_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321174750_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321174750_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321174750_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321174750_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321174750_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321174750_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321174750_WC2.jpeg"
         },
         "name": "20240321174750"
       },
@@ -2846,8 +3379,21 @@
         "image": "IMG_2869.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2869.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321174801.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321174801.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321174801_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321174801_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321174801_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321174801_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321174801_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321174801_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321174801_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321174801_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321174801_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321174801_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321174801_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321174801_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321174801_WC2.jpeg"
         },
         "name": "20240321174801"
       },
@@ -2912,8 +3458,21 @@
         "image": "IMG_2870.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2870.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321174803.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321174803.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321174803_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321174803_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321174803_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321174803_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321174803_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321174803_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321174803_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321174803_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321174803_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321174803_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321174803_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321174803_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321174803_WC2.jpeg"
         },
         "name": "20240321174803"
       },
@@ -2978,8 +3537,21 @@
         "image": "IMG_2872.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2872.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321203751.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321203751.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321203751_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321203751_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321203751_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321203751_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321203751_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321203751_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321203751_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321203751_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321203751_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321203751_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321203751_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321203751_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321203751_WC2.jpeg"
         },
         "name": "20240321203751"
       },
@@ -3044,8 +3616,21 @@
         "image": "IMG_2875.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2875.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240321222351.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240321222351.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240321222351_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240321222351_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240321222351_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240321222351_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240321222351_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240321222351_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240321222351_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240321222351_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240321222351_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240321222351_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240321222351_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240321222351_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240321222351_WC2.jpeg"
         },
         "name": "20240321222351"
       },
@@ -3110,8 +3695,21 @@
         "image": "IMG_2887.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2887.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240323142840.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240323142840.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240323142840_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240323142840_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240323142840_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240323142840_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240323142840_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240323142840_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240323142840_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240323142840_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240323142840_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240323142840_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240323142840_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240323142840_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240323142840_WC2.jpeg"
         },
         "name": "20240323142840"
       },
@@ -3180,8 +3778,21 @@
         "image": "IMG_2888.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2888.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240323154050.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240323154050.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240323154050_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240323154050_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240323154050_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240323154050_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240323154050_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240323154050_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240323154050_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240323154050_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240323154050_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240323154050_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240323154050_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240323154050_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240323154050_WC2.jpeg"
         },
         "name": "20240323154050"
       },
@@ -3250,8 +3861,21 @@
         "image": "IMG_2957.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2957.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240323234708.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240323234708.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240323234708_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240323234708_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240323234708_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240323234708_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240323234708_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240323234708_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240323234708_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240323234708_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240323234708_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240323234708_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240323234708_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240323234708_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240323234708_WC2.jpeg"
         },
         "name": "20240323234708"
       },
@@ -3320,8 +3944,21 @@
         "image": "IMG_2958.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2958.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240323234812.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240323234812.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240323234812_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240323234812_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240323234812_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240323234812_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240323234812_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240323234812_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240323234812_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240323234812_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240323234812_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240323234812_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240323234812_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240323234812_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240323234812_WC2.jpeg"
         },
         "name": "20240323234812"
       },
@@ -3380,8 +4017,21 @@
         "image": "IMG_2961.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2961.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240324040450.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240324040450.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240324040450_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240324040450_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240324040450_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240324040450_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240324040450_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240324040450_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240324040450_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240324040450_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240324040450_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240324040450_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240324040450_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240324040450_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240324040450_WC2.jpeg"
         },
         "name": "20240324040450"
       },
@@ -3446,8 +4096,21 @@
         "image": "IMG_2965.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2965.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325020645.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325020645.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325020645_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325020645_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325020645_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325020645_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325020645_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325020645_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325020645_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325020645_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325020645_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325020645_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325020645_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325020645_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325020645_WC2.jpeg"
         },
         "name": "20240325020645"
       },
@@ -3512,8 +4175,8 @@
         "image": "IMG_2966.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2966.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325020645.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325020645.jpeg"
         },
         "name": "20240325020645"
       },
@@ -3578,8 +4241,21 @@
         "image": "IMG_2970.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2970.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325142622.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325142622.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325142622_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325142622_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325142622_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325142622_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325142622_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325142622_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325142622_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325142622_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325142622_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325142622_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325142622_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325142622_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325142622_WC2.jpeg"
         },
         "name": "20240325142622"
       },
@@ -3640,8 +4316,21 @@
         "image": "IMG_2973.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2973.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325142759.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325142759.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325142759_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325142759_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325142759_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325142759_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325142759_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325142759_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325142759_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325142759_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325142759_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325142759_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325142759_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325142759_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325142759_WC2.jpeg"
         },
         "name": "20240325142759"
       },
@@ -3710,8 +4399,21 @@
         "image": "IMG_2974.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2974.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325142814.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325142814.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325142814_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325142814_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325142814_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325142814_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325142814_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325142814_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325142814_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325142814_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325142814_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325142814_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325142814_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325142814_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325142814_WC2.jpeg"
         },
         "name": "20240325142814"
       },
@@ -3780,8 +4482,21 @@
         "image": "IMG_2975.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_2975.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240325143250.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240325143250.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240325143250_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240325143250_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240325143250_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240325143250_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240325143250_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240325143250_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240325143250_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240325143250_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240325143250_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240325143250_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240325143250_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240325143250_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240325143250_WC2.jpeg"
         },
         "name": "20240325143250"
       },
@@ -3850,8 +4565,21 @@
         "image": "IMG_3025.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3025.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240326015644.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240326015644.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240326015644_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240326015644_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240326015644_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240326015644_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240326015644_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240326015644_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240326015644_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240326015644_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240326015644_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240326015644_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240326015644_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240326015644_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240326015644_WC2.jpeg"
         },
         "name": "20240326015644"
       },
@@ -3920,8 +4648,21 @@
         "image": "IMG_3026.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3026.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240326021833.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240326021833.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240326021833_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240326021833_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240326021833_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240326021833_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240326021833_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240326021833_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240326021833_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240326021833_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240326021833_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240326021833_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240326021833_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240326021833_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240326021833_WC2.jpeg"
         },
         "name": "20240326021833"
       },
@@ -3978,8 +4719,21 @@
         "image": "IMG_3028.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3028.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240326021947.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240326021947.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240326021947_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240326021947_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240326021947_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240326021947_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240326021947_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240326021947_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240326021947_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240326021947_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240326021947_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240326021947_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240326021947_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240326021947_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240326021947_WC2.jpeg"
         },
         "name": "20240326021947"
       },
@@ -4044,8 +4798,21 @@
         "image": "IMG_3037.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3037.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240326233756.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240326233756.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240326233756_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240326233756_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240326233756_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240326233756_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240326233756_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240326233756_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240326233756_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240326233756_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240326233756_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240326233756_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240326233756_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240326233756_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240326233756_WC2.jpeg"
         },
         "name": "20240326233756"
       },
@@ -4110,8 +4877,21 @@
         "image": "IMG_3041.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3041.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240327012124.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240327012124.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240327012124_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240327012124_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240327012124_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240327012124_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240327012124_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240327012124_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240327012124_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240327012124_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240327012124_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240327012124_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240327012124_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240327012124_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240327012124_WC2.jpeg"
         },
         "name": "20240327012124"
       },
@@ -4176,8 +4956,21 @@
         "image": "IMG_3043.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3043.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240327013335.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240327013335.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240327013335_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240327013335_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240327013335_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240327013335_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240327013335_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240327013335_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240327013335_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240327013335_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240327013335_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240327013335_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240327013335_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240327013335_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240327013335_WC2.jpeg"
         },
         "name": "20240327013335"
       },
@@ -4242,8 +5035,21 @@
         "image": "IMG_3044.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3044.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240327013424.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240327013424.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240327013424_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240327013424_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240327013424_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240327013424_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240327013424_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240327013424_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240327013424_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240327013424_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240327013424_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240327013424_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240327013424_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240327013424_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240327013424_WC2.jpeg"
         },
         "name": "20240327013424"
       },
@@ -4308,8 +5114,21 @@
         "image": "IMG_3045.jpeg",
         "paths": {
           "orig": "./PhotoLib/Voyage/IMG_3045.jpeg",
-          "copy": null,
-          "scale": null
+          "copy": "./PhotoTmp/1_RenamePhotos/Voyage/20240327130154.jpeg",
+          "scale": "./PhotoTmp/2_ScalePhotos/Voyage/20240327130154.jpeg",
+          "copyright": "./PhotoTmp/4_CopyRight/Voyage/20240327130154_WC2.jpeg",
+          "web_CC": "./PhotoWeb/Voyage/20240327130154_CC.jpeg",
+          "web_GS": "./PhotoWeb/Voyage/20240327130154_GS.jpeg",
+          "web_PC": "./PhotoWeb/Voyage/20240327130154_PC.jpeg",
+          "web_PO": "./PhotoWeb/Voyage/20240327130154_PO.jpeg",
+          "web_SE": "./PhotoWeb/Voyage/20240327130154_SE.jpeg",
+          "web_SK1": "./PhotoWeb/Voyage/20240327130154_SK1.jpeg",
+          "web_SK2": "./PhotoWeb/Voyage/20240327130154_SK2.jpeg",
+          "web_SK3": "./PhotoWeb/Voyage/20240327130154_SK3.jpeg",
+          "web_SP": "./PhotoWeb/Voyage/20240327130154_SP.jpeg",
+          "web_TP": "./PhotoWeb/Voyage/20240327130154_TP.jpeg",
+          "web_WC1": "./PhotoWeb/Voyage/20240327130154_WC1.jpeg",
+          "web_WC2": "./PhotoWeb/Voyage/20240327130154_WC2.jpeg"
         },
         "name": "20240327130154"
       },
