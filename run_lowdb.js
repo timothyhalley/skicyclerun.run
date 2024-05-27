@@ -9,7 +9,7 @@ import { join, dirname } from "path";
 import { Low, JSONFile } from "lowdb-node";
 import _ from "underscore";
 import { fileURLToPath } from "url";
-import { logit } from "./run_logutil.js";
+import { logIt } from "./run_logUtil.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -80,7 +80,8 @@ async function db_getPhotoByName(nameKey) {
 
   let photoOBJ = await db._.get("photos").find({ nameID: nameKey }).value();
 
-  // console.log('db_getPhotoName: ', photoOBJ)
+  // logIt(BUG, 'db_getPhotoByName: ', photoOBJ)
+
   return photoOBJ;
 }
 
@@ -89,7 +90,7 @@ async function db_getPhotoByUUID(pKey) {
 
   let pObj = await db._.get("photos").find({ uuid: pKey }).value();
 
-  // console.log('db_getPhotoName: ', photoOBJ)
+  // logIt(BUG, 'db_getPhotoByUUID: ', photoOBJ)
   return pObj;
 }
 
@@ -123,11 +124,12 @@ async function db_getFileList() {
       files[fno] = _.values(
         _.pick(_.find(photoObj, "path"), "path")
       ).toString();
-      // console.log("this is my file: ", fno, ' ---> ', files[fno])
+      logIt(BUG, "db_getFileList: my file 👉 ", files[fno]);
       fno++;
     }
   }
-  // console.log('File Array: 📂\n', files)
+
+  // logIt(BUG, "db_getFileList: ", files);
   return files;
 }
 
@@ -172,11 +174,10 @@ async function getDBNode(keyVal, element) {
 
   _.forIn(item, function (val, key) {
     if (key == element) {
-      //console.log('found it: ', val);
+      // logIt(BUG, "getDBNode:found it: ", val);
       dbElement = val;
     }
   });
-  //console.log('... uh no!')
   return dbElement;
 }
 
@@ -205,12 +206,12 @@ _.mixin({
       var el = collection[i];
       if (el[key] === obj[key]) {
         collection[i] = obj;
-        console.log("DEBUG: --> 👍", obj);
+        logIt(BUG, "👍_.mixin:db_Upsert: ", collection[i]);
         return collection;
       }
     }
     collection.push(obj);
-    console.log("DEBUG: --> 👍", collection);
+    logIt(BUG, "👍 _.mixin:collection:", collection)
   },
 });
 
@@ -219,78 +220,10 @@ _.mixin({
 async function dumpObj(obj) {
   const iterate = (obj) => {
     Object.keys(obj).forEach((key) => {
-      console.log(`key: ${key}, value: ${obj[key]}`);
+      logIt(BUG, `key: ${key}, value: ${obj[key]}`)
       if (typeof obj[key] === "object") {
         iterate(obj[key]);
       }
     });
   };
 }
-
-// function upsert(collection, obj, key) {
-//     //console.log('UPSERT: ', key)
-//     key = key || 'pKey';
-//     for (var i = 0; i < collection.length; i++) {
-//         var el = collection[i];
-//         if (el[key] === obj[key]) {
-//             collection[i] = obj;
-//             return collection;
-//         }
-//     };
-//     collection.push(obj);
-// }
-
-//LowDB lodash function library:
-// db._.chain({
-//     upsert: function (collection, obj, key) {
-//         //console.log('UPSERT: ', key)
-//         key = key || 'pKey';
-//         for (var i = 0; i < collection.length; i++) {
-//             var el = collection[i];
-//             if (el[key] === obj[key]) {
-//                 collection[i] = obj;
-//                 return collection;
-//             }
-//         };
-//         collection.push(obj);
-//     }
-// });
-
-// console.log('upsert photoobj to JSON', photoObj)
-
-//     db._ = _.chain(db.data)
-//     let post = await db._.get('posts').find({ id: "THIS IS A TESTX" }).value()
-//     // const post = await db.chain
-//     //     .get('posts')
-//     //     .find({ id: 1 })
-//     //     .value() // Important: value() needs to be called to execute chain
-
-// let pID = photoObj.uuid
-// console.log('DEBUG: 😩 ', testObj, '\n', db.data.photos)
-// db._ = _.chain(db.data)
-// let dUp = db._
-//     .get('photos')
-//     .upsert(db.data.photos, testObj, pID)
-
-// console.log('DEBUG FINAL: 👊🏻\n', photoObj)
-
-// async function getAlbumPhotos(albumName) {
-
-//     let photos = db.get('photos')
-//         .filter({ album: albumName, type: 'jpg' })
-//         .sortBy('name')
-//         .value()
-
-//     return photos;
-// }
-
-/// filter / get photos
-// db._ = _.chain(db.data)
-// let pDB = await db._.get('photos')
-//     .value()
-// return pDB
-
-// db._ = _.chain(db.data)
-// await db._
-//     .upsert(photoObj, 'uuid')
-//     .write()

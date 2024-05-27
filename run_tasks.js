@@ -4,7 +4,7 @@ dotenv.config();
 import * as _utl from "./run_utilites.js";
 import * as _lib from "./run_photolib.js";
 import * as _db from "./run_lowdb.js";
-import { logit } from "./run_logutil.js";
+import { logit } from "./run_logUtil.js";
 import { runScript } from "./run_scripts.js";
 import { runWeb } from "./run_Web.js";
 import { runSVG } from "./run_SVG.js";
@@ -146,6 +146,12 @@ async function aws_02() {
   logit(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
 }
 
+async function aws_03() {
+  logit(BOX, `AWS #03 - INVALIDATE CACHE: ${AWSBUCKET}`);
+  // const invalidationID = await _aws.invalidateCache(AWSBUCKET);
+  logit(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
+}
+
 // ********** Run sequence tasks
 (async function () {
   // Tasks START
@@ -180,8 +186,9 @@ async function aws_02() {
 
   // Send to AWS
   logit(FIG, "AWS START");
-  await aws_01();
-  await aws_02();
+  // await aws_01();
+  // await aws_02();
+  // await aws_03();
   logit(FIG, "AWS FINI");
   // AWS Fini
 })();
@@ -206,5 +213,6 @@ export {
   web_01,
   aws_01,
   aws_02,
+  aws_03,
   svg_01,
 };

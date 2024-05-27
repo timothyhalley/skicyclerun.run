@@ -3,8 +3,11 @@
 // G-Docs: https://github.com/googlemaps/google-maps-services-js
 import dotenv from 'dotenv';
 dotenv.config();
-// Node 
-// import fs from 'fs';
+
+// Node core & other:
+const FIG = "fig";
+const ERR = "err";
+const BUG = "debug";
 
 // Axios
 import axios from 'axios';
@@ -17,6 +20,8 @@ const gClient = new Client({});
 
 export { gmapLoactions, gmapElevation, gmapTimeZone }
 
+// https://maps.googleapis.com/maps/api/geocode/json?latlng=LAT,LNG&key=YOUR_API_KEY
+// https://maps.googleapis.com/maps/api/place/details/json?placeid=PLACE_ID&key=YOUR_API_KEY
 async function gmapLoactions(lat, lon) {
 
     // usage: let locations[] = await gmapLoations(latitude, longitude)

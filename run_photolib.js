@@ -33,7 +33,7 @@ import * as _db from "./run_lowdb.js";
 import * as _fx from "./run_photoFX.js";
 import * as _gm from "./run_photoGM.js";
 import * as _xo from "./run_utilites.js";
-import { logit } from "./run_logutil.js";
+import { logit } from "./run_logUtil.js";
 
 const LOG = "log";
 const FIG = "fig";
@@ -431,7 +431,13 @@ async function setCopyRight(photoPath, pObj) {
       .jpeg({
         quality: 100,
       })
-      .toFile(newPhotoPath);
+      .toFile(newPhotoPath, (err) => {
+        if (err) {
+          logit(ERR, "photoLib:setCopyRight:sharp:composite", err);
+          logit(ERR, "SVG Detail:", svgImage)
+          logit(ERR, "Object Info:", pObj)
+        }
+      });
 
     await _db.db_addNewPath(pObj, "copyright", newPhotoPath);
   }
