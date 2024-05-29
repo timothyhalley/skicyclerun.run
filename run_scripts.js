@@ -3,9 +3,9 @@
 // https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/
 
 import { execa, execaCommand } from "execa";
-import { logit } from "./run_logutil.js";
-import * as _xo from "./run_utilites.js";
-import * as _db from "./run_lowdb.js";
+import { logit } from "./run_LogUtil.js";
+import * as _xo from "./run_Utility.js";
+import * as _db from "./run_LowDB.js";
 const ERR = "err";
 const BOX = "box";
 const LOG = "log";

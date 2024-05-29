@@ -2,8 +2,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import * as _aws from "./run_AWSS3.js";
-import { gmapElevation } from "./run_google.js";
-import { logit } from "./run_logutil.js";
+import { gmapElevation } from "./run_Google.js";
+import { logit } from "./run_LogUtil.js";
 
 const AWSBUCKET = "skicyclerun.lib";
 

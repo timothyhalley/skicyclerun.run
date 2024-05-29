@@ -1,6 +1,6 @@
 {
   "name": "run_book_for_photos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Run_book for publishing photos from Apple Photo app to AWS",
   "main": "run_tasks.js",
   "scripts": {

@@ -1,18 +1,19 @@
-// https://www.npmjs.com/package/@aws-sdk/client-s3
-// https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html
-// https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
+// AWS Docs
+// -- https://www.npmjs.com/package/@aws-sdk/client-s3
+// -- https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html
+// -- https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
 // AWS SDK for JavaScript V3 API Reference Guide
-// https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html
+// -- https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/index.html
 // JavaScript Developer Blog
-// https://aws.amazon.com/blogs/developer/category/programing-language/javascript/
+// -- https://aws.amazon.com/blogs/developer/category/programing-language/javascript/
 // AWS JavaScript Forum
-// https://forums.aws.amazon.com/forum.jspa?forumID=148
+// -- https://forums.aws.amazon.com/forum.jspa?forumID=148
 // JavaScript examples in the AWS Code Catalog
-// https://docs.aws.amazon.com/code-samples/latest/catalog/code-catalog-javascriptv3.html
+// -- https://docs.aws.amazon.com/code-samples/latest/catalog/code-catalog-javascriptv3.html
 // AWS Code Example Repository
-// https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javascriptv3/example_code
+// -- https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javascriptv3/example_code
 // Gitter channel
-// https://gitter.im/aws/aws-sdk-js
+// -- https://gitter.im/aws/aws-sdk-js
 
 // API --> https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html
 // PutObjectRequest input: https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/modules/putobjectrequest.html#body
@@ -22,7 +23,7 @@ import { readFile } from "node:fs/promises";
 
 // Project primatives
 import { logit } from "./run_LogUtil.js";
-import * as _xo from "./run_Utility.js";
+import * as _xo from "./run_Utilites.js";
 
 // AWS SDK
 import {

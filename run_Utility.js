@@ -20,7 +20,7 @@ import fg from "fast-glob";
 import path from "node:path";
 import fsp from "node:fs/promises";
 
-import { logit } from "./run_logUtil.js";
+import { logit } from "./run_LogUtil.js";
 
 const LOG = "log";
 const FIG = "fig";

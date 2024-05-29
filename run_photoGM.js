@@ -5,8 +5,8 @@
 export { charcoal, waterColor, transparent };
 
 import gm from "gm";
-import { logit } from "./run_logUtil.js";
-import * as _xo from "./run_utilites.js";
+import { logit } from "./run_LogUtil.js";
+import * as _xo from "./run_Utility.js";
 
 const LOG = "log";
 const FIG = "fig";

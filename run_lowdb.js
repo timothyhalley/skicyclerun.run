@@ -9,7 +9,7 @@ import { join, dirname } from "path";
 import { Low, JSONFile } from "lowdb-node";
 import _ from "underscore";
 import { fileURLToPath } from "url";
-import { logIt } from "./run_logUtil.js";
+import { logIt } from "./run_LogUtil.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

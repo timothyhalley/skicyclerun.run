@@ -1,11 +1,11 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import * as _utl from "./run_utilites.js";
-import * as _lib from "./run_photolib.js";
-import * as _db from "./run_lowdb.js";
-import { logit } from "./run_logUtil.js";
-import { runScript } from "./run_scripts.js";
+import * as _utl from "./run_Utility.js";
+import * as _lib from "./run_PhotoLib.js";
+import * as _db from "./run_LowDB.js";
+import { logit } from "./run_LogUtil.js";
+import { runScript } from "./run_Scripts.js";
 import { runWeb } from "./run_Web.js";
 import { runSVG } from "./run_SVG.js";
 import * as _aws from "./run_AWSS3.js";

@@ -4,8 +4,8 @@
 export { photoFXGreyScale, photoFXSepia, photoFXPoster, photoFXPencil };
 
 import jimp from "jimp";
-import * as _xo from "./run_utilites.js";
-import * as _db from "./run_lowdb.js";
+import * as _xo from "./run_Utility.js";
+import * as _db from "./run_LowDB.js";
 
 const sleep = (ms = 1000 * Math.random() + 900) =>
   new Promise((resolve) => setTimeout(resolve, ms));

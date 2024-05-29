@@ -28,12 +28,12 @@ import exifr from "exifr";
 import imageSize from "image-size";
 
 // Custom imports:
-import { gmapLoactions, gmapElevation, gmapTimeZone } from "./run_google.js";
-import * as _db from "./run_lowdb.js";
-import * as _fx from "./run_photoFX.js";
-import * as _gm from "./run_photoGM.js";
-import * as _xo from "./run_utilites.js";
-import { logit } from "./run_logUtil.js";
+import { gmapLoactions, gmapElevation, gmapTimeZone } from "./run_Google.js";
+import * as _db from "./run_LowDB.js";
+import * as _fx from "./run_PhotoFX.js";
+import * as _gm from "./run_PhotoGM.js";
+import * as _xo from "./run_Utility.js";
+import { logit } from "./run_LogUtil.js";
 
 const LOG = "log";
 const FIG = "fig";
