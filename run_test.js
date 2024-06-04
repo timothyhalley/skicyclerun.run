@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import * as _aws from "./run_AWSS3.js";
+import * as _aws from "./lib_AWSS3.js";
 import { gmapElevation } from "./run_Google.js";
 import { logIt } from "./run_LogUtil.js";
 

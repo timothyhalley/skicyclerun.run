@@ -12,7 +12,6 @@ import {
 } from "@aws-sdk/client-dynamodb";
 const dynamodb = new DynamoDBClient({ region: 'us-west-2' });
 
-
 // Module Constants
 const ERR = "err";
 const BOX = "box";
@@ -21,19 +20,17 @@ const FIG = "fig";
 const BUG = "debug";
 const SLL = "sllog";
 
-export { listTables, describeTable, createTable, destroyTable, loadData };
+export { listTables, describeTable, createTable, destroyTable, loadData2 };
 
 // Module CONST
 async function listTables() {
   const command = new ListTablesCommand({});
   try {
     const data = await dynamodb.send(command);
-    const tableNames = data.TableNames;
-    console.log('Table names:', tableNames);
-    return tableNames;
+    return data.TableNames;
   } catch (err) {
     logIt(ERR, "run_AWSDB:listTables: ", err);
-    return "FAILED"
+    return null
   }
 }
 
@@ -59,7 +56,7 @@ async function describeTable(tableName) {
     console.log(`- Read Capacity Units: ${response.Table.ProvisionedThroughput.ReadCapacityUnits}`);
     console.log(`- Write Capacity Units: ${response.Table.ProvisionedThroughput.WriteCapacityUnits}`);
 
-    return response;
+    return response.Table.ItemCount;
 
   } catch (err) {
     logIt(ERR, "run_AWSDB:describeTable: ", err);
@@ -71,12 +68,12 @@ async function createTable(tableName) {
   const params = {
     TableName: tableName, // Replace with your desired table name
     KeySchema: [
-      { AttributeName: 'uuid', KeyType: 'HASH' }, // Partition key
-      { AttributeName: 'photoName', KeyType: 'RANGE' },// Sort key
+      { AttributeName: 'photoID', KeyType: 'HASH' }, // Partition key
+      { AttributeName: 'album', KeyType: 'RANGE' },// Sort key
     ],
     AttributeDefinitions: [
-      { AttributeName: 'uuid', AttributeType: 'S' }, // String type for 'uuid'
-      { AttributeName: 'photoName', AttributeType: 'S' }, // String type for 'photoName'
+      { AttributeName: 'photoID', AttributeType: 'S' }, // String type for 'uuid'
+      { AttributeName: 'album', AttributeType: 'S' }, // String type for 'photoName'
       // Add more attributes as needed
     ],
     ProvisionedThroughput: {
@@ -105,6 +102,36 @@ async function destroyTable() {
     logIt(ERR, "run_AWSDB:destroyTable", err);
     return null;
   }
+}
+
+async function loadData2(tableName) {
+  // Example data to add
+  const itemToAdd = {
+    album: 'MyAlbum',
+    photoID: '12345',
+    title: 'Beautiful Sunset',
+    description: 'Captured at the beach'
+  };
+
+  // Create a PutItem request
+  const params = {
+    TableName: tableName,
+    Item: {
+      album: { S: itemToAdd.album },
+      photoID: { S: itemToAdd.photoID },
+      title: { S: itemToAdd.title },
+      description: { S: itemToAdd.description }
+    }
+  };
+
+  // Add the item to the table
+  dynamodb.putItem(params, (err, data) => {
+    if (err) {
+      console.error('Error adding item:', err);
+    } else {
+      console.log('Item added successfully:', data);
+    }
+  });
 }
 
 async function loadData(tableName) {

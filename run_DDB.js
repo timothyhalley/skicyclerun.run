@@ -1,4 +1,4 @@
-import * as _ddb from "./run_AWSDB.js";
+import * as _ddb from "./lib_AWSDB.js";
 import { logIt } from "./run_LogUtil.js";
 
 const ERR = "err";
@@ -8,15 +8,12 @@ const FIG = "fig";
 const BUG = "debug";
 
 async function listTables() {
-    const tables = await _ddb.listTables();
-    console.log(tables);
-
-    return tables
+    return await _ddb.listTables();
 }
 
 async function describeTable(tableName) {
-    const tableInfo = await _ddb.describeTable(tableName);
-    console.log(tableInfo);
+    const tableItemCnt = await _ddb.describeTable(tableName);
+    console.log(`\nNumber of items in table: ${tableName}: `, tableItemCnt);
 }
 
 async function createTable(tableName) {
@@ -25,7 +22,7 @@ async function createTable(tableName) {
 }
 
 async function loadData(tableName) {
-    const result = await _ddb.loadData(tableName)
+    const result = await _ddb.loadData2(tableName)
     console.log(result)
 }
 
@@ -36,13 +33,17 @@ async function loadData(tableName) {
 
     // await loadData("WHATEVER")
 
-    await createTable("genAI_Test")
-    // const arrTables = await listTables();
+    // await createTable("photo2")
 
-    // for (let table in arrTables) {
+    const arrTables = await listTables();
 
-    //     await describeTable(arrTables[table]);
-    // }
+    for (let table in arrTables) {
+        logIt(BOX, "Table Name:", arrTables[table])
+        await describeTable(arrTables[table]);
+
+    }
+
+    await loadData("photo2")
 
     logIt(FIG, "DYNAMO DB");
     // AWS Fini

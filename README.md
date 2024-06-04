@@ -34,7 +34,7 @@ use AWS location map services:
 
 ## AWS S3 Access
 Need to setup access for CLI to access S3 services. Proceed to AWS console and create new keys in IAM that has access to write files to the S3 bucket that photos will be pushed to.
- - Run: `aws configure sso`
+ - Run: `aws configure`
  - Edit: `cat ~/.aws/creditials >>.env` or add AWS keys manually to .env file
 
 
