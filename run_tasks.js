@@ -1,10 +1,10 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import * as _utl from "./run_Utility.js";
+import * as _utl from "./run_Utilities.js";
 import * as _lib from "./run_PhotoLib.js";
 import * as _db from "./run_LowDB.js";
-import { logit } from "./run_LogUtil.js";
+import { logIt } from "./run_LogUtil.js";
 import { runScript } from "./run_Scripts.js";
 import { runWeb } from "./run_Web.js";
 import { runSVG } from "./run_SVG.js";
@@ -27,135 +27,135 @@ const AWSBUCKET = "skicyclerun.lib";
 
 // STEP #1
 async function task_01() {
-  logit(BOX, "TASK #01 - CLEAN DB AND DIRECTORY");
+  logIt(BOX, "TASK #01 - CLEAN DB AND DIRECTORY");
   let dirList = await _lib.resetAll(PHOTOWEB, PHOTOTMP);
   // Output results of PURGE
-  logit(LOG, `Cleanzed DB & Location: ${dirList}`);
+  logIt(LOG, `Cleanzed DB & Location: ${dirList}`);
 }
 async function task_02() {
-  logit(BOX, "TASK #02 - Get Photo META data");
+  logIt(BOX, "TASK #02 - Get Photo META data");
   const photos = await _utl.getDirFiles(PHOTOLIB, "JPEG", "JPG", "GIF", "PNG"); //* --> process original photos
-  logit(LOG, `Number of photos to process: ${photos.length}`);
+  logIt(LOG, `Number of photos to process: ${photos.length}`);
   const numPhotos = await _lib.photoData(photos);
-  logit(LOG, `Photo Data - colleted: ${numPhotos}`);
+  logIt(LOG, `Photo Data - colleted: ${numPhotos}`);
 }
 async function task_03() {
-  logit(BOX, "TASK #03 - Copy files to TMP directory");
+  logIt(BOX, "TASK #03 - Copy files to TMP directory");
   const numPhotos = await _lib.photoRename(PHOTOTMP);
-  logit(LOG, `Copy photos - copied: ${numPhotos}`);
+  logIt(LOG, `Copy photos - copied: ${numPhotos}`);
 }
 async function task_04() {
-  logit(BOX, "TASK #04 - Scale Photos");
+  logIt(BOX, "TASK #04 - Scale Photos");
   const numPhotos = await _lib.photoScale(PHOTOTMP);
-  logit(LOG, `Scale Photos: ${numPhotos}`);
+  logIt(LOG, `Scale Photos: ${numPhotos}`);
 }
 async function fxtask_05() {
-  logit(BOX, "TASK #05 - FX GreyScale");
+  logIt(BOX, "TASK #05 - FX GreyScale");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "GreyScale");
-  logit(LOG, `GreyScale Photos: ${numPhotos}`);
+  logIt(LOG, `GreyScale Photos: ${numPhotos}`);
 }
 async function fxtask_06() {
-  logit(BOX, "TASK #06 - FX Sepia");
+  logIt(BOX, "TASK #06 - FX Sepia");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Sepia");
-  logit(LOG, `Sepia Photos: ${numPhotos}`);
+  logIt(LOG, `Sepia Photos: ${numPhotos}`);
 }
 async function fxtask_07() {
-  logit(BOX, "TASK #07 - FX Poster");
+  logIt(BOX, "TASK #07 - FX Poster");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Poster");
-  logit(LOG, `Poster Photos: ${numPhotos}`);
+  logIt(LOG, `Poster Photos: ${numPhotos}`);
 }
 async function fxtask_08() {
-  logit(BOX, "TASK #08 - FX Pencil");
+  logIt(BOX, "TASK #08 - FX Pencil");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Pencil");
-  logit(LOG, `Pencil Photos: ${numPhotos}`);
+  logIt(LOG, `Pencil Photos: ${numPhotos}`);
 }
 async function fxtask_09() {
-  logit(BOX, "TASK #09 - FX Watercolor");
+  logIt(BOX, "TASK #09 - FX Watercolor");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Watercolor");
-  logit(LOG, `Watercolor Photos: ${numPhotos}`);
+  logIt(LOG, `Watercolor Photos: ${numPhotos}`);
 }
 async function fxtask_10() {
-  logit(BOX, "TASK #10 - FX Charcoal");
+  logIt(BOX, "TASK #10 - FX Charcoal");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Charcoal");
-  logit(LOG, `Charcoal Photos: ${numPhotos}`);
+  logIt(LOG, `Charcoal Photos: ${numPhotos}`);
 }
 async function fxtask_11() {
-  logit(BOX, "TASK #11 - FX Transparent");
+  logIt(BOX, "TASK #11 - FX Transparent");
   const numPhotos = await _lib.photoFXMaker(PHOTOTMP, "Transparent");
-  logit(LOG, `Transparent Photos: ${numPhotos}`);
+  logIt(LOG, `Transparent Photos: ${numPhotos}`);
 }
 async function script_01() {
-  logit(BOX, "SCRIPT #01 - WATERCOLOR");
+  logIt(BOX, "SCRIPT #01 - WATERCOLOR");
   const numPhotos = await runScript("watercolor");
-  logit(LOG, `SCRIPT #01 - WATERCOLOR: ${numPhotos}`);
+  logIt(LOG, `SCRIPT #01 - WATERCOLOR: ${numPhotos}`);
 }
 async function script_02() {
-  logit(BOX, "SCRIPT #02 - SKETCHING");
+  logIt(BOX, "SCRIPT #02 - SKETCHING");
   const numPhotos = await runScript("sketching");
-  logit(LOG, `SCRIPT #02 - SKETCHING: ${numPhotos}`);
+  logIt(LOG, `SCRIPT #02 - SKETCHING: ${numPhotos}`);
 }
 async function script_03() {
-  logit(BOX, "SCRIPT #03 - TINYPLANET");
+  logIt(BOX, "SCRIPT #03 - TINYPLANET");
   const numPhotos = await runScript("tinyplanet");
-  logit(LOG, `SCRIPT #03 - TINYPLANET: ${numPhotos}`);
+  logIt(LOG, `SCRIPT #03 - TINYPLANET: ${numPhotos}`);
 }
 async function script_04() {
-  logit(BOX, "SCRIPT #04 - SHARPEDGE");
+  logIt(BOX, "SCRIPT #04 - SHARPEDGE");
   const numPhotos = await runScript("sharpedge");
-  logit(LOG, `SCRIPT #04 - SHARPEDGE: ${numPhotos}`);
+  logIt(LOG, `SCRIPT #04 - SHARPEDGE: ${numPhotos}`);
 }
 
 async function copyRight_00() {
 
-  logit(BOX, "CopyRight #00 - SkiCycleRun");
+  logIt(BOX, "CopyRight #00 - SkiCycleRun");
   const numPhotos = await _lib.copyRight(PHOTOTMP);
-  logit(LOG, `CopyRight #00 - SkiCycleRun: ${numPhotos}`);
+  logIt(LOG, `CopyRight #00 - SkiCycleRun: ${numPhotos}`);
 
 }
 
 async function web_01() {
-  logit(BOX, "WEB #01 - WEB REDUX");
+  logIt(BOX, "WEB #01 - WEB REDUX");
   const [numPhotos, totalBytesSaved] = await runWeb(
     PHOTOTMP,
     PHOTOCR,
     PHOTOWEB
   );
-  logit(
+  logIt(
     LOG,
     `WEB #01 - WEB REDUX: ${numPhotos} - Bytes Compressed: ${totalBytesSaved}`
   );
 }
 
 async function svg_01() {
-  logit(BOX, "SVG - CONVERT");
+  logIt(BOX, "SVG - CONVERT");
   const numSVGPhotos = await runSVG(PHOTOSVG, PHOTOWEB);
-  logit(LOG, `SVG Converted: ${numSVGPhotos}`);
+  logIt(LOG, `SVG Converted: ${numSVGPhotos}`);
 }
 
 async function aws_01() {
-  logit(BOX, `AWS #01 - LIST ITEMS: ${AWSBUCKET}`);
+  logIt(BOX, `AWS #01 - LIST ITEMS: ${AWSBUCKET}`);
   const totalBytes = await _aws.listBucket(AWSBUCKET);
-  logit(LOG, `AWS #01 - Total Bytes in ${AWSBUCKET} := ${totalBytes}`);
+  logIt(LOG, `AWS #01 - Total Bytes in ${AWSBUCKET} := ${totalBytes}`);
   // await _aws.createBucket('SkiCycleRun-Private')
   // await _aws.putObject('tst01', './images/car.svg')
 }
 
 async function aws_02() {
-  logit(BOX, `AWS #02 - UPLOAD: ${AWSBUCKET}`);
+  logIt(BOX, `AWS #02 - UPLOAD: ${AWSBUCKET}`);
   const [numPhotos, totalBytes] = await _aws.upLoadAlbums(AWSBUCKET, PHOTOWEB);
-  logit(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
+  logIt(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
 }
 
 async function aws_03() {
-  logit(BOX, `AWS #03 - INVALIDATE CACHE: ${AWSBUCKET}`);
+  logIt(BOX, `AWS #03 - INVALIDATE CACHE: ${AWSBUCKET}`);
   // const invalidationID = await _aws.invalidateCache(AWSBUCKET);
-  logit(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
+  logIt(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
 }
 
 // ********** Run sequence tasks
 (async function () {
   // Tasks START
-  logit(FIG, "PHOTO FX START");
+  logIt(FIG, "PHOTO FX START");
 
   await task_01();
   await task_02();
@@ -179,17 +179,17 @@ async function aws_03() {
   await web_01();
 
   // SVG START
-  logit(FIG, "SVG START");
+  logIt(FIG, "SVG START");
   await svg_01();
-  logit(FIG, "SVG FINI");
+  logIt(FIG, "SVG FINI");
   // SVG FINI
 
   // Send to AWS
-  logit(FIG, "AWS START");
+  logIt(FIG, "AWS START");
   // await aws_01();
   // await aws_02();
   // await aws_03();
-  logit(FIG, "AWS FINI");
+  logIt(FIG, "AWS FINI");
   // AWS Fini
 })();
 

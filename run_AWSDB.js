@@ -1,3 +1,150 @@
+// Node JS
+import { readFile } from "node:fs/promises";
+
+// Project primatives
+import { logIt } from "./run_LogUtil.js";
+import * as _xo from "./run_Utilities.js";
+
+// AWS SDK
+import { marshall } from "@aws-sdk/util-dynamodb";
+import {
+  DynamoDBClient, CreateTableCommand, ListTablesCommand, DescribeTableCommand, PutItemCommand
+} from "@aws-sdk/client-dynamodb";
+const dynamodb = new DynamoDBClient({ region: 'us-west-2' });
+
+
+// Module Constants
+const ERR = "err";
+const BOX = "box";
+const LOG = "log";
+const FIG = "fig";
+const BUG = "debug";
+const SLL = "sllog";
+
+export { listTables, describeTable, createTable, destroyTable, loadData };
+
+// Module CONST
+async function listTables() {
+  const command = new ListTablesCommand({});
+  try {
+    const data = await dynamodb.send(command);
+    const tableNames = data.TableNames;
+    console.log('Table names:', tableNames);
+    return tableNames;
+  } catch (err) {
+    logIt(ERR, "run_AWSDB:listTables: ", err);
+    return "FAILED"
+  }
+}
+
+async function describeTable(tableName) {
+  try {
+    const command = new DescribeTableCommand({ TableName: tableName });
+    const response = await dynamodb.send(command);
+
+    // Extract attribute definitions
+    const attributeDefinitions = response.Table.AttributeDefinitions;
+    console.log('Attribute Definitions:');
+    attributeDefinitions.forEach((attr) => {
+      console.log(`- Name: ${attr.AttributeName}, Type: ${attr.AttributeType}`);
+    });
+
+    // Print other relevant table information (e.g., key schema, provisioned throughput, etc.)
+    console.log('Key Schema:');
+    response.Table.KeySchema.forEach((key) => {
+      console.log(`- AttributeName: ${key.AttributeName}, KeyType: ${key.KeyType}`);
+    });
+
+    console.log('Provisioned Throughput:');
+    console.log(`- Read Capacity Units: ${response.Table.ProvisionedThroughput.ReadCapacityUnits}`);
+    console.log(`- Write Capacity Units: ${response.Table.ProvisionedThroughput.WriteCapacityUnits}`);
+
+    return response;
+
+  } catch (err) {
+    logIt(ERR, "run_AWSDB:describeTable: ", err);
+  }
+
+}
+
+async function createTable(tableName) {
+  const params = {
+    TableName: tableName, // Replace with your desired table name
+    KeySchema: [
+      { AttributeName: 'uuid', KeyType: 'HASH' }, // Partition key
+      { AttributeName: 'photoName', KeyType: 'RANGE' },// Sort key
+    ],
+    AttributeDefinitions: [
+      { AttributeName: 'uuid', AttributeType: 'S' }, // String type for 'uuid'
+      { AttributeName: 'photoName', AttributeType: 'S' }, // String type for 'photoName'
+      // Add more attributes as needed
+    ],
+    ProvisionedThroughput: {
+      ReadCapacityUnits: 5, // Adjust as needed
+      WriteCapacityUnits: 5, // Adjust as needed
+    },
+  };
+
+  const command = new CreateTableCommand(params);
+
+  try {
+    const data = await dynamodb.send(command);
+    console.log('Table created successfully:', data);
+    return data
+  } catch (err) {
+    logIt(ERR, "run_AWSDB:createSchema", err);
+    return "FAILED"
+  }
+}
+
+async function destroyTable() {
+  try {
+
+  } catch (err) {
+
+    logIt(ERR, "run_AWSDB:destroyTable", err);
+    return null;
+  }
+}
+
+async function loadData(tableName) {
+  try {
+    // Load data from the JSON file
+    const jsonData = await readFile('photoDB.json', 'utf8');
+    const data = JSON.parse(jsonData);
+
+    // little helper function ---
+    async function insertItem(item) {
+      const marshalledItem = marshall(item);
+
+      const params = {
+        TableName: tableName,
+        Item: marshalledItem,
+      };
+
+      try {
+        await dynamodb.send(new PutItemCommand(params));
+        console.log("Item inserted successfully:", marshalledItem);
+      } catch (error) {
+        console.error("Error inserting item:", error.message);
+      }
+    }
+    // --------------------------
+
+    // Insert each item into the table
+    if (Array.isArray(data)) {
+      data.forEach(insertItem);
+    } else {
+      insertItem(data);
+    }
+
+  } catch (err) {
+
+    logIt(ERR, "run_AWSDB:loadData", err);
+    return null;
+  }
+}
+// --------------------------------------------------------------------------
 // AWS Docs
 // -- https://www.npmjs.com/package/@aws-sdk/client-s3
 // -- https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html
@@ -17,200 +164,3 @@
 
 // API --> https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html
 // PutObjectRequest input: https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/modules/putobjectrequest.html#body
-
-// Node JS
-import { readFile } from "node:fs/promises";
-
-// Project primatives
-import { logit } from "./run_LogUtil.js";
-import * as _xo from "./run_Utilites.js";
-
-// AWS SDK
-import {
-  S3Client,
-  CreateBucketCommand,
-  PutObjectCommand,
-  CopyObjectCommand,
-  DeleteObjectCommand,
-  DeleteBucketCommand,
-  GetObjectCommand,
-  GetObjectAttributesCommand,
-  ListObjectsV2Command,
-} from "@aws-sdk/client-s3";
-
-// Module Constants
-const ERR = "err";
-const BOX = "box";
-const LOG = "log";
-const FIG = "fig";
-const BUG = "debug";
-const SLL = "sllog";
-
-export { listBucket, listBucketItems, createBucket, putObject, upLoadAlbums };
-
-// Module CONST
-
-async function upLoadAlbums(S3BUCKET, PHOTOWEB) {
-  try {
-    let totalBytes = 0;
-    // get file list array
-    let webPhotos = await _xo.getDirFiles(
-      PHOTOWEB,
-      "JPEG",
-      "JPG",
-      "GIF",
-      "SVG"
-    );
-
-    // send file to AWS
-    logit(SLL, "start", `Sending to AWS: ${S3BUCKET} - Start`);
-    for (let photo of webPhotos) {
-      logit(SLL, "info", photo.split("/").pop());
-      // AWS command to send to S3
-      let awsMetaData = await putObject(S3BUCKET, photo);
-      if (awsMetaData) {
-        totalBytes = totalBytes + awsMetaData.ObjectSize;
-      }
-    }
-    logit(SLL, "stop", "Sending to AWS: ${S3BUCKET} - Fini");
-    return [webPhotos.length, _xo.niceBytes(totalBytes)];
-  } catch (err) {
-    logit(FIG, "ERROR");
-    logit(ERR, "run_AWSS3:upLoadAlbums", err);
-    return [0, 0];
-  }
-}
-
-async function listBucket(S3BUCKET) {
-  try {
-    let totalBytes = 0;
-    let cmdParams = {
-      Bucket: S3BUCKET,
-    };
-    let getBucketList = new ListObjectsCommand(cmdParams);
-
-    let bucket_data = await sndCommand(getBucketList);
-    let bucketContents = bucket_data.Contents;
-    logit(SLL, "start", `Processing: ${S3BUCKET} - Start`);
-    for (let item of bucketContents) {
-      logit(SLL, "info", item.Key);
-      totalBytes = totalBytes + item.Size;
-    }
-    logit(SLL, "stop", "Processing: ${S3BUCKET} - Fini");
-    return _xo.niceBytes(totalBytes);
-  } catch (err) {
-    logit(FIG, "NOTE: list Bucket - no items found");
-    // logit(ERR, "run_AWSS3:listBucket", err);
-    return null;
-  }
-}
-
-async function listBucketItems(S3BUCKET) {
-
-  const AWSID = process.env.aws_access_key_id
-  const AWSXX = process.env.aws_secret_access_key
-
-  const client = new S3Client({
-    region: "us-west-2",
-    credentials: {
-      accessKeyId: AWSID,
-      secretAccessKey: AWSXX,
-    },
-  });
-
-  const command = new ListObjectsV2Command({
-    Bucket: S3BUCKET,
-    MaxKeys: 10, // default 1000
-  });
-
-  try {
-
-    console.log("Your bucket contains the following objects:\n");
-    let contents = "";
-    const { Contents } = await client.send(command);
-    const contentsList = Contents.map((c) => ` • ${c.Key}`).join("\n");
-
-    console.log(contentsList);
-  } catch (err) {
-    console.error(err);
-  }
-};
-
-async function putObject(S3BUCKET, inFile) {
-  // https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/modules/putobjectrequest.html#body
-
-  // get file and album from path - 2 deep only
-  const delim = "/";
-  const fileArr = inFile.split(delim);
-  const fileName = fileArr.pop();
-  const fileAlbum = fileArr.pop();
-  let objS3Path = "albums" + delim + fileAlbum + delim + fileName;
-  objS3Path = objS3Path.toLocaleLowerCase();
-
-  try {
-    const s3File = await readFile(inFile);
-    let cmdParams = {
-      Bucket: S3BUCKET,
-      Body: s3File,
-      Key: objS3Path,
-    };
-    let putObjCmd = new PutObjectCommand(cmdParams);
-    let putResults = await sndCommand(putObjCmd);
-    if (putResults.$metadata.httpStatusCode == 200) {
-      cmdParams = {
-        Bucket: S3BUCKET,
-        Key: objS3Path,
-        ObjectAttributes: [
-          // 'ETag' | 'Checksum' | 'ObjectParts' | 'StorageClass' | 'ObjectSize'
-          "ObjectSize",
-        ],
-      };
-      let getObjCmd = new GetObjectAttributesCommand(cmdParams);
-      let getResults = await sndCommand(getObjCmd);
-      return getResults;
-    }
-    return;
-  } catch (err) {
-    logit(FIG, "ERROR");
-    logit(ERR, "run_AWSS3:putObject", err);
-    return null;
-  }
-}
-
-async function createBucket(bucket) {
-  try {
-    let cmdParams = {
-      Bucket: bucket,
-    };
-    let createBucketCmd = new CreateBucketCommand(cmdParams);
-    return await sndCommand(createBucketCmd);
-  } catch (err) {
-    logit(FIG, "ERROR");
-    logit(ERR, "run_AWSS3:createBucket", err);
-    return null;
-  }
-}
-
-async function sndCommand(command) {
-
-  const AWSID = process.env.aws_access_key_id
-  const AWSXX = process.env.aws_secret_access_key
-
-  const s3 = new S3Client({
-    region: "us-west-2",
-    credentials: {
-      accessKeyId: AWSID,
-      secretAccessKey: AWSXX,
-    },
-  });
-
-  try {
-    return await s3.send(command);
-  } catch (err) {
-    logit(FIG, "ERROR");
-    logit(ERR, "run_AWSS3:sndCommand", err);
-    return err;
-  }
-}
-
-// --------------------------------------------------------------------------

@@ -14,6 +14,9 @@
   "type": "module",
   "dependencies": {
     "@aws-sdk/client-s3": "latest",
+    "@aws-sdk/client-dynamodb": "latest",
+    "@aws-sdk/lib-dynamodb": "latest",
+    "@aws-sdk/util-dynamodb": "latest",
     "@googlemaps/google-maps-services-js": "latest",
     "axios": "latest",
     "boxen": "latest",
@@ -27,7 +30,7 @@
     "figlet": "latest",
     "gm": "latest",
     "image-size": "latest",
-    "jimp": "^0.22.12",
+    "jimp": "latest",
     "lowdb-node": "latest",
     "marky": "latest",
     "ora": "latest",

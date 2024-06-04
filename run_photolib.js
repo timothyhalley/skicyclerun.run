@@ -32,8 +32,8 @@ import { gmapLoactions, gmapElevation, gmapTimeZone } from "./run_Google.js";
 import * as _db from "./run_LowDB.js";
 import * as _fx from "./run_PhotoFX.js";
 import * as _gm from "./run_PhotoGM.js";
-import * as _xo from "./run_Utility.js";
-import { logit } from "./run_LogUtil.js";
+import * as _xo from "./run_Utilities.js";
+import { logIt } from "./run_LogUtil.js";
 
 const LOG = "log";
 const FIG = "fig";
@@ -68,15 +68,15 @@ async function getDBSize() {
 async function photoData(photos) {
   let pCnt = 0;
 
-  logit(SLL, "start", "Photo Data - Start");
+  logIt(SLL, "start", "Photo Data - Start");
   for (const photo of photos) {
-    logit(SLL, "info", photo);
+    logIt(SLL, "info", photo);
     let picData = await getPhotoData(photo);
     // console.log('Debug: ➡️ ', picData)
     await _db.db_Upsert(picData);
     pCnt = pCnt + 1;
   }
-  logit(SLL, "stop", "Photo Data - Fini");
+  logIt(SLL, "stop", "Photo Data - Fini");
   return pCnt;
 }
 
@@ -87,13 +87,13 @@ async function photoRename(tmpDir) {
 
   let photos = await _db.db_getPhotos();
 
-  logit(SLL, "start", "Photo Rename: Start");
+  logIt(SLL, "start", "Photo Rename: Start");
   for (const photo of photos) {
-    logit(SLL, "info", photo.info.image);
+    logIt(SLL, "info", photo.info.image);
     await setRenamePhoto(outDir, photo);
     numFotos = numFotos + 1;
   }
-  logit(SLL, "stop", "Photo Rename: Fini");
+  logIt(SLL, "stop", "Photo Rename: Fini");
   return numFotos;
 }
 
@@ -103,21 +103,21 @@ async function photoScale(tmpDir) {
 
   let pDB = await _db.db_getPhotos();
   let numPhotos = 0;
-  logit(SLL, "start", "Photo Scale - Start");
+  logIt(SLL, "start", "Photo Scale - Start");
 
   for (const pObj of pDB) {
     numPhotos++;
-    logit(
+    logIt(
       SLL,
       "info",
       `photo: ${numPhotos} of ${pDB.length}\t → ${pObj.info.name}`
     );
     await setPhotoResize(pObj);
-    logit(SLL, "info", `photo: ${pObj.info.name} - COMPLETE`);
+    logIt(SLL, "info", `photo: ${pObj.info.name} - COMPLETE`);
     // await sleep(1000)
   }
 
-  logit(SLL, "stop", "Photo Scale - Fini");
+  logIt(SLL, "stop", "Photo Scale - Fini");
   return numPhotos;
 }
 
@@ -132,11 +132,11 @@ async function copyRight(tmpDir) {
     "SVG")
   let pDB = await _db.db_getPhotos();
   let numPhotos = 0;
-  logit(SLL, "start", "CopyRight - Start");
+  logIt(SLL, "start", "CopyRight - Start");
   for (const file of arrFiles) {
     numPhotos++;
     let pathID = file.split('/').pop().split('_')[0];
-    logit(
+    logIt(
       SLL,
       "info",
       `photo: ${numPhotos} of ${arrFiles.length}\t → ${pathID}`
@@ -144,9 +144,9 @@ async function copyRight(tmpDir) {
     let nameKey = file.split('/').pop().split('.')[0];
     let pObj = await _db.db_getPhotoByName(pathID)
     await setCopyRight(file, pObj);
-    logit(SLL, "info", `photo: ${pathID} - COMPLETE`);
+    logIt(SLL, "info", `photo: ${pathID} - COMPLETE`);
   }
-  logit(SLL, "stop", "CopyRight - Fini");
+  logIt(SLL, "stop", "CopyRight - Fini");
   return numPhotos;
 }
 
@@ -156,11 +156,11 @@ async function photoFXGreyScale(tmpDir) {
 
   let pDB = await _db.db_getPhotos();
   let numPhotos = 0;
-  logit(SLL, "start", "Photo Grey Scale - Start");
+  logIt(SLL, "start", "Photo Grey Scale - Start");
 
   for (const pObj of pDB) {
     numPhotos++;
-    logit(
+    logIt(
       SLL,
       "info",
       `photo: ${numPhotos} of ${pDB.length}\t → ${pObj.info.name}`
@@ -169,7 +169,7 @@ async function photoFXGreyScale(tmpDir) {
     // await sleep(1000)
   }
 
-  logit(SLL, "stop", "Photo Grey Scale - Fini");
+  logIt(SLL, "stop", "Photo Grey Scale - Fini");
   return numPhotos;
 }
 
@@ -179,11 +179,11 @@ async function photoFXMaker(tmpDir, FXStyle) {
 
   let pDB = await _db.db_getPhotos();
   let numPhotos = 0;
-  logit(SLL, "start", `Photo FX: ${FXStyle}`);
+  logIt(SLL, "start", `Photo FX: ${FXStyle}`);
 
   for (const pObj of pDB) {
     numPhotos++;
-    logit(
+    logIt(
       SLL,
       "info",
       `photo: ${numPhotos} of ${pDB.length}\t → ${pObj.info.name}`
@@ -219,13 +219,13 @@ async function photoFXMaker(tmpDir, FXStyle) {
 
       case "noOpt":
       default:
-        logit(ERR, "photoFXMaker", "No FX defined");
+        logIt(ERR, "photoFXMaker", "No FX defined");
         break;
     }
     // await sleep(1000)
   }
 
-  logit(SLL, "stop", `Photo FX FINI: ${FXStyle}`);
+  logIt(SLL, "stop", `Photo FX FINI: ${FXStyle}`);
   return numPhotos;
 }
 
@@ -248,16 +248,16 @@ async function setRenamePhoto(outDir, photo) {
     await _xo.checkDirectory(newPath);
     try {
       let cpStat = await _xo.copyFile(ogFile, newPath);
-      logit(SLL, "info", "CP file: ", ogFile, newPath, cpStat);
+      logIt(SLL, "info", "CP file: ", ogFile, newPath, cpStat);
       // add new path to info section
       await _db.db_addNewPath(photo, "copy", newPath);
     } catch (err) {
-      logit(FIG, "ERROR!");
-      logit(ERR, err);
+      logIt(FIG, "ERROR!");
+      logIt(ERR, err);
     }
   } else {
-    logit(FIG, "ERROR!");
-    logit(
+    logIt(FIG, "ERROR!");
+    logIt(
       ERR,
       "Path missing or incomplete to copy file to TMP area for processing."
     );
@@ -306,7 +306,7 @@ async function getPhotoEXIF(filepath) {
 }
 
 async function getPhotoData(filepath) {
-  logit(SLL, "Photo:", filepath);
+  logIt(SLL, "Photo:", filepath);
   // Get info from path: album and filename
   let pFile = await _xo.getFileInfo(filepath);
 
@@ -433,16 +433,16 @@ async function setCopyRight(photoPath, pObj) {
       })
       .toFile(newPhotoPath, (err) => {
         if (err) {
-          logit(ERR, "photoLib:setCopyRight:sharp:composite", err);
-          logit(ERR, "SVG Detail:", svgImage)
-          logit(ERR, "Object Info:", pObj)
+          logIt(ERR, "photoLib:setCopyRight:sharp:composite", err);
+          logIt(ERR, "SVG Detail:", svgImage)
+          logIt(ERR, "Object Info:", pObj)
         }
       });
 
     await _db.db_addNewPath(pObj, "copyright", newPhotoPath);
   }
   catch (err) {
-    logit(ERR, "photoLib:setCopyRight", err);
+    logIt(ERR, "photoLib:setCopyRight", err);
   }
 }
 async function setPhotoResize(pObj) {
@@ -484,7 +484,7 @@ async function setPhotoResize(pObj) {
     await _db.db_addNewPath(pObj, "scale", newPhotoPath);
     // console.log('DONE')
   } catch (err) {
-    logit(ERR, "photoLib:setPhotoScale", err);
+    logIt(ERR, "photoLib:setPhotoScale", err);
   }
 }
 
@@ -624,7 +624,7 @@ async function calcImageScale(imgWidth, imgHeight, imgPCT) {
   newWidth = stdImgSize.find((num) => num < newWidth);
   if (newWidth == undefined) {
     newWidth = 256;
-    logit(
+    logIt(
       ERR,
       `Image width of ${imgWidth} below requirements - forcing to ${newWidth} min size`
     );
@@ -683,6 +683,6 @@ async function photoCompress(inPhoto, outDims, outPhoto) {
       .jpeg({ mozjpeg: true })
       .toFile(outPhoto);
   } catch (err) {
-    logit(ERR, "photoLib:photoCompress", err);
+    logIt(ERR, "photoLib:photoCompress", err);
   }
 }

@@ -3,8 +3,8 @@
 // https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/
 
 import { execa, execaCommand } from "execa";
-import { logit } from "./run_LogUtil.js";
-import * as _xo from "./run_Utility.js";
+import { logIt } from "./run_LogUtil.js";
+import * as _xo from "./run_Utilities.js";
 import * as _db from "./run_LowDB.js";
 const ERR = "err";
 const BOX = "box";
@@ -24,7 +24,7 @@ async function runScript(script) {
   let pDB = await _db.db_getPhotos();
   let numPhotos = 0;
   let fSize = 0.0;
-  logit(SLL, "start", `Script: ${script} GOGO`);
+  logIt(SLL, "start", `Script: ${script} GOGO`);
   for (const pObj of pDB) {
     numPhotos++;
     switch (script) {
@@ -49,19 +49,19 @@ async function runScript(script) {
 
       case "noOpt":
       default:
-        logit(FIG, "ERROR");
-        logit(ERR, "runScripts:runScript", "No Script defined");
+        logIt(FIG, "ERROR");
+        logIt(ERR, "runScripts:runScript", "No Script defined");
         break;
     }
     // await sleep(1000)
-    logit(
+    logIt(
       SLL,
       "info",
       `photo: ${numPhotos} of ${pDB.length} → ${pObj.info.name} - Script ${script} w/ filesize: ${fSize}`
     );
   }
 
-  logit(SLL, "stop", `Script: ${script} FINI`);
+  logIt(SLL, "stop", `Script: ${script} FINI`);
   return numPhotos;
 }
 

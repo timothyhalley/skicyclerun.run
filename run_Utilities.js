@@ -20,7 +20,7 @@ import fg from "fast-glob";
 import path from "node:path";
 import fsp from "node:fs/promises";
 
-import { logit } from "./run_LogUtil.js";
+import { logIt } from "./run_LogUtil.js";
 
 const LOG = "log";
 const FIG = "fig";
@@ -40,8 +40,8 @@ async function copyFile(scrFile, newFile) {
   try {
     return await fsp.cp(scrFile, newFile);
   } catch (err) {
-    logit(FIG, "ERROR");
-    logit(ERR, "run_utilites:copyFile", err);
+    logIt(FIG, "ERROR");
+    logIt(ERR, "run_utilites:copyFile", err);
     return null;
   }
 }
@@ -67,7 +67,7 @@ async function checkDirectory(dirPath) {
     await fsp.access(dirName); //, constants.R_OK | constants.W_OK
   } catch (err) {
     // note: per MDN - 'this is the way' to run on error from access --> MKDIR
-    // logit(LOG, 'Directory does not exist: ', fotoDir)
+    // logIt(LOG, 'Directory does not exist: ', fotoDir)
     await makeDirectory(dirName);
   }
 }
@@ -76,8 +76,8 @@ async function makeDirectory(dirPath) {
   try {
     await fsp.mkdir(dirPath, { recursive: true });
   } catch (err) {
-    logit(FIG, "ERROR");
-    logit(ERR, "run_utilites:makeDirectory", err);
+    logIt(FIG, "ERROR");
+    logIt(ERR, "run_utilites:makeDirectory", err);
   }
 }
 
@@ -92,7 +92,7 @@ async function getDirFiles(srcDir, ...srcType) {
   try {
     return await fg([srcDirFiles], { absolute: false });
   } catch (err) {
-    logit(ERR, err);
+    logIt(ERR, err);
     return null;
   }
 }
@@ -102,7 +102,7 @@ async function cleanDirectories(dirs) {
   try {
     deletedDirectoryPaths = await deleteAsync(dirs);
   } catch (err) {
-    logit(ERR, err);
+    logIt(ERR, err);
     deletedDirectoryPaths = null;
   }
 
@@ -116,7 +116,7 @@ async function countDirFiles(dir) {
     let fileCount = await fg([fPath]);
     return fileCount.length;
   } catch (err) {
-    logit(ERR, err);
+    logIt(ERR, err);
     return null;
   }
 }

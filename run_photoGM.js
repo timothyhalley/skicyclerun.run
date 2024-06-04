@@ -5,8 +5,8 @@
 export { charcoal, waterColor, transparent };
 
 import gm from "gm";
-import { logit } from "./run_LogUtil.js";
-import * as _xo from "./run_Utility.js";
+import { logIt } from "./run_LogUtil.js";
+import * as _xo from "./run_Utilities.js";
 
 const LOG = "log";
 const FIG = "fig";
@@ -80,8 +80,8 @@ async function genWaterColor(photoIn, photoOut) {
       // .contrast(5)
       .write(photoOut, function (err) {
         if (err) {
-          logit(FIG, "ERROR");
-          logit(ERR, "genWaterColor", err);
+          logIt(FIG, "ERROR");
+          logIt(ERR, "genWaterColor", err);
         }
       });
   } catch (err) {
@@ -94,8 +94,8 @@ async function genCharcoal(photoIn, photoOut) {
     const image = await gm(photoIn);
     await image.charcoal(0.95).write(photoOut, function (err) {
       if (err) {
-        logit(FIG, "ERROR: genCharcoal");
-        logit(ERR, "genCharcoal", err);
+        logIt(FIG, "ERROR: genCharcoal");
+        logIt(ERR, "genCharcoal", err);
       }
     });
   } catch (err) {
@@ -108,8 +108,8 @@ async function genTransparent(photoIn, photoOut) {
     const image = await gm(photoIn);
     await image.transparent('white').write(photoOut, function (err) {
       if (err) {
-        logit(FIG, "ERROR: genTransparent");
-        logit(ERR, "genTransparent", err);
+        logIt(FIG, "ERROR: genTransparent");
+        logIt(ERR, "genTransparent", err);
       }
     });
   } catch (err) {

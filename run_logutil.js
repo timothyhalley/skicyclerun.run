@@ -5,7 +5,7 @@
 
 // Primers and Help
 // chalk --> https://www.npmjs.com/package/chalk
-export { logit };
+export { logIt };
 
 import chalk from 'chalk';
 import fig from 'figlet';
@@ -48,7 +48,7 @@ function slOut(cmd, info) {
 
 }
 
-function logit(type, ...args) {
+function logIt(type, ...args) {
 
     let sllCMD = null;
     if (type == 'sllog') {

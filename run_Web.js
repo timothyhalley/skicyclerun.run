@@ -3,10 +3,10 @@
 // https://medium.com/geekculture/upload-compress-and-delete-images-in-a-aws-s3-bucket-with-node-js-express-ba29d288b129
 
 // import * as _utl from './run_photolib.js';
-import * as _xo from "./run_Utility.js";
+import * as _xo from "./run_Utilities.js";
 import * as _utl from "./run_PhotoLib.js";
 import * as _db from "./run_LowDB.js";
-import { logit } from "./run_LogUtil.js";
+import { logIt } from "./run_LogUtil.js";
 
 // Node modules
 import path from "node:path";
@@ -28,7 +28,7 @@ async function runWeb(dirIn, fxDir, dirOut) {
   let numPhotos = 0;
   let mbSaved = 0;
   let photos = await _xo.getDirFiles(photoDir, "JPEG", "JPG", "GIF");
-  logit(SLL, "start", "Photo Compress - Start");
+  logIt(SLL, "start", "Photo Compress - Start");
 
   for (const inPhoto of photos) {
     let smlFile = inPhoto.split("/").pop();
@@ -46,7 +46,7 @@ async function runWeb(dirIn, fxDir, dirOut) {
     outPhoto = outPhoto.replace(fxDir, "");
     await _xo.checkDirectory(outPhoto);
 
-    logit(
+    logIt(
       SLL,
       "info",
       `Compressing: ${smlFile} (ratio: W:${inFileSz.width}➡${outPhotoSz.width
@@ -67,7 +67,7 @@ async function runWeb(dirIn, fxDir, dirOut) {
     mbSaved = mbSaved + parseInt(inStat.fsz - outStat.fsz);
     numPhotos++;
   }
-  logit(SLL, "stop", "Photo Compress - Fini");
+  logIt(SLL, "stop", "Photo Compress - Fini");
   let totalBytesSaved = _xo.niceBytes(mbSaved);
   return [numPhotos, totalBytesSaved];
 }
