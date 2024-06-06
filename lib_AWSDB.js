@@ -20,7 +20,7 @@ const FIG = "fig";
 const BUG = "debug";
 const SLL = "sllog";
 
-export { listTables, describeTable, createTable, destroyTable, loadData2 };
+export { listTables, describeTable, createTable, destroyTable, loadData };
 
 // Module CONST
 async function listTables() {
@@ -104,7 +104,7 @@ async function destroyTable() {
   }
 }
 
-async function loadData2(tableName) {
+async function loadData(tableName) {
   // Example data to add
   const itemToAdd = {
     album: 'MyAlbum',
@@ -123,52 +123,14 @@ async function loadData2(tableName) {
       description: { S: itemToAdd.description }
     }
   };
-
+  // console.log("PARAMS: ", params)
   // Add the item to the table
-  dynamodb.putItem(params, (err, data) => {
-    if (err) {
-      console.error('Error adding item:', err);
-    } else {
-      console.log('Item added successfully:', data);
-    }
-  });
-}
-
-async function loadData(tableName) {
   try {
-    // Load data from the JSON file
-    const jsonData = await readFile('photoDB.json', 'utf8');
-    const data = JSON.parse(jsonData);
-
-    // little helper function ---
-    async function insertItem(item) {
-      const marshalledItem = marshall(item);
-
-      const params = {
-        TableName: tableName,
-        Item: marshalledItem,
-      };
-
-      try {
-        await dynamodb.send(new PutItemCommand(params));
-        console.log("Item inserted successfully:", marshalledItem);
-      } catch (error) {
-        console.error("Error inserting item:", error.message);
-      }
-    }
-    // --------------------------
-
-    // Insert each item into the table
-    if (Array.isArray(data)) {
-      data.forEach(insertItem);
-    } else {
-      insertItem(data);
-    }
-
+    const command = new PutItemCommand(params);
+    const response = await dynamodb.send(command);
+    console.log('Item added successfully:', response);
   } catch (err) {
-
-    logIt(ERR, "run_AWSDB:loadData", err);
-    return null;
+    console.error('Error adding item:', err);
   }
 }
 // --------------------------------------------------------------------------
