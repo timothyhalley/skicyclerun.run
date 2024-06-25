@@ -1,28 +1,36 @@
-# Node Modules    #
+# Project Areas   #
 ###################
-node_modules/
-vendor/
 PhotoLib/
 PhotoLibX/
 PhotoTmp/
 PhotoWeb/
 PhotoWebX/
-package-lock.json
-key.json
-.env
-aws-credentials.json
 photoDB.json
 
-# Compiled source #
+# Credintials     #
 ###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-*.cache
-*.mpc
+.env
+key.json
+aws-credentials.json
+
+# Node Modules    #
+###################
+node_modules/
+package-lock.json
+
+# GM Temp Files   #
+###################
+*.bpm
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
 
 # Packages #
 ############
@@ -36,21 +44,3 @@ photoDB.json
 *.rar
 *.tar
 *.zip
-
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-photoDB.json
-photoDB.json
