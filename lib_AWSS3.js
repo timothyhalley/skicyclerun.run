@@ -1,9 +1,12 @@
+// AWS API Doc
+// https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/s3/
+
 // Node JS
 import { readFile } from "node:fs/promises";
 
 // Project primatives
-import { logIt } from "./run_LogUtil.js";
-import * as _xo from "./run_Utilities.js";
+import { logIt } from "./lib_LogUtil.js";
+import * as _xo from "./lib_Utilities.js";
 
 // AWS SDK
 import {
@@ -11,12 +14,16 @@ import {
   CreateBucketCommand,
   PutObjectCommand,
   CopyObjectCommand,
-  DeleteObjectCommand,
+  DeleteObjectsCommand,
   DeleteBucketCommand,
   GetObjectCommand,
   GetObjectAttributesCommand,
   ListObjectsV2Command,
 } from "@aws-sdk/client-s3";
+
+const s3Client = new S3Client({
+  region: "us-west-2"
+});
 
 // Module Constants
 const ERR = "err";
@@ -26,11 +33,12 @@ const FIG = "fig";
 const BUG = "debug";
 const SLL = "sllog";
 
-export { listBucket, listBucketItems, createBucket, putObject, upLoadAlbums };
+export { listBucketItems, createBucket, removeAlbums, putObject, upLoadAlbums };
 
 // Module CONST
 
 async function upLoadAlbums(S3BUCKET, PHOTOWEB) {
+
   try {
     let totalBytes = 0;
     // get file list array
@@ -49,72 +57,89 @@ async function upLoadAlbums(S3BUCKET, PHOTOWEB) {
       // AWS command to send to S3
       let awsMetaData = await putObject(S3BUCKET, photo);
       if (awsMetaData) {
-        totalBytes = totalBytes + awsMetaData.ObjectSize;
+        totalBytes = totalBytes + (await _xo.getFileInfo(photo)).fsz;
       }
     }
     logIt(SLL, "stop", "Sending to AWS: ${S3BUCKET} - Fini");
     return [webPhotos.length, _xo.niceBytes(totalBytes)];
   } catch (err) {
-    logIt(FIG, "ERROR");
+    logIt(BOX, "ERROR");
     logIt(ERR, "run_AWSS3:upLoadAlbums", err);
     return [0, 0];
   }
 }
 
-async function listBucket(S3BUCKET) {
+async function listBucketItems(bucketName, maxKeys = 10) {
   try {
     let totalBytes = 0;
-    let cmdParams = {
-      Bucket: S3BUCKET,
-    };
-    let getBucketList = new ListObjectsCommand(cmdParams);
 
-    let bucket_data = await sndCommand(getBucketList);
+    let cmdParams = {
+      Bucket: bucketName,
+      MaxKeys: maxKeys
+    };
+    const command = new ListObjectsV2Command(cmdParams);
+    console.log("TEST")
+    let bucket_data = await s3Client.send(command);
     let bucketContents = bucket_data.Contents;
-    logIt(SLL, "start", `Processing: ${S3BUCKET} - Start`);
+    logIt(SLL, "start", `Processing: ${bucketName} - Start`);
     for (let item of bucketContents) {
       logIt(SLL, "info", item.Key);
       totalBytes = totalBytes + item.Size;
     }
-    logIt(SLL, "stop", "Processing: ${S3BUCKET} - Fini");
+    logIt(SLL, "stop", `Processing: ${bucketName} - Fini`);
     return _xo.niceBytes(totalBytes);
   } catch (err) {
-    logIt(FIG, "NOTE: list Bucket - no items found");
-    // logIt(ERR, "run_AWSS3:listBucket", err);
-    return null;
+    logIt(BOX, "NOTE: list Bucket - no items found");
+    logIt(ERR, "run_AWSS3:listBucket", err);
+    logIt(BOX, "Key: ", process.env.aws_access_key_id)
+    return 0;
   }
 }
 
-async function listBucketItems(S3BUCKET) {
+async function removeAlbums(bucketName, webRepo) {
 
-  const AWSID = process.env.aws_access_key_id
-  const AWSXX = process.env.aws_secret_access_key
+  const albums = await _xo.getAlbumPaths(webRepo)
 
-  const client = new S3Client({
-    region: "us-west-2",
-    credentials: {
-      accessKeyId: AWSID,
-      secretAccessKey: AWSXX,
-    },
-  });
+  for (let album of albums) {
+    // const folderName = _xo.appendSlashToPath(_xo.convertToLowerCase(album));
+    const folderName = _xo.removeLeadingSlash(_xo.convertToLowerCase(album))
+    await deleteFolderContents(bucketName, folderName)
+  }
+}
 
-  const command = new ListObjectsV2Command({
-    Bucket: S3BUCKET,
-    MaxKeys: 10, // default 1000
-  });
+async function deleteFolderContents(bucketName, folderName) {
+
+  const listParams = {
+    Bucket: bucketName,
+    Prefix: folderName // The folder path (e.g., "my-folder/")
+  };
 
   try {
+    const { Contents, IsTruncated, KeyCount } = await s3Client.send(new ListObjectsV2Command(listParams));
 
-    console.log("Your bucket contains the following objects:\n");
-    let contents = "";
-    const { Contents } = await client.send(command);
-    const contentsList = Contents.map((c) => ` • ${c.Key}`).join("\n");
+    if (Contents !== undefined && Contents.length > 0) {
+      // Extract keys (object names) from the result
+      const keysToDelete = Contents.map((obj) => ({ Key: obj.Key }));
 
-    console.log(contentsList);
-  } catch (err) {
-    console.error(err);
+      // Delete all objects in one batch
+      const deleteParams = {
+        Bucket: bucketName,
+        Delete: { Objects: keysToDelete },
+      };
+      await s3Client.send(new DeleteObjectsCommand(deleteParams));
+
+      logIt(BOX, `Deleted ${keysToDelete.length} objects from ${folderName}`);
+      isEmpty = false; // Folder is not empty
+
+    } else {
+      logIt(BOX, `Folder ${folderName} is already empty.`);
+    }
+
+  } catch (error) {
+    logIt(ERR, "Error deleting objects:", error);
   }
-};
+
+}
 
 async function putObject(S3BUCKET, inFile) {
   // https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/modules/putobjectrequest.html#body
@@ -129,32 +154,19 @@ async function putObject(S3BUCKET, inFile) {
 
   try {
     const s3File = await readFile(inFile);
-    let cmdParams = {
+    const command = new PutObjectCommand({
       Bucket: S3BUCKET,
       Body: s3File,
-      Key: objS3Path,
-    };
-    let putObjCmd = new PutObjectCommand(cmdParams);
-    let putResults = await sndCommand(putObjCmd);
-    if (putResults.$metadata.httpStatusCode == 200) {
-      cmdParams = {
-        Bucket: S3BUCKET,
-        Key: objS3Path,
-        ObjectAttributes: [
-          // 'ETag' | 'Checksum' | 'ObjectParts' | 'StorageClass' | 'ObjectSize'
-          "ObjectSize",
-        ],
-      };
-      let getObjCmd = new GetObjectAttributesCommand(cmdParams);
-      let getResults = await sndCommand(getObjCmd);
-      return getResults;
-    }
-    return;
-  } catch (err) {
-    logIt(FIG, "ERROR");
-    logIt(ERR, "run_AWSS3:putObject", err);
-    return null;
+      Key: objS3Path
+    });
+    await s3Client.send(command);
+    return true
+  } catch (error) {
+    logIt(BOX, "ERROR");
+    logIt(ERR, "lib_AWSS3:putObject:", error)
+    return false
   }
+
 }
 
 async function createBucket(bucket) {
@@ -162,38 +174,19 @@ async function createBucket(bucket) {
     let cmdParams = {
       Bucket: bucket,
     };
-    let createBucketCmd = new CreateBucketCommand(cmdParams);
-    return await sndCommand(createBucketCmd);
+    let command = new CreateBucketCommand(cmdParams);
+    const response = await s3Client.send(command);
+    return response.ContentLength
   } catch (err) {
-    logIt(FIG, "ERROR");
+    logIt(BOX, "ERROR");
     logIt(ERR, "run_AWSS3:createBucket", err);
     return null;
   }
 }
 
-async function sndCommand(command) {
-
-  const AWSID = process.env.aws_access_key_id
-  const AWSXX = process.env.aws_secret_access_key
-
-  const s3 = new S3Client({
-    region: "us-west-2",
-    credentials: {
-      accessKeyId: AWSID,
-      secretAccessKey: AWSXX,
-    },
-  });
-
-  try {
-    return await s3.send(command);
-  } catch (err) {
-    logIt(FIG, "ERROR");
-    logIt(ERR, "run_AWSS3:sndCommand", err);
-    return err;
-  }
-}
 
 // --------------------------------------------------------------------------
+// https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/s3/command/GetObjectCommand/
 // https://www.npmjs.com/package/@aws-sdk/client-s3
 // https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-s3/index.html
 // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html

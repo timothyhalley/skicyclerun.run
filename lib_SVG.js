@@ -1,10 +1,10 @@
 // Purpose: Convert specific images to SVG for optimal web page displays
 
 import { execa, execaCommand } from "execa";
-import * as _xo from "./run_Utilities.js";
-import * as _utl from "./run_PhotoLib.js";
-import * as _db from "./run_LowDB.js";
-import { logIt } from "./run_LogUtil.js";
+import * as _xo from "./lib_Utilities.js";
+import * as _utl from "./lib_PhotoLib.js";
+import * as _db from "./lib_LowDB.js";
+import { logIt } from "./lib_LogUtil.js";
 
 // Node modules
 import path from "node:path";

@@ -5,13 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/run_tasks.js",
+            "name": "Test Run",
+            "program": "${workspaceFolder}/run_test.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "node"
+            "type": "node",
+            "console": "internalConsole"
+        },
+        {
+            "name": "Main Run",
+            "program": "${workspaceFolder}/run_Tasks.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "console": "internalConsole"
         }
     ]
 }

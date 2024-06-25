@@ -3,10 +3,10 @@
 // https://medium.com/geekculture/upload-compress-and-delete-images-in-a-aws-s3-bucket-with-node-js-express-ba29d288b129
 
 // import * as _utl from './run_photolib.js';
-import * as _xo from "./run_Utilities.js";
-import * as _utl from "./run_PhotoLib.js";
-import * as _db from "./run_LowDB.js";
-import { logIt } from "./run_LogUtil.js";
+import * as _xo from "./lib_Utilities.js";
+import * as _utl from "./lib_PhotoLib.js";
+import * as _db from "./lib_LowDB.js";
+import { logIt } from "./lib_LogUtil.js";
 
 // Node modules
 import path from "node:path";

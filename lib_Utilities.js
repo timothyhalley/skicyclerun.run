@@ -13,6 +13,11 @@ export {
   copyFile,
   getFileType,
   getDirName,
+  getAlbumPaths,
+  convertToLowerCase,
+  appendSlashToPath,
+  removeLeadingSlash,
+  objectValuesToArray
 };
 
 import { deleteAsync } from "del"; // https://www.npmjs.com/package/del
@@ -20,7 +25,7 @@ import fg from "fast-glob";
 import path from "node:path";
 import fsp from "node:fs/promises";
 
-import { logIt } from "./run_LogUtil.js";
+import { logIt } from "./lib_LogUtil.js";
 
 const LOG = "log";
 const FIG = "fig";
@@ -129,4 +134,46 @@ async function getFileType(fpath) {
 
 async function getDirName(dirPath) {
   return dirPath.split(path.sep).pop();
+}
+
+const getDirectories = async (source) => {
+  try {
+    const entries = await fsp.readdir(source, { withFileTypes: true });
+    const directoryNames = entries
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => `/albums/${dirent.name}`);
+    return directoryNames;
+  } catch (error) {
+    console.error('Error reading directories:', error);
+    throw error;
+  }
+};
+
+async function getAlbumPaths(targetPath) {
+  const directories = await getDirectories(targetPath);
+  // console.log('Directories:', directories);
+  return directories;
+}
+
+// Not Aysnc functions
+
+function convertToLowerCase(inputString) {
+  return inputString.toLowerCase();
+}
+function appendSlashToPath(path) {
+  if (!path.endsWith("/")) {
+    return path + "/";
+  }
+  return path;
+}
+
+function removeLeadingSlash(inputString) {
+
+  return inputString.replace(/^\/+/g, '');
+
+}
+
+function objectValuesToArray(obj) {
+  const valuesArray = Object.values(obj).map(value => value.toLowerCase());
+  return valuesArray;
 }

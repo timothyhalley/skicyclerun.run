@@ -1,5 +1,7 @@
 import * as _ddb from "./lib_AWSDB.js";
-import { logIt } from "./run_LogUtil.js";
+import { logIt } from "./lib_LogUtil.js";
+
+const PHOTOTABLE = "photoNew"
 
 const ERR = "err";
 const BOX = "box";
@@ -18,12 +20,12 @@ async function describeTable(tableName) {
 
 async function createTable(tableName) {
     const tableInfo = await _ddb.createTable(tableName);
-    console.log(tableInfo);
+    logIt(BOX, tableInfo);
 }
 
 async function loadData(tableName) {
-    const result = await _ddb.loadData2(tableName)
-    console.log(result)
+    const result = await _ddb.loadData(tableName)
+    logIt(BOX, result);
 }
 
 // ********** Run sequence tasks
@@ -31,19 +33,22 @@ async function loadData(tableName) {
     // Tasks START
     logIt(FIG, "DB DYNAMO");
 
-    // await loadData("WHATEVER")
-
-    // await createTable("photo2")
-
+    let tableExists = false
     const arrTables = await listTables();
 
     for (let table in arrTables) {
         logIt(BOX, "Table Name:", arrTables[table])
         await describeTable(arrTables[table]);
-
+        if (arrTables[table] === PHOTOTABLE) {
+            tableExists = true
+        }
     }
 
-    await loadData("photo2")
+    if (!tableExists) {
+        await createTable(PHOTOTABLE)
+    }
+
+    await loadData(PHOTOTABLE)
 
     logIt(FIG, "DYNAMO DB");
     // AWS Fini

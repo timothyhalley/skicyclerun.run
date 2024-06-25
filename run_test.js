@@ -1,9 +1,10 @@
 import dotenv from "dotenv";
 dotenv.config();
 
+import * as _ddb from "./lib_AWSDB.js"
 import * as _aws from "./lib_AWSS3.js";
-import { gmapElevation } from "./run_Google.js";
-import { logIt } from "./run_LogUtil.js";
+import { gmapElevation } from "./lib_Google.js";
+import { logIt } from "./lib_LogUtil.js";
 
 const AWSBUCKET = "skicyclerun.lib";
 
@@ -15,9 +16,19 @@ const FIG = "fig";
 const BUG = "debug";
 const SLL = "sllog";
 
-async function test_AWS() {
+async function test_AWSDB() {
+    logIt(BOX, `AWS DB Test - List tables in DynamoDB`);
+    const tables = await _ddb.listTables()
+    for (let table of tables) {
+        logIt(FIG, table)
+    }
+    logIt(BOX, `AWS DB Test - Finished`);
+}
+
+async function test_AWSS3() {
     logIt(BOX, `AWS TEST - LIST ITEMS: ${AWSBUCKET}`);
-    const totalBytes = await _aws.listBucketItems(AWSBUCKET);
+    const totalBytes = await _aws.listBucketItems(AWSBUCKET, 100);
+    logIt(BOX, `Found ${totalBytes} in AWS bucket ${AWSBUCKET}`)
     logIt(BOX, `AWS TEST - FINISHED`);
 }
 
@@ -34,7 +45,8 @@ async function test_GCP() {
 (async function () {
     // Tasks START
     logIt(FIG, "TEST START");
-    await test_AWS();
+    await test_AWSDB();
+    await test_AWSS3();
     await test_GCP();
     logIt(FIG, "TEST FINI");
     // AWS Fini

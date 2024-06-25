@@ -1,12 +1,11 @@
-// Node JS
-import { readFile } from "node:fs/promises";
+// Import the fs/promises module
+import { readFile } from 'node:fs/promises';
 
-// Project primatives
-import { logIt } from "./run_LogUtil.js";
-import * as _xo from "./run_Utilities.js";
+// Project primitives
+import { logIt } from "./lib_LogUtil.js";
+import * as _xo from "./lib_Utilities.js";
 
 // AWS SDK
-import { marshall } from "@aws-sdk/util-dynamodb";
 import {
   DynamoDBClient, CreateTableCommand, ListTablesCommand, DescribeTableCommand, PutItemCommand
 } from "@aws-sdk/client-dynamodb";
@@ -104,8 +103,22 @@ async function destroyTable() {
   }
 }
 
+async function getData(filePath) {
+  try {
+    const data = await readFile(filePath, 'utf-8');
+    const jsonObject = JSON.parse(data);
+    return jsonObject;
+  } catch (error) {
+    logIt('ERR', 'Error reading or parsing the JSON file:', error);
+    return null;
+  }
+}
+
 async function loadData(tableName) {
   // Example data to add
+  const filePath = './photoDB.json';
+  const jsonData = await getData(filePath)
+
   const itemToAdd = {
     album: 'MyAlbum',
     photoID: '12345',

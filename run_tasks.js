@@ -1,22 +1,23 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import * as _utl from "./run_Utilities.js";
-import * as _lib from "./run_PhotoLib.js";
-import * as _db from "./run_LowDB.js";
-import { logIt } from "./run_LogUtil.js";
-import { runScript } from "./run_Scripts.js";
-import { runWeb } from "./run_Web.js";
-import { runSVG } from "./run_SVG.js";
-import * as _aws from "./run_AWSS3.js";
+import * as _utl from "./lib_Utilities.js";
+import * as _lib from "./lib_PhotoLib.js";
+import * as _db from "./lib_LowDB.js";
+import { logIt } from "./lib_LogUtil.js";
+import { runScript } from "./lib_Scripts.js";
+import { runWeb } from "./lib_Web.js";
+import { runSVG } from "./lib_SVG.js";
+import * as _aws from "./lib_AWSS3.js";
+import * as _cfd from "./lib_AWSCFD.js";
 
 // Configuration
 const PHOTOLIB = "./PhotoLib";
 const PHOTOWEB = "./PhotoWeb";
 const PHOTOTMP = "./PhotoTmp";
-const PHOTOFX = "/3_FXRepo";
 const PHOTOCR = "/4_CopyRight";
 const PHOTOSVG = "./PhotoLib/SVGPhotos";
+const CFDID = "E1GQ61X0LT69AR";
 
 const ERR = "err";
 const BOX = "box";
@@ -128,13 +129,26 @@ async function web_01() {
 
 async function svg_01() {
   logIt(BOX, "SVG - CONVERT");
-  const numSVGPhotos = await runSVG(PHOTOSVG, PHOTOWEB);
-  logIt(LOG, `SVG Converted: ${numSVGPhotos}`);
+  const cntSVG = _utl.countDirFiles(PHOTOSVG)
+  if (cntSVG > 0) {
+    const numSVGPhotos = await runSVG(PHOTOSVG, PHOTOWEB);
+    logIt(BOX, `SVG Converted: ${numSVGPhotos}`);
+  } else {
+    logIt(BOX, `No SVG files found`)
+  }
+
+}
+
+async function aws_00() {
+  logIt(BOX, `AWS #00 - Remove old Albums: ${PHOTOWEB}`);
+  const albumList = await _aws.removeAlbums(AWSBUCKET, PHOTOWEB);
+  logIt(LOG, `AWS #00 - Removed Albums: ${albumList}`);
+
 }
 
 async function aws_01() {
   logIt(BOX, `AWS #01 - LIST ITEMS: ${AWSBUCKET}`);
-  const totalBytes = await _aws.listBucket(AWSBUCKET);
+  const totalBytes = await _aws.listBucketItems(AWSBUCKET, 10000);
   logIt(LOG, `AWS #01 - Total Bytes in ${AWSBUCKET} := ${totalBytes}`);
   // await _aws.createBucket('SkiCycleRun-Private')
   // await _aws.putObject('tst01', './images/car.svg')
@@ -147,9 +161,9 @@ async function aws_02() {
 }
 
 async function aws_03() {
-  logIt(BOX, `AWS #03 - INVALIDATE CACHE: ${AWSBUCKET}`);
-  // const invalidationID = await _aws.invalidateCache(AWSBUCKET);
-  logIt(LOG, `AWS #02 - Number of files: ${numPhotos} - Bytes: ${totalBytes}`);
+  logIt(BOX, `AWS #03 - INVALIDATE CLOUDFRONT CACHE: ${AWSBUCKET}`);
+  const invalidationID = await _cfd.invalidateDistributionPath(CFDID, PHOTOWEB);
+  logIt(LOG, `AWS #03 - Invalidation Initiated with ID: ${invalidationID}`);
 }
 
 // ********** Run sequence tasks
@@ -157,38 +171,39 @@ async function aws_03() {
   // Tasks START
   logIt(FIG, "PHOTO FX START");
 
-  await task_01();
-  await task_02();
-  await task_03();
-  await task_04();
-  await fxtask_05();
-  await fxtask_06();
-  await fxtask_07();
-  await fxtask_08();
-  await fxtask_09();
-  await fxtask_10();
-  await fxtask_11();
+  // await task_01();
+  // await task_02();
+  // await task_03();
+  // await task_04();
+  // await fxtask_05();
+  // await fxtask_06();
+  // await fxtask_07();
+  // await fxtask_08();
+  // await fxtask_09();
+  // await fxtask_10();
+  // await fxtask_11();
 
-  await script_01();
-  await script_02();
-  await script_03();
-  await script_04();
+  // await script_01();
+  // await script_02();
+  // await script_03();
+  // await script_04();
 
-  await copyRight_00();
+  // await copyRight_00();
 
-  await web_01();
+  // await web_01();
 
   // SVG START
   logIt(FIG, "SVG START");
-  await svg_01();
+  // await svg_01();
   logIt(FIG, "SVG FINI");
   // SVG FINI
 
   // Send to AWS
   logIt(FIG, "AWS START");
+  // await aws_00();
   // await aws_01();
   // await aws_02();
-  // await aws_03();
+  await aws_03();
   logIt(FIG, "AWS FINI");
   // AWS Fini
 })();
@@ -211,6 +226,7 @@ export {
   script_04,
   copyRight_00,
   web_01,
+  aws_00,
   aws_01,
   aws_02,
   aws_03,

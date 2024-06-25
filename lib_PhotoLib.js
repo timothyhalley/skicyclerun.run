@@ -28,12 +28,12 @@ import exifr from "exifr";
 import imageSize from "image-size";
 
 // Custom imports:
-import { gmapLoactions, gmapElevation, gmapTimeZone } from "./run_Google.js";
-import * as _db from "./run_LowDB.js";
-import * as _fx from "./run_PhotoFX.js";
-import * as _gm from "./run_PhotoGM.js";
-import * as _xo from "./run_Utilities.js";
-import { logIt } from "./run_LogUtil.js";
+import { gmapLoactions, gmapElevation, gmapTimeZone } from "./lib_Google.js";
+import * as _db from "./lib_LowDB.js";
+import * as _fx from "./lib_PhotoFX.js";
+import * as _gm from "./lib_PhotoGM.js";
+import * as _xo from "./lib_Utilities.js";
+import { logIt } from "./lib_LogUtil.js";
 
 const LOG = "log";
 const FIG = "fig";
@@ -42,6 +42,7 @@ const BUG = "debug";
 const SLL = "sllog";
 const PHOTO_MAXWIDTH = 1024;
 const PHOTO_MAXHEIGHT = 1024;
+const PHOTOFX = "/3_FXRepo";
 
 // ***
 // *** --- photo library utilities
@@ -122,7 +123,7 @@ async function photoScale(tmpDir) {
 }
 
 async function copyRight(tmpDir) {
-  let inDir = tmpDir + "/3_FXRepo"
+  let inDir = tmpDir + PHOTOFX
   let outDir = tmpDir + "/4_CopyRight";
   await _xo.checkDirectory(outDir); // Make directory for process
 
@@ -151,7 +152,7 @@ async function copyRight(tmpDir) {
 }
 
 async function photoFXGreyScale(tmpDir) {
-  let outDir = tmpDir + "/3_FXRepo";
+  let outDir = tmpDir + PHOTOFX;
   await _xo.checkDirectory(outDir); // Make directory for process
 
   let pDB = await _db.db_getPhotos();
@@ -174,7 +175,7 @@ async function photoFXGreyScale(tmpDir) {
 }
 
 async function photoFXMaker(tmpDir, FXStyle) {
-  let outDir = tmpDir + "/3_FXRepo";
+  let outDir = tmpDir + PHOTOFX;
   await _xo.checkDirectory(outDir); // Make directory for process
 
   let pDB = await _db.db_getPhotos();
