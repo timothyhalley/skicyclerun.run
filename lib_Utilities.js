@@ -174,6 +174,6 @@ function removeLeadingSlash(inputString) {
 }
 
 function objectValuesToArray(obj) {
-  const valuesArray = Object.values(obj).map(value => value.toLowerCase());
+  const valuesArray = Object.values(obj).map(value => value.toLowerCase() + "/*");
   return valuesArray;
 }

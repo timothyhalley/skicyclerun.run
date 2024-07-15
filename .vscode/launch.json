@@ -23,6 +23,16 @@
             ],
             "type": "node",
             "console": "internalConsole"
+        },
+        {
+            "name": "Movie Run",
+            "program": "${workspaceFolder}/run_Movies.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "console": "internalConsole"
         }
     ]
 }

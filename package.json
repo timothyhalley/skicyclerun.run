@@ -32,6 +32,7 @@
     "gm": "latest",
     "image-size": "latest",
     "jimp": "latest",
+    "latest": "^0.2.0",
     "lowdb-node": "latest",
     "ora": "latest",
     "sharp": "latest",

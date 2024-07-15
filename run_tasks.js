@@ -171,38 +171,38 @@ async function aws_03() {
   // Tasks START
   logIt(FIG, "PHOTO FX START");
 
-  // await task_01();
-  // await task_02();
-  // await task_03();
-  // await task_04();
-  // await fxtask_05();
-  // await fxtask_06();
-  // await fxtask_07();
-  // await fxtask_08();
-  // await fxtask_09();
-  // await fxtask_10();
-  // await fxtask_11();
+  await task_01();
+  await task_02();
+  await task_03();
+  await task_04();
+  await fxtask_05();
+  await fxtask_06();
+  await fxtask_07();
+  await fxtask_08();
+  await fxtask_09();
+  await fxtask_10();
+  await fxtask_11();
 
-  // await script_01();
-  // await script_02();
-  // await script_03();
-  // await script_04();
+  await script_01();
+  await script_02();
+  await script_03();
+  await script_04();
 
-  // await copyRight_00();
+  await copyRight_00();
 
-  // await web_01();
+  await web_01();
 
   // SVG START
   logIt(FIG, "SVG START");
-  // await svg_01();
+  await svg_01();
   logIt(FIG, "SVG FINI");
   // SVG FINI
 
   // Send to AWS
   logIt(FIG, "AWS START");
-  // await aws_00();
-  // await aws_01();
-  // await aws_02();
+  await aws_00();
+  await aws_01();
+  await aws_02();
   await aws_03();
   logIt(FIG, "AWS FINI");
   // AWS Fini
