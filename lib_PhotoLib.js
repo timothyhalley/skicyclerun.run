@@ -517,7 +517,7 @@ async function svgText2Image(pObj) {
   // let svgLoc = pObj.locn.locations;
   // svgLoc = svgLoc.replace(/[A-Z]*[0-9]|[A-Z]*\+[A-Z]|[A-Z]*\+/g, "");
   // let svgTxt = svgLoc.split(",");
-  let svgYear = "2024";
+  let svgYear = "2025 🐀";
 
   // var svgCountry = svgTxt.length >= 0 ? svgTxt.pop() : "Earth";
   // var svgState = svgTxt.length >= 0 ? svgTxt.pop() : "Wind";

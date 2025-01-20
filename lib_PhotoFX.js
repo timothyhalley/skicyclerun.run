@@ -3,7 +3,8 @@
 
 export { photoFXGreyScale, photoFXSepia, photoFXPoster, photoFXPencil };
 
-import jimp from "jimp";
+import { Jimp } from "jimp";
+// const Jimp = require("jimp");
 import * as _xo from "./lib_Utilities.js";
 import * as _db from "./lib_LowDB.js";
 
@@ -53,7 +54,7 @@ async function photoFXPencil(pObj) {
 // **** ----
 async function genGreyScale(photoIn, photoOut) {
   try {
-    const image = await jimp.read(photoIn);
+    const image = await Jimp.read(photoIn);
     await image.greyscale().write(photoOut);
   } catch (err) {
     console.log(err);
@@ -62,7 +63,7 @@ async function genGreyScale(photoIn, photoOut) {
 
 async function genSepia(photoIn, photoOut) {
   try {
-    const image = await jimp.read(photoIn);
+    const image = await Jimp.read(photoIn);
     await image.sepia().write(photoOut);
   } catch (err) {
     console.log(err);
@@ -71,7 +72,7 @@ async function genSepia(photoIn, photoOut) {
 
 async function genPoster(photoIn, photoOut) {
   try {
-    const image = await jimp.read(photoIn);
+    const image = await Jimp.read(photoIn);
     await image.posterize(7.5).write(photoOut);
   } catch (err) {
     console.log(err);
@@ -80,7 +81,7 @@ async function genPoster(photoIn, photoOut) {
 
 async function genPencil(photoIn, photoOut) {
   try {
-    const image = await jimp.read(photoIn);
+    const image = await Jimp.read(photoIn);
     await image
       .color([
         { apply: "desaturate", params: [90] },

@@ -13,7 +13,7 @@ RUN is a supportive repo to take photos from your MAC Photo app and publish them
   - eg: .env file -->
 
     GOOGLE_API_KEY=[value]
-    aws_access_key_id = [value] 
+    aws_access_key_id = [value]
     aws_secret_access_key = [value]
 
 - Albums: select albums from osxPhotoExporter
@@ -28,27 +28,30 @@ RUN is a supportive repo to take photos from your MAC Photo app and publish them
 This repo ties the necessary artifacts to the front end - not part of a DevOps pipeline but could be coupled at a later time.
 
 ## AWS Location Services - Not yet implemented! Have everthing in the AWS eco-system
+
 This is a stretch to consolidate everything to one platform. So instead of GoogleAPI,
 use AWS location map services:
- * https://us-west-2.console.aws.amazon.com/location/home?c=lc&p=pm&region=us-west-2&z=1#/
+
+- <https://us-west-2.console.aws.amazon.com/location/home?c=lc&p=pm&region=us-west-2&z=1#/>
 
 ## AWS S3 Access
-Need to setup access for CLI to access S3 services. Proceed to AWS console and create new keys in IAM that has access to write files to the S3 bucket that photos will be pushed to.
- - Run: `aws configure`
- - Edit: `cat ~/.aws/creditials >>.env` or add AWS keys manually to .env file
 
+Need to setup access for CLI to access S3 services. Proceed to AWS console and create new keys in IAM that has access to write files to the S3 bucket that photos will be pushed to.
+
+- Run: `aws configure`
+- Edit: `cat ~/.aws/creditials >>.env` or add AWS keys manually to .env file
 
 ## del - Delete files and directories using globs
 
-https://www.npmjs.com/package/del
+<https://www.npmjs.com/package/del>
 
-## transform-coordinates - Transform coordinates from one coordinate system to another. Just a wrapper around proj4 and epsg-index.
+## transform-coordinates - Transform coordinates from one coordinate system to another. Just a wrapper around proj4 and epsg-index
 
-https://www.npmjs.com/package/transform-coordinates
+<https://www.npmjs.com/package/transform-coordinates>
 
 ## Github Actions for CI/CD - Note: none defined as this project uses GULP locally
 
-https://github.com/timothyhalley/run.skicyclerun.com
+<https://github.com/timothyhalley/run.skicyclerun.com>
 
 - Note: See section below for github cloning of project below
 
@@ -58,27 +61,32 @@ https://github.com/timothyhalley/run.skicyclerun.com
 2. 'cd into project folder: run'
 3. `npm i` & `npm audit fix`
 4. Install image packages:
-  * brew install imagemagick
-  * brew install graphicsmagick
-  * npm upgrade
-  * setup necessary keys in ".env" file. This is excluded from GIT repo. See below for google APIs 
+
+- brew install imagemagick
+- brew install graphicsmagick
+- npm upgrade
+- setup necessary keys in ".env" file. This is excluded from GIT repo. See below for google APIs
 
 ## Google API for geo processing
 
-1. Need to register for a developer key to run google API. One should already have a GCP portal / console account available: 'https://console.cloud.google.com'
+1. Need to register for a developer key to run google API. One should already have a GCP portal / console account available: '<https://console.cloud.google.com>'
 2. Go to the project selector page in this case 'Project: SkiCycleRun'
-3. Select or Search for section: 'APIs & Services' - 'https://console.cloud.google.com/apis/credentials'
-  * Geocoding API
-  * Geolocation API
-  * Maps Elevation API
-  * Maps JavaScript API
-  * Maps Static API
-  * Places API
-  * Time Zone API
+3. Select or Search for section: 'APIs & Services' - '<https://console.cloud.google.com/apis/credentials>'
+
+- Geocoding API
+- Geolocation API
+- Maps Elevation API
+- Maps JavaScript API
+- Maps Static API
+- Places API
+- Time Zone API
+
 4. Create a new key or copy already existing key to clipboard.
 5. Place key into ".env" file for 'googleAPI:key'
-  * GOOGLE_API_KEY="API_KEY_FROM_CONSOLE"
-6. Verify google API url thru the GCP API finder. There are a lot of catagories for APIs. Locate the Geolocation API url: 'https://console.cloud.google.com/google/maps-apis/' & place reference into JSON file under: googleAPI:url. Note: Google will changes these url to later / better versions.
+
+- GOOGLE_API_KEY="API_KEY_FROM_CONSOLE"
+
+6. Verify google API url thru the GCP API finder. There are a lot of catagories for APIs. Locate the Geolocation API url: '<https://console.cloud.google.com/google/maps-apis/>' & place reference into JSON file under: googleAPI:url. Note: Google will changes these url to later / better versions.
 
 ## Publish Photos
 
@@ -107,7 +115,7 @@ https://github.com/timothyhalley/run.skicyclerun.com
   - Add Photos Boarder: This will paint a boarder around photo to create separation
     - Input: ./PhotoTmp/3_CopyrightImages --> Output: ./PhotoTmp/4_Boarders
   - Scale Photos to web: Using maximum size based on photo scale
-    https://www.npmjs.com/package/gulp-scale-images
+    <https://www.npmjs.com/package/gulp-scale-images>
   - Images are then optimized for web using MOZ compression.
     - Input: ./PhotoTmp/3_CopyrightImages --> Output: ./PhotoWeb
   - Publish to AWS S3 web bucket for website
@@ -127,7 +135,7 @@ https://github.com/timothyhalley/run.skicyclerun.com
     - go to github & create a new repo, button top right area.
     - create new repo empty - without README.md as you should have one in project
     - note the help from github on adding files to new repo via commands starting with git remote
-    - git remote add origin https://github.com/[repo-owner]/[repo-name].git
+    - git remote add origin <https://github.com/[repo-owner]/[repo-name].git>
     - git push -u origin master
     - one should now have a new [master --> master] branch ready for use
 
@@ -150,7 +158,7 @@ https://github.com/timothyhalley/run.skicyclerun.com
         - Name = www
         - Region = westus2
         - SKU = Free
-        - Repository = https://github.com/timothyhalley/skicyclerun.com
+        - Repository = <https://github.com/timothyhalley/skicyclerun.com>
         - Branch = master
         - App location = /
         - API location = api
@@ -168,59 +176,59 @@ https://github.com/timothyhalley/run.skicyclerun.com
 ## Image Scripts
 
 - Uses imagemagick and scripts from repo:
-  -- http://www.fmwconcepts.com/imagemagick/textdeskew/index.php
+  -- <http://www.fmwconcepts.com/imagemagick/textdeskew/index.php>
   -- Note: Adjusted scripts to exit with return code for task runner.
 - Tools for SVG
-  -- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG
+  -- <https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Tools_for_SVG>
 
 ## Sources & Ideas
 
 - Help and gridsome docs
 
-  - https://gridsome.org/docs/
+  - <https://gridsome.org/docs/>
 
 - Deploy with GITHUB Actions to Azure
 
-  - https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/
+  - <https://www.giftegwuenu.com/deploy-a-gridsome-app-on-azure-static-web-apps/>
 
 - Awesome gridsome
 
-  - https://github.com/lokecarlsson/awesome-gridsome
+  - <https://github.com/lokecarlsson/awesome-gridsome>
 
 - Tailwinds (a gridsome CSS plugin)
 
-  - https://tailwindcss.com
+  - <https://tailwindcss.com>
 
 - Origin branch
 
-  - https://github.com/drehimself/gridsome-portfolio-starter.git
-  - https://www.youtube.com/watch?v=uF3K3IpRfhE
+  - <https://github.com/drehimself/gridsome-portfolio-starter.git>
+  - <https://www.youtube.com/watch?v=uF3K3IpRfhE>
 
 - Inspirational
 
-  - https://en.wikipedia.org/wiki/Siddhartha_(novel)
+  - <https://en.wikipedia.org/wiki/Siddhartha_(novel)>
 
 - Javascript
-  - https://github.com/lydiahallie/javascript-questions#readme
+  - <https://github.com/lydiahallie/javascript-questions#readme>
 
 ## API data store
 
 - Solar System data
-  - https://api.le-systeme-solaire.net/rest/bodies
+  - <https://api.le-systeme-solaire.net/rest/bodies>
 
 ## SVG Help
 
 - SVG repo
-  - https://www.svgrepo.com/
+  - <https://www.svgrepo.com/>
 - Viso / Mural like too for SVG diags
-  - https://vecta.io
+  - <https://vecta.io>
 - NPM module for Bitmap --> SVG:
-  - https://www.npmjs.com/package/imagetracerjs
+  - <https://www.npmjs.com/package/imagetracerjs>
 - NPM package for image converter
-  - https://www.npmjs.com/package/gulp-image
+  - <https://www.npmjs.com/package/gulp-image>
 - Grok
-  - https://zverok.space/blog/2021-12-28-grok-shan-shui.html
-  - https://alistairshepherd.uk/writing/svg-generative-ridges/
+  - <https://zverok.space/blog/2021-12-28-grok-shan-shui.html>
+  - <https://alistairshepherd.uk/writing/svg-generative-ridges/>
 
 ## Notes
 
@@ -233,4 +241,4 @@ https://github.com/timothyhalley/run.skicyclerun.com
 
 # NPM sites
 
-- https://node.dev/post/11-simple-npm-tricks-that-will-knock-your-wombat-socks-off
+- <https://node.dev/post/11-simple-npm-tricks-that-will-knock-your-wombat-socks-off>
