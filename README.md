@@ -39,7 +39,17 @@ use AWS location map services:
 Need to setup access for CLI to access S3 services. Proceed to AWS console and create new keys in IAM that has access to write files to the S3 bucket that photos will be pushed to.
 
 - Run: `aws configure`
-- Edit: `cat ~/.aws/creditials >>.env` or add AWS keys manually to .env file
+- Edit: `cat ~/.aws/credentials >>.env` or add AWS keys manually to .env file
+
+* If not working initally following AWS installation of AWS CLI TOOLS:
+- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+1. Install dependency: sudo softwareupdate --install-rosetta 
+2. Run: curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+        sudo installer -pkg AWSCLIV2.pkg -target
+3. aws --version
+4. aws configure
+
+
 
 ## del - Delete files and directories using globs
 

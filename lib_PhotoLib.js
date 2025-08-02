@@ -26,6 +26,7 @@ import _ from "underscore";
 import sharp from "sharp";
 import exifr from "exifr";
 import imageSize from "image-size";
+import { imageSizeFromFile } from 'image-size/fromFile'
 
 // Custom imports:
 import { gmapLoactions, gmapElevation, gmapTimeZone } from "./lib_Google.js";
@@ -412,7 +413,7 @@ function setPhotoDate(exifObj) {
 }
 
 async function getPhotoSize(photo) {
-  return imageSize(photo);
+  return imageSizeFromFile(photo);
 }
 
 async function setCopyRight(photoPath, pObj) {
