@@ -533,7 +533,7 @@ async function svgText2Image(pObj) {
             .strong { font: italic 28px serif; fill: black; }
             .title { font: bold 28px cambria; fill=black}
         </style>
-        <text x="100" y="40" class="title">SkiCycleRun.com © ${svgYear}</text>
+        <text x="100" y="40" class="title">SkiCycleRun.com &#169; ${svgYear} 🐀</text>
         <text x="100" y="75" class="small">${streetLoc}</text>
         <text x="100" y="105" class="heavy">${cityCountryLoc}</text>
     </svg>
